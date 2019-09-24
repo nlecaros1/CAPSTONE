@@ -63,7 +63,7 @@ def distancia(punto_1, punto_2):
 
 def hora(minutos_entrantes):
     hora = minutos_entrantes//60
-    minutos = minutos_entrantes
+    minutos = minutos_entrantes%60
     return f'{hora}:{minutos}'
     
 
