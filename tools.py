@@ -8,9 +8,9 @@ def carga():
     with open('ubicaciones.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            cajeros[row['Cajero']] = {'Pos_x':row['X'], 'Pos_y':row['Y'], 'Promedio diario de retiro': row['Promedio diario de retiro'], 'Costo fijo por Stock Out': row['Costo fijo por Stock Out'], 'Costo variable por Stock Out': row['Costo variable por Stock Out'], 
+            cajeros[row['Cajero']] = {'Pos_x':row['X'], 'Pos_y':row['Y'], 'Promedio diario de retiro': float(row['Promedio diario de retiro']), 'Costo fijo por Stock Out': float(row['Costo fijo por Stock Out']), 'Costo variable por Stock Out': float(row['Costo variable por Stock Out']), 
             'Duracion de la recarga': row['Duracion de la recarga'], 'Lunes': row['Lunes'], 'Martes': row['Martes'], 'Miercoles': row['Miercoles'], 'Jueves': row['Jueves'], 'Viernes': row['Viernes'], 'Sabado': row['Sabado'],
-            'Domingo': row['Domingo'], 'Manana': row['Manana'], 'Tarde': row['Tarde'], 'Noche': row['Noche'], 'Plata actual': 0, 'Dias sin plata': 0}
+            'Domingo': row['Domingo'], 'Manana': row['Manana'], 'Tarde': row['Tarde'], 'Noche': row['Noche'], 'Plata actual': 0, 'Dias sin plata': 0, "Costo fijo acumulado stock out": 0, "Costo variable acumulado stock out": 0}
     cajeros['Bodega'] =  {'Pos_x':70, 'Pos_y': 70}
     return cajeros
 
@@ -65,6 +65,9 @@ def hora(minutos_entrantes):
     hora = minutos_entrantes//60
     minutos = minutos_entrantes%60
     return f'{hora}:{minutos}'
+
+# def día(minutos_entrantes):
+#     dia = 
     
 
 def disponibilidad(cajeros, numero, dia, horario):
@@ -90,20 +93,29 @@ def calculador(cajeros, monto):
             cajeros[llave]['Plata actual'] -= float(cajeros[llave]['Promedio diario de retiro'])
             if cajeros[llave]['Plata actual'] <= 0:
                 cajeros[llave]['Plata actual'] = 0
+                cajeros[llave]["Costo fijo acumulado stock out"] += cajeros[llave]['Costo fijo por Stock Out']
                 con_plata.remove(llave)
                 sin_platas.append(llave)
                 cajeros[llave]['Dias sin plata'] = -1
         for llave in sin_platas:
             cajeros[llave]['Dias sin plata'] += 1
+            cajeros[llave]["Costo variable acumulado stock out"] += cajeros[llave]['Costo variable por Stock Out']*24*60
         print("")
         print(f'-------------- Dia {dia} --------------')
         print('> Cajeros con plata:')
         for llave in con_plata:
             print(f'''     - {llave}: MM$ {cajeros[llave]['Plata actual']}''')
         print('> Cajeros sin plata:')
+        costos_variables_acumulados = 0
+        costos_fijos_acumulados = 0
         for llave in sin_platas:
-            print(f'     - {llave}: {cajeros[llave]["Dias sin plata"]} dias sin plata')
+            print(f'     - {llave}: {cajeros[llave]["Dias sin plata"]} dias sin plata. Costos por Stock Out: fijos {cajeros[llave]["Costo fijo acumulado stock out"]}, variables acumulados {cajeros[llave]["Costo variable acumulado stock out"]} [Total: {cajeros[llave]["Costo fijo acumulado stock out"] + cajeros[llave]["Costo variable acumulado stock out"]}]')
+            costos_fijos_acumulados += cajeros[llave]["Costo fijo acumulado stock out"]
+            costos_variables_acumulados += cajeros[llave]["Costo variable acumulado stock out"]
+        costos_totales = costos_fijos_acumulados + costos_variables_acumulados
+        print(f'====== Costo Fijos Stock Out: {costos_fijos_acumulados} ==== Costos Variables Stock Out: {costos_variables_acumulados} ==== Total: {costos_totales} ======')
         dia += 1
+
 
                 
 
