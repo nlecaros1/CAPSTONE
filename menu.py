@@ -1,5 +1,6 @@
 from tools import *
-cajeros = carga()
+camiones = carga_camiones()
+cajeros = carga_cajeross()
 decision = 1
 opciones = ['1', '2', '3']
 dias = ['1', '2', '3', '4', '5', '6', '7']

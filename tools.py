@@ -3,16 +3,37 @@ from bokeh.plotting import figure, show, output_file
 from bokeh.models import HoverTool
 import csv, random
 
-def carga():
+def carga_cajeros():
     cajeros = dict()
     with open('ubicaciones.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
             cajeros[row['Cajero']] = {'Pos_x':row['X'], 'Pos_y':row['Y'], 'Promedio diario de retiro': float(row['Promedio diario de retiro']), 'Costo fijo por Stock Out': float(row['Costo fijo por Stock Out']), 'Costo variable por Stock Out': float(row['Costo variable por Stock Out']), 
-            'Duracion de la recarga': row['Duracion de la recarga'], 'Lunes': row['Lunes'], 'Martes': row['Martes'], 'Miercoles': row['Miercoles'], 'Jueves': row['Jueves'], 'Viernes': row['Viernes'], 'Sabado': row['Sabado'],
-            'Domingo': row['Domingo'], 'Manana': row['Manana'], 'Tarde': row['Tarde'], 'Noche': row['Noche'], 'Plata actual': 0, 'Dias sin plata': 0, "Costo fijo acumulado stock out": 0, "Costo variable acumulado stock out": 0}
+            'Duracion de la recarga': float(row['Duracion de la recarga']), 'Lunes': row['Lunes'], 'Martes': row['Martes'], 'Miercoles': row['Miercoles'], 'Jueves': row['Jueves'], 'Viernes': row['Viernes'], 'Sabado': row['Sabado'],
+            'Domingo': row['Domingo'], 'Manana': row['Manana'], 'Tarde': row['Tarde'], 'Noche': row['Noche'], 'Plata actual': 0, 'Dias sin plata': 0, "Costo fijo acumulado stock out": 0, "Costo variable acumulado stock out": 0, 'Estado': 'normal'}
     cajeros['Bodega'] =  {'Pos_x':70, 'Pos_y': 70}
     return cajeros
+
+def carga_camiones():
+    camiones = dict()
+    contador = 0
+    with open('camiones.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            for number in range(int(row['Cantidad de camiones'])):
+                camiones['Camion ' + str(contador)] = {'Tipo': row['Tipo de Camion'][:-1].lower(), 'Tiempo maximo': float(row['Tiempo maximo en Ruta'])*3600, 'Carga maxima plata': float(row['Carga en dinero']), 
+                'Tiempo en movimiento': 0, 'Plata en camion': 0, 'Objetivo': 'Bodega', 'Tiempo en llegar a objetivo': -1, 'Estado': 'parado'} # En segundo el tiempo
+                contador += 1
+    return camiones
+
+def carga_cassetes():
+    cassetes = dict()
+    with open('cassetes.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            cassetes[row['Tamano']] = {'Cantidad de plata': row['Cantidad de dinero']}
+    return cassetes
+
 
 def draw(cajeros):
     detalles_mostrados = [("nombre", "$name")]
@@ -29,10 +50,24 @@ def draw(cajeros):
     # Carga la ubicacion de los cajeros en el mapa
     for llave in cajeros.keys():
         if llave != 'Bodega':
-            dot.circle(int(cajeros[llave]['Pos_x']), int(cajeros[llave]['Pos_y']), size=3, fill_color="red", line_color="black", line_width=0.5, name=llave, legend="Cajeros")
+            if cajeros[llave]['Promedio diario de retiro'] >= 21:
+                tamano = 7
+            elif cajeros[llave]['Promedio diario de retiro'] <= 11:
+                tamano = 3
+            else:
+                tamano = 5
+            if distancia(cajeros[llave], cajeros['Bodega']) >= 90:
+                color = 'red'
+            elif distancia(cajeros[llave], cajeros['Bodega']) <= 45:
+                color = 'green'
+            else:
+                color = 'yellow'
+            dot.circle(int(cajeros[llave]['Pos_x']), int(cajeros[llave]['Pos_y']), size=tamano, fill_color=color, line_color="black", line_width=0.5, name=llave, legend="Cajeros")
+
+
 
     # Carga la bodega en el mapa
-    dot.circle(70, 70, size=5, fill_color="green", line_color="black", line_width=0.5, name='Bodega', legend="Bodega")
+    dot.circle(70, 70, size=5, fill_color="black", line_color="black", line_width=0.5, name='Bodega', legend="Bodega")
 
     # Posible ruta
     # a = [random.randint(0, 120) for i in range(121)]
@@ -70,11 +105,14 @@ def hora(minutos_entrantes):
 #     dia = 
     
 
-def disponibilidad(cajeros, numero, dia, horario):
+def disponibilidad(cajeros, dia, horario):
+    cajeros_disponibles = []
     for llave in cajeros:
         if llave != 'Bodega':
             if cajeros[llave][dia] == '1' and cajeros[llave][horario] == '1':
-                print(llave)
+                cajeros_disponibles.append(llave)
+    return cajeros_disponibles
+                
 
 def calculador(cajeros, monto):
     dia = 1
