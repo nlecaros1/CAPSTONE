@@ -11,7 +11,6 @@ print('Listo')
 print('Cargando la infomacion de los cassetes')
 cassetes = carga_cassetes()
 print('Listo')
-for cajero in cajeros:
 print("""
 ==================  CASO BASE  ==================
 """)
@@ -144,9 +143,9 @@ while turno:
         if camiones[llave]['Estado'] == 'parado' and camiones[llave]['Objetivo'] != 'Bodega':
             if ((camiones[llave]['Tiempo maximo'] >= (
                     camiones[llave]['Tiempo en movimiento'] + distancia(cajeros[camiones[llave]['Objetivo']], cajeros[
-                'Bodega']) * 3600 / velocidad_camion))) or (camiones[llave]['Plata en camion'] == 0):
+                'Bodega']) * 3.6 / velocidad_camion))) or (camiones[llave]['Plata en camion'] == 0):
                 camiones[llave]['Tiempo en llegar a objetivo'] = distancia(cajeros[camiones[llave]['Objetivo']],
-                                                                           cajeros['Bodega']) * 3600 / velocidad_camion
+                                                                           cajeros['Bodega']) * 3.6 / velocidad_camion
                 print(
                     f'''El {llave} va a Bodega a recargar, se demora {camiones[llave]['Tiempo en llegar a objetivo']}''')
                 camiones[llave]['Objetivo'] = 'Bodega'
@@ -167,14 +166,14 @@ while turno:
             if camiones[id_camion]['Estado'] == 'parado' and cajeros[llave]['Estado'] == 'normal':
                 if camiones[id_camion]['Tiempo maximo'] >= (
                         camiones[id_camion]['Tiempo en movimiento'] + distancia(cajeros[llave], cajeros[
-                    'Bodega']) * 3600 / velocidad_camion + cajeros[llave]['Duracion de la recarga'] * 3600 +
-                        distancia(cajeros[llave], cajeros['Bodega']) * 3600 / velocidad_camion):
+                    'Bodega']) * 3.6 / velocidad_camion + cajeros[llave]['Duracion de la recarga'] * 3600 +
+                        distancia(cajeros[llave], cajeros['Bodega']) * 3.6 / velocidad_camion):
                     # Se recarga el camion con el maximo de su capacidad con cassetes de 35 (chicos)
                     camiones[id_camion]['Objetivo'] = llave
                     camiones[id_camion]['Estado'] = 'viajando'
                     camiones[id_camion]['Plata en camion'] = camiones[id_camion]['Carga maxima plata']
                     camiones[id_camion]['Tiempo en llegar a objetivo'] = distancia(cajeros[llave], cajeros[
-                        'Bodega']) * 3600 / velocidad_camion
+                        'Bodega']) * 3.6 / velocidad_camion
                     cajeros[llave]['Estado'] = 'en camino'
                     print(
                         f'''El {id_camion} va al {llave} que esta en stock out, se demora {camiones[id_camion]['Tiempo en llegar a objetivo']}''')
@@ -194,7 +193,7 @@ while turno:
                 camiones[id_camion]['Estado'] = 'viajando'
                 camiones[id_camion]['Plata en camion'] = camiones[id_camion]['Carga maxima plata']
                 camiones[id_camion]['Tiempo en llegar a objetivo'] = distancia(cajeros[llave], cajeros[
-                    'Bodega']) * 3600 / velocidad_camion
+                    'Bodega']) * 3.6 / velocidad_camion
                 cajeros[llave]['Estado'] = 'en camino'
                 print(
                     f'''El {id_camion} va al {llave} que va a quedar stock out, se demora {camiones[id_camion]['Tiempo en llegar a objetivo']}''')
@@ -220,7 +219,7 @@ while turno:
             if camiones[llave]['Tiempo en llegar a objetivo'] <= 0:
                 # sleep(10)
                 rellenados += 1
-                cajeros[camiones[llave]['Estado']] = 'normal'
+                cajeros[camiones[llave]['Objetivo']]['Estado'] = 'normal'
                 cajeros[camiones[llave]['Objetivo']]['Plata actual'] = 35  # Aca vamos a tener que poner el cassete
                 cajeros_con_plata.append(camiones[llave]['Objetivo'])
                 if camiones[llave]['Objetivo'] in cajeros_en_stock_out:
@@ -253,7 +252,6 @@ while turno:
 print(rellenados)
 for llave in cajeros.keys():
     if llave != 'Bodega':
-        print(type(cajeros[llave]), cajeros[llave]) # para ver error de string
         print(f'''{llave}:
 Plata actual: {cajeros[llave]['Plata actual']}
 Costo variable acumulado: {cajeros[llave]["Costo variable acumulado stock out"]}
@@ -262,3 +260,7 @@ Estado: {cajeros[llave]["Estado"]}
 ''')
 for llave in camiones:
     print(f"Costo total en traslado: {llave}: {camiones[llave]['Costo traslado acumulado']}")
+
+#print("Suma total costo variable Stock Out:", sum([(cajeros[llave]["Costo variable acumulado stock out"]) for llave in cajeros]))
+#print("Suma total costo fijo Stock Out:", sum([(cajeros[llave]["Costo fijo acumulado stock out"]) for llave in cajeros]))
+#print("Suma total costo traslado:", sum([(camiones[llave]['Costo traslado acumulado']) for llave in camiones]))
