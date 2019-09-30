@@ -1,6 +1,6 @@
 from tools import *
 camiones = carga_camiones()
-cajeros = carga_cajeross()
+cajeros = carga_cajeros()
 decision = 1
 opciones = ['1', '2', '3']
 dias = ['1', '2', '3', '4', '5', '6', '7']
@@ -57,7 +57,7 @@ while decision:
 3) Noche
 >> ''')
         horario = ['Manana', 'Tarde', 'Noche'][int(horario) - 1]
-        disponibilidad(cajeros, 0, dia, horario)
+        disponibilidad(cajeros, dia, horario)
     elif decision == '3':
         monto = input('Escriba el monto a recargar en MM$: ')
         calculador(cajeros, int(monto))

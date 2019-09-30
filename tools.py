@@ -113,10 +113,17 @@ def distancia(punto_1, punto_2):
     return abs(int(punto_1['Pos_x']) - int(punto_2['Pos_x'])) + abs(int(punto_1['Pos_y']) - int(punto_2['Pos_y']))*100 #entrega distancia en mts
 
 
-def hora(minutos_entrantes):
-    hora = minutos_entrantes // 60
-    minutos = minutos_entrantes % 60
-    return f'{hora}:{minutos}'
+def hora(segundos_entrantes, dia_inico, horario):
+    # horario_general = ['Manana', 'Tarde', 'Noche']
+    dias_semana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
+    # print(horario, dia_inico)
+    # dia = semana[(dia_inico + horario*8*3600 + segundos_entrantes//(24*3600))%7]
+    semana = ((dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)//(3600*24))//7 + 1
+    dia = dias_semana[((dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)//(3600*24))&7]
+    hora = (dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)&(3600*24*7)
+    print(hora)
+
+    # return f'{dia}{hora}:{minutos}:{segundos}'
 
 
 # def día(minutos_entrantes):
