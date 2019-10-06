@@ -38,7 +38,8 @@ while dia_semana not in dias_semana:
 7) Domingo
 >> ''')
 dia_inicial_numero = int(dia_semana) - 1
-dia_semana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'][int(dia_semana) - 1]
+dias = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
+dia_semana = dias[int(dia_semana) - 1]
 horario = input(f'''Seleccione el horario con que quiere partir el turno:
 1) Manana
 2) Tarde
@@ -58,8 +59,8 @@ for llave in cajeros:
     if llave != 'Bodega':
         cajeros[llave]['Plata actual'] += plata_a_recargar
 print("-------------------------------------------------------------------------------------")
-impresion_final = f'Elegiste {int(dias_totales)} turnos de simulación, partiendo el {dia_semana} en {horario} con MM {plata_a_recargar}'
-print(f'Elegiste {dias_totales} de simulación, partiendo el {dia_semana} en {horario} con MM {plata_a_recargar}')
+impresion_final = f'Elegiste {int(dias_totales)} días de simulación, partiendo el {dia_semana} en {horario} con MM {plata_a_recargar}'
+print(f'Elegiste {int(dias_totales)} días de simulación, partiendo el {dia_semana} en {horario} con MM {plata_a_recargar}')
 print("")
 
 # Se va a modelar en segundos, siendo cada vuelta un segundo
@@ -80,7 +81,15 @@ historial = []
 historial_turno = []
 i = 1
 while tiempo_restante:
-    print(i)
+    if tiempo%(3600*24)==0:
+        print(f"\nDía: {(tiempo//(3600*24))+1}")
+    print(f"Turno: {dia_semana} en la {horario}")
+    cajeros_con_plata = list(set(cajeros_con_plata))
+    cajeros_en_stock_out = list(set(cajeros_en_stock_out))
+    cajeros_en_stock_out_disponibles = list(set(cajeros_en_stock_out_disponibles))
+    cajeros_llenados = 0
+    cajeros__que_quedan_en_stock_out = 0
+    print("Plata cajero 33: ", cajeros["Cajero 33"]["Plata actual"], "Cajero 33" in disponibilidad(cajeros, dia_semana, horario))
     while turno:
         # print(f"Tiempo: {tiempo} segs")
         if inicio_turno == tiempo:
@@ -90,8 +99,8 @@ while tiempo_restante:
             for llave in cajeros_en_stock_out:
                 if llave in cajeros_disponibles:
                     cajeros_en_stock_out_disponibles.append(llave)
-                    cajeros_en_stock_out.remove(camiones[llave]['Objetivo'])
-            for llave in cajeros_con_plata:
+                    cajeros_en_stock_out.remove(llave)
+            for llave in cajeros_con_plata: #esto era con cajeros con plata
                 if llave in cajeros_disponibles:
                     if (cajeros[llave]['Promedio diario de retiro'] / 3 > cajeros[llave]['Plata actual']):
                         # historial_turno.append(f'''{dia_semana}: {horario}El {llave} va a quedarse en stock out (prom retiro: {cajeros[llave]['Promedio diario de retiro'] / 3} vs Plata actual: {cajeros[llave]['Plata actual']})''')
@@ -100,6 +109,10 @@ while tiempo_restante:
                         cajeros_a_stock_out.append(llave)
                     else:
                         pass
+            cajeros_a_stock_out = list(set(cajeros_a_stock_out))
+            print(f"   Cajeros a stock out: {len(cajeros_a_stock_out)}")
+            print("   Cajeros en stock out disponibles: ", len(cajeros_en_stock_out_disponibles))
+            print("   Cajeros en stock out no disponibles: ", len(cajeros_en_stock_out))
 
 
         # print("  >> Se recorren los camiones - mandar a casa")
@@ -122,9 +135,9 @@ while tiempo_restante:
                 cajeros[llave]['Plata actual'] = 0  # para que no queden con plata negativa
                 cajeros_con_plata.remove(llave)
                 cajeros_en_stock_out.append(llave)
-                cajeros[llave]['Estado'] = "Stock out"
+                cajeros__que_quedan_en_stock_out += 1
                 cajeros[llave]["Costo fijo acumulado stock out"] += cajeros[llave]['Costo fijo por Stock Out']
-        # print("  >> Se recorren los cajeros con stock out disponibles")    
+
         for llave in cajeros_en_stock_out_disponibles:
             for id_camion in camiones:
                 if camiones[id_camion]['Estado'] == 'parado' and cajeros[llave]['Estado'] == 'normal':
@@ -148,6 +161,8 @@ while tiempo_restante:
         for llave in cajeros_a_stock_out:
             cajeros[llave]['Plata actual'] -= cajeros[llave]['Promedio diario de retiro'] / (24 * 3600)
             if cajeros[llave]['Plata actual'] <= 0:
+                cajeros[llave]['Plata actual'] = 0
+
                 # Entra en stock out
                 pass
             for id_camion in camiones:
@@ -163,14 +178,15 @@ while tiempo_restante:
                         # f'''El {id_camion} va al {llave} que va a quedar stock out, se demora {camiones[id_camion]['Tiempo en llegar a objetivo']}''')
                     # sleep(2)
                     break
-        # print("  >> Se recorren los camiones - tiempo")    
+        # print("  >> Se recorren los camiones - tiempo")
         for llave in camiones.keys():
             if camiones[llave]['Estado'] == 'viajando':
                 camiones[llave]['Costo traslado acumulado'] += (55 / 3600) * costo_traslado  # kilometros en un segundo por costo por km de traslado
                 if camiones[llave]['Tiempo en llegar a objetivo'] <= 0:
                     # sleep(10)
                     if camiones[llave]['Objetivo'] != 'Bodega':
-                        # print(f'''El {llave} ha llegado al {camiones[llave]['Objetivo']}, empieza a recargar''')
+                        if camiones[llave]['Objetivo'] == "Cajero 33":
+                            print(f'''El {llave} ha llegado al {camiones[llave]['Objetivo']} pasadas las {int((tiempo/3600)%24)} hrs, empieza a recargar''')
                         # sleep(2)
 
                         camiones[llave]['Estado'] = 'recargando'
@@ -183,11 +199,12 @@ while tiempo_restante:
                 if camiones[llave]['Tiempo en llegar a objetivo'] <= 0:
                     # sleep(10)
                     rellenados += 1
+                    cajeros_llenados +=1
                     cajeros[camiones[llave]['Objetivo']]['Estado'] = 'normal'
                     cajeros[camiones[llave]['Objetivo']]['Plata actual'] = 35  # Aca vamos a tener que poner el cassete
                     cajeros_con_plata.append(camiones[llave]['Objetivo'])
-                    if camiones[llave]['Objetivo'] in cajeros_en_stock_out:
-                        cajeros_en_stock_out.remove(camiones[llave]['Objetivo'])
+                    if camiones[llave]['Objetivo'] in cajeros_en_stock_out_disponibles:
+                        cajeros_en_stock_out_disponibles.remove(camiones[llave]['Objetivo'])
                     else:
                         cajeros_a_stock_out.remove(camiones[llave]['Objetivo'])
                     camiones[llave]['Plata en camion'] -= 35
@@ -208,28 +225,28 @@ while tiempo_restante:
                     camiones[llave]['Tiempo en movimiento'] += 1
                     camiones[llave]['Tiempo en llegar a objetivo'] -= 1
         for llave in cajeros_en_stock_out:
-            cajeros[llave]["Costo variable acumulado stock out"] += cajeros[llave]['Costo variable por Stock Out']
+            cajeros[llave]["Costo variable acumulado stock out"] += (cajeros[llave]['Costo variable por Stock Out'])/60
             cajeros[llave]['Plata actual'] = 0
         tiempo += 1
 
         if tiempo == fin_turno:
             turno = False
             break
-    
-    # Empieza el cambio de turno
 
-    if tiempo + 1 >= dias_totales*8*3600:
+    # Empieza el cambio de turno
+    print("   Cajeros llenados: ",cajeros_llenados)
+    print("   Cajeros que pasaron a stock out: ", cajeros__que_quedan_en_stock_out)
+    if tiempo + 1 >= dias_totales*24*3600:
         tiempo_restante = False
-        # print('Entra aca')
         break
     # print(f'Tiempo actual: {tiempo} de {dias_totales*8*3600}')
-    i += 1
     inicio_turno = tiempo
     historial.append(historial_turno)
     historial_turno = []
     if horario == 'Noche':
-        dia_semana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'][(['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'].index(dia_semana))%7]
-    horario = ['Manana', 'Tarde', 'Noche'][(['Manana', 'Tarde', 'Noche'].index(horario))%3]
+        dia_semana = dias[(dias.index(dia_semana)+1)%7]
+        i += 1
+    horario = ['Manana', 'Tarde', 'Noche'][(['Manana', 'Tarde', 'Noche'].index(horario)+1)%3]
     if tiempo_restante == False:
         print('Finalizado')
         break
@@ -237,8 +254,8 @@ while tiempo_restante:
 
 
 
-    
-    
+
+
 
 # print(rellenados)
 # for llave in cajeros.keys():
@@ -266,13 +283,10 @@ print(f"""
 
 
 ----------------------------------------------------
-{impresion_final}:
+{impresion_final}:|
 > Total costo variable Stock Out: MM${suma_variable}.
 > Total costo fijo Stock Out: MM${suma_fijo}
 > Total en traslado: MM${suma_traslado}
 
 TOTAL> MM${suma_variable + suma_fijo + suma_traslado}
 """ )
-#print("Suma total costo variable Stock Out:", sum([(cajeros[llave]["Costo variable acumulado stock out"]) for llave in cajeros]))
-#print("Suma total costo fijo Stock Out:", sum([(cajeros[llave]["Costo fijo acumulado stock out"]) for llave in cajeros]))
-#print("Suma total costo traslado:", sum([(camiones[llave]['Costo traslado acumulado']) for llave in camiones]))
