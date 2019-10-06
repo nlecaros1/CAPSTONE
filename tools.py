@@ -19,7 +19,7 @@ def carga_cajeros():
                                       'Domingo': row['Domingo'], 'Manana': row['Manana'], 'Tarde': row['Tarde'],
                                       'Noche': row['Noche'], 'Plata actual': 0, 'Dias sin plata': 0,
                                       "Costo fijo acumulado stock out": 0, "Costo variable acumulado stock out": 0,
-                                      'Estado': 'normal'}
+                                      'Estado': 'Normal'}
     cajeros['Bodega'] = {'Pos_x': 70, 'Pos_y': 70}
     return cajeros
 
@@ -113,15 +113,27 @@ def distancia(punto_1, punto_2):
     return abs(int(punto_1['Pos_x']) - int(punto_2['Pos_x'])) + abs(int(punto_1['Pos_y']) - int(punto_2['Pos_y']))*100 #entrega distancia en mts
 
 
-def hora(segundos_entrantes, dia_inico, horario):
-    # horario_general = ['Manana', 'Tarde', 'Noche']
-    dias_semana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
-    # print(horario, dia_inico)
-    # dia = semana[(dia_inico + horario*8*3600 + segundos_entrantes//(24*3600))%7]
-    semana = ((dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)//(3600*24))//7 + 1
-    dia = dias_semana[((dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)//(3600*24))&7]
-    hora = (dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)&(3600*24*7)
-    print(hora)
+def hora(segundos_entrantes):
+    # Se calculan el numero de la semana
+    semana = (segundos_entrantes + 28800)//(3600*24*7) 
+
+    # Se dejan solo los segundos de ese dia y se le agregan las 8 horas iniciales del lunes en la manana. Se transforman en todos a tener dos digitos
+    segundos_del_dia = (segundos_entrantes + 28800)%(3600*24) 
+    hora = str(segundos_del_dia//3600)
+    hora = str(0)*(2 - len(hora)) + hora
+    minutos = str((segundos_del_dia%3600)//60)
+    minutos = str(0)*(2 - len(minutos)) + minutos
+    segundos = str(((segundos_del_dia%3600)%60))
+    segundos = str(0)*(2 - len(segundos)) + segundos
+    return [f'{hora}:{minutos}:{segundos}', semana]
+
+
+
+    # dias_semana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
+    # semana = ((dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)//(3600*24))//7 + 1
+    # dia = dias_semana[((dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)//(3600*24))&7]
+    # hora = (dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)&(3600*24*7)
+    # print(hora)
 
     # return f'{dia}{hora}:{minutos}:{segundos}'
 
