@@ -25,10 +25,7 @@ for llave in cajeros:
         cajeros[llave]['Plata actual'] += plata_a_recargar
 
 # Se definen las listas donde estaran los cajeros
-cajeros_en_stock_out = []
-cajeros_a_stock_out = [] # Sirve de referencia, no se recorre
 cajeros_a_visitar = []
-cajeros_con_plata = [llave for llave in cajeros.keys() if llave != 'Bodega']
 
 # Se definen las listas donde estaran los camiones
 camiones_en_bodega = [llave_camion for llave_camion in camiones.keys()]
@@ -204,7 +201,7 @@ resultados.append(f'TOTAL> MM${suma_variable + suma_fijo + suma_traslado}.')
 historial_general.append(resultados)
 
 # Se escribe el archivo con los resultados
-with open('Resultados.txt', 'w') as archivo:
+with open('Resultados 365.txt', 'w') as archivo:
     for sublista in historial_general:
         for linea in sublista:
             archivo.write(linea)
