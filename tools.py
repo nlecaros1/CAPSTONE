@@ -127,7 +127,7 @@ def hora(segundos_entrantes, dia_inico, horario):
 
 
 # def día(minutos_entrantes):
-#     dia = 
+#     dia =
 
 
 def disponibilidad(cajeros, dia, horario):
