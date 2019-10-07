@@ -14,15 +14,16 @@ turnos_completados = 0
 turno = 'Manana'
 dia = 'Lunes'
 
-# Se crean listas donde se guarda la información para luego mostrar
-historial_general = ['+-------------+ \n', '| Simbologia: | \n', '| - Camiones  | \n', '| * Cajeros   | \n', '+-------------+ \n', '\n']
-historial_por_turno = []
-
 # Se recargan todos los cajeros con esa cantidad de plata
 plata_inicial = plata_a_recargar = float(input('Ingrese la plata con que parten todos los cajeros: '))
 for llave in cajeros:
     if llave != 'Bodega':
         cajeros[llave]['Plata actual'] += plata_a_recargar
+
+# Se crean listas donde se guarda la información para luego mostrar
+historial_general = ['+-------------+ \n', '| Simbologia: | \n', '| - Camiones  | \n', '| * Cajeros   | \n', '+-------------+ \n', '\n', f'Simulacion de {numero_de_días} con plata inicial de MM$ {plata_inicial}.\n', '\n']
+historial_por_turno = []
+
 
 # Se definen las listas donde estaran los cajeros
 cajeros_a_visitar = []
@@ -188,7 +189,7 @@ suma_variable = 0
 suma_traslado = 0
 for llave_cajero in cajeros:
     if llave_cajero != 'Bodega':
-        suma_fijo += cajeros[llave_cajero]['Costo fijo por Stock Out']
+        suma_fijo += cajeros[llave_cajero]['Costo fijo acumulado stock out']
         suma_variable += cajeros[llave_cajero]["Costo variable acumulado stock out"]
 for llave_camion in camiones:
     suma_traslado += camiones[llave_camion]['Costo traslado acumulado']
@@ -201,11 +202,7 @@ resultados.append(f'TOTAL> MM${suma_variable + suma_fijo + suma_traslado}.')
 historial_general.append(resultados)
 
 # Se escribe el archivo con los resultados
-with open('Resultados 365.txt', 'w') as archivo:
+with open(f'Resultados {numero_de_días} dias [MM$ {int(plata_inicial)}].txt', 'w') as archivo:
     for sublista in historial_general:
         for linea in sublista:
             archivo.write(linea)
-
-
-
-
