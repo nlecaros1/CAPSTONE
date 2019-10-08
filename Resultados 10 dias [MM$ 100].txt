@@ -1,0 +1,3625 @@
++-------------+ 
+| Simbologia: | 
+| - Camiones  | 
+| * Cajeros   | 
++-------------+ 
+
+Simulacion de 10 con plata inicial de MM$ 100.0.
+
+Semana 1
+Lunes-Manana 
+
+Lunes-Tarde 
+
+Lunes-Noche 
+
+Martes-Manana 
+
+Martes-Tarde 
+
+Martes-Noche 
+
+Miercoles-Manana 
+
+Miercoles-Tarde 
+
+Miercoles-Noche 
+[08:00:00] - Camion 0 va al Cajero 61. 
+[08:00:00] - Camion 2 va al Cajero 104. 
+[08:00:00] - Camion 4 va al Cajero 162. 
+[08:05:40] - Camion 0 llega al Cajero 61. Empieza a recargar. 
+[08:06:52] - Camion 4 llega al Cajero 162. Empieza a recargar. 
+[08:08:25] - Camion 2 llega al Cajero 104. Empieza a recargar. 
+[08:20:25] - Camion 2 termina de recargar al Cajero 104. 
+[08:20:25] * Cajero 104 recargado. 
+[08:20:26] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:24:52] - Camion 4 termina de recargar al Cajero 162. 
+[08:24:52] * Cajero 162 recargado. 
+[08:24:53] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:28:50] - Camion 2 llega a la Bodega. 
+[08:29:40] - Camion 0 termina de recargar al Cajero 61. 
+[08:29:40] * Cajero 61 recargado. 
+[08:29:41] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:31:46] - Camion 4 llega a la Bodega. 
+[08:35:22] - Camion 0 llega a la Bodega. 
+[13:09:52] * Cajero 67 entra en Stock Out. 
+[13:33:55] * Cajero 178 entra en Stock Out. 
+[13:33:55] * Cajero 180 entra en Stock Out. 
+[14:35:18] * Cajero 94 entra en Stock Out. 
+[14:35:18] * Cajero 103 entra en Stock Out. 
+[15:13:00] * Cajero 155 entra en Stock Out. 
+
+Jueves-Manana 
+[08:00:00] - Camion 1 va al Cajero 155. 
+[08:00:00] - Camion 5 va al Cajero 178. 
+[08:00:00] - Camion 7 va al Cajero 4. 
+[08:00:00] - Camion 9 va al Cajero 16. 
+[08:00:00] - Camion 11 va al Cajero 40. 
+[08:00:00] - Camion 4 va al Cajero 79. 
+[08:00:01] - Camion 3 va al Cajero 85. 
+[08:00:01] - Camion 8 va al Cajero 127. 
+[08:00:01] - Camion 2 va al Cajero 155. 
+[08:00:02] - Camion 6 va al Cajero 158. 
+[08:00:02] - Camion 0 va al Cajero 163. 
+[08:00:03] - Camion 10 va al Cajero 178. 
+[08:01:19] - Camion 7 llega al Cajero 4. Empieza a recargar. 
+[08:02:32] - Camion 3 llega al Cajero 85. Empieza a recargar. 
+[08:02:33] - Camion 6 llega al Cajero 158. Empieza a recargar. 
+[08:03:56] - Camion 1 llega al Cajero 155. Empieza a recargar. 
+[08:03:57] - Camion 2 llega al Cajero 155. Empieza a recargar. 
+[08:04:36] - Camion 9 llega al Cajero 16. Empieza a recargar. 
+[08:05:41] - Camion 5 llega al Cajero 178. Empieza a recargar. 
+[08:05:43] - Camion 10 llega al Cajero 178. Empieza a recargar. 
+[08:07:01] - Camion 8 llega al Cajero 127. Empieza a recargar. 
+[08:08:33] - Camion 11 llega al Cajero 40. Empieza a recargar. 
+[08:10:20] - Camion 0 llega al Cajero 163. Empieza a recargar. 
+[08:11:28] - Camion 4 llega al Cajero 79. Empieza a recargar. 
+[08:13:19] - Camion 7 termina de recargar al Cajero 4. 
+[08:13:19] * Cajero 4 recargado. 
+[08:13:20] - Camion 7 va al Cajero 196. 
+[08:14:33] - Camion 3 termina de recargar al Cajero 85. 
+[08:14:33] * Cajero 85 recargado. 
+[08:14:34] - Camion 3 va al Cajero 211. 
+[08:14:34] - Camion 6 termina de recargar al Cajero 158. 
+[08:14:34] * Cajero 158 recargado. 
+[08:14:35] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[08:16:10] - Camion 7 llega al Cajero 196. Empieza a recargar. 
+[08:17:06] - Camion 6 llega a la Bodega. 
+[08:21:57] - Camion 1 termina de recargar al Cajero 155. 
+[08:21:57] * Cajero 155 recargado. 
+[08:21:58] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:21:58] - Camion 2 termina de recargar al Cajero 155. 
+[08:21:58] * Cajero 155 recargado. 
+[08:21:59] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:22:20] - Camion 0 termina de recargar al Cajero 163. 
+[08:22:20] * Cajero 163 recargado. 
+[08:22:21] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:23:29] - Camion 4 termina de recargar al Cajero 79. 
+[08:23:29] * Cajero 79 recargado. 
+[08:23:30] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:24:44] - Camion 3 llega al Cajero 211. Empieza a recargar. 
+[08:25:55] - Camion 1 llega a la Bodega. 
+[08:25:56] - Camion 2 llega a la Bodega. 
+[08:26:33] - Camion 11 termina de recargar al Cajero 40. 
+[08:26:33] * Cajero 40 recargado. 
+[08:26:34] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[08:28:12] - Camion 7 termina de recargar al Cajero 196. 
+[08:28:12] * Cajero 196 recargado. 
+[08:28:13] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:28:37] - Camion 9 termina de recargar al Cajero 16. 
+[08:28:37] * Cajero 16 recargado. 
+[08:28:38] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:29:42] - Camion 5 termina de recargar al Cajero 178. 
+[08:29:42] * Cajero 178 recargado. 
+[08:29:43] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[08:29:44] - Camion 10 termina de recargar al Cajero 178. 
+[08:29:44] * Cajero 178 recargado. 
+[08:29:45] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:30:24] - Camion 7 llega a la Bodega. 
+[08:31:02] - Camion 8 termina de recargar al Cajero 127. 
+[08:31:02] * Cajero 127 recargado. 
+[08:31:03] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:32:37] - Camion 0 llega a la Bodega. 
+[08:33:14] - Camion 9 llega a la Bodega. 
+[08:34:58] - Camion 4 llega a la Bodega. 
+[08:35:06] - Camion 11 llega a la Bodega. 
+[08:35:25] - Camion 5 llega a la Bodega. 
+[08:35:26] - Camion 10 llega a la Bodega. 
+[08:36:46] - Camion 3 termina de recargar al Cajero 211. 
+[08:36:46] * Cajero 211 recargado. 
+[08:36:47] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:38:03] - Camion 8 llega a la Bodega. 
+[08:44:39] - Camion 3 llega a la Bodega. 
+[08:56:54] * Cajero 190 entra en Stock Out. 
+[09:10:15] * Cajero 138 entra en Stock Out. 
+[09:37:11] * Cajero 33 entra en Stock Out. 
+[10:04:27] * Cajero 121 entra en Stock Out. 
+[10:04:27] * Cajero 135 entra en Stock Out. 
+[10:32:03] * Cajero 116 entra en Stock Out. 
+[11:14:07] * Cajero 54 entra en Stock Out. 
+[11:42:36] * Cajero 102 entra en Stock Out. 
+[11:42:36] * Cajero 156 entra en Stock Out. 
+[11:56:58] * Cajero 18 entra en Stock Out. 
+[12:11:26] * Cajero 219 entra en Stock Out. 
+[13:55:20] * Cajero 109 entra en Stock Out. 
+[14:10:34] * Cajero 164 entra en Stock Out. 
+[14:41:19] * Cajero 200 entra en Stock Out. 
+
+Jueves-Tarde 
+[08:00:00] - Camion 6 va al Cajero 18. 
+[08:00:00] - Camion 2 va al Cajero 102. 
+[08:00:00] - Camion 0 va al Cajero 109. 
+[08:00:00] - Camion 4 va al Cajero 116. 
+[08:00:00] - Camion 5 va al Cajero 138. 
+[08:00:00] - Camion 8 va al Cajero 11. 
+[08:00:01] - Camion 1 va al Cajero 18. 
+[08:00:01] - Camion 9 va al Cajero 32. 
+[08:00:01] - Camion 10 va al Cajero 44. 
+[08:00:02] - Camion 7 va al Cajero 102. 
+[08:00:02] - Camion 3 va al Cajero 109. 
+[08:00:03] - Camion 11 va al Cajero 116. 
+[08:02:11] - Camion 6 llega al Cajero 18. Empieza a recargar. 
+[08:02:12] - Camion 1 llega al Cajero 18. Empieza a recargar. 
+[08:03:30] - Camion 2 llega al Cajero 102. Empieza a recargar. 
+[08:03:31] - Camion 7 llega al Cajero 102. Empieza a recargar. 
+[08:03:50] - Camion 10 llega al Cajero 44. Empieza a recargar. 
+[08:06:20] - Camion 4 llega al Cajero 116. Empieza a recargar. 
+[08:06:23] - Camion 11 llega al Cajero 116. Empieza a recargar. 
+[08:07:52] - Camion 0 llega al Cajero 109. Empieza a recargar. 
+[08:07:55] - Camion 3 llega al Cajero 109. Empieza a recargar. 
+[08:09:03] - Camion 8 llega al Cajero 11. Empieza a recargar. 
+[08:11:11] - Camion 9 llega al Cajero 32. Empieza a recargar. 
+[08:12:54] - Camion 5 llega al Cajero 138. Empieza a recargar. 
+[08:14:11] - Camion 6 termina de recargar al Cajero 18. 
+[08:14:11] * Cajero 18 recargado. 
+[08:14:12] - Camion 6 va al Cajero 124. 
+[08:14:13] - Camion 1 termina de recargar al Cajero 18. 
+[08:14:13] * Cajero 18 recargado. 
+[08:14:14] - Camion 1 va al Cajero 138. 
+[08:15:50] - Camion 10 termina de recargar al Cajero 44. 
+[08:15:50] * Cajero 44 recargado. 
+[08:15:51] - Camion 10 va al Cajero 187. 
+[08:16:04] * Cajero 31 entra en Stock Out. 
+[08:16:04] * Cajero 41 entra en Stock Out. 
+[08:16:04] * Cajero 187 entra en Stock Out. 
+[08:16:04] * Cajero 217 entra en Stock Out. 
+[08:17:09] - Camion 6 llega al Cajero 124. Empieza a recargar. 
+[08:18:54] - Camion 10 llega al Cajero 187. Empieza a recargar. 
+[08:19:52] - Camion 0 termina de recargar al Cajero 109. 
+[08:19:52] * Cajero 109 recargado. 
+[08:19:53] - Camion 0 va al Cajero 208. 
+[08:19:56] - Camion 3 termina de recargar al Cajero 109. 
+[08:19:56] * Cajero 109 recargado. 
+[08:19:57] - Camion 3 va al Cajero 217. 
+[08:21:31] - Camion 2 termina de recargar al Cajero 102. 
+[08:21:31] * Cajero 102 recargado. 
+[08:21:32] - Camion 2 va al Cajero 221. 
+[08:21:32] - Camion 7 termina de recargar al Cajero 102. 
+[08:21:32] * Cajero 102 recargado. 
+[08:21:33] - Camion 7 va al Cajero 227. 
+[08:24:22] - Camion 4 termina de recargar al Cajero 116. 
+[08:24:22] * Cajero 116 recargado. 
+[08:24:23] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:24:24] - Camion 11 termina de recargar al Cajero 116. 
+[08:24:24] * Cajero 116 recargado. 
+[08:24:25] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[08:25:47] - Camion 2 llega al Cajero 221. Empieza a recargar. 
+[08:26:02] - Camion 1 llega al Cajero 138. Empieza a recargar. 
+[08:27:05] - Camion 8 termina de recargar al Cajero 11. 
+[08:27:05] * Cajero 11 recargado. 
+[08:27:06] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:29:12] - Camion 9 termina de recargar al Cajero 32. 
+[08:29:12] * Cajero 32 recargado. 
+[08:29:13] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:29:51] - Camion 7 llega al Cajero 227. Empieza a recargar. 
+[08:30:44] - Camion 4 llega a la Bodega. 
+[08:30:46] - Camion 11 llega a la Bodega. 
+[08:30:55] - Camion 5 termina de recargar al Cajero 138. 
+[08:30:55] * Cajero 138 recargado. 
+[08:30:56] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[08:32:33] - Camion 0 llega al Cajero 208. Empieza a recargar. 
+[08:34:29] - Camion 3 llega al Cajero 217. Empieza a recargar. 
+[08:35:10] - Camion 6 termina de recargar al Cajero 124. 
+[08:35:10] * Cajero 124 recargado. 
+[08:35:11] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[08:35:57] - Camion 6 llega a la Bodega. 
+[08:36:11] - Camion 8 llega a la Bodega. 
+[08:40:22] - Camion 9 llega a la Bodega. 
+[08:42:55] - Camion 10 termina de recargar al Cajero 187. 
+[08:42:55] * Cajero 187 recargado. 
+[08:42:56] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:43:48] - Camion 2 termina de recargar al Cajero 221. 
+[08:43:48] * Cajero 221 recargado. 
+[08:43:49] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:43:49] - Camion 5 llega a la Bodega. 
+[08:44:03] - Camion 1 termina de recargar al Cajero 138. 
+[08:44:03] * Cajero 138 recargado. 
+[08:44:04] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:44:33] - Camion 0 termina de recargar al Cajero 208. 
+[08:44:33] * Cajero 208 recargado. 
+[08:44:34] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:46:30] - Camion 3 termina de recargar al Cajero 217. 
+[08:46:30] * Cajero 217 recargado. 
+[08:46:31] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:46:46] - Camion 2 llega a la Bodega. 
+[08:47:52] - Camion 7 termina de recargar al Cajero 227. 
+[08:47:52] * Cajero 227 recargado. 
+[08:47:53] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:48:30] * Cajero 46 entra en Stock Out. 
+[08:49:22] - Camion 0 llega a la Bodega. 
+[08:49:49] - Camion 10 llega a la Bodega. 
+[08:53:11] - Camion 3 llega a la Bodega. 
+[08:54:27] - Camion 7 llega a la Bodega. 
+[08:56:58] - Camion 1 llega a la Bodega. 
+[13:06:23] * Cajero 157 entra en Stock Out. 
+[14:01:18] * Cajero 183 entra en Stock Out. 
+[14:19:52] * Cajero 91 entra en Stock Out. 
+[14:57:24] * Cajero 34 entra en Stock Out. 
+
+Jueves-Noche 
+[08:00:00] - Camion 4 va al Cajero 41. 
+[08:00:00] - Camion 6 va al Cajero 54. 
+[08:00:00] - Camion 9 va al Cajero 91. 
+[08:00:00] - Camion 2 va al Cajero 103. 
+[08:00:00] - Camion 10 va al Cajero 135. 
+[08:00:00] - Camion 7 va al Cajero 157. 
+[08:00:01] - Camion 11 va al Cajero 2. 
+[08:00:01] - Camion 5 va al Cajero 10. 
+[08:00:01] - Camion 3 va al Cajero 23. 
+[08:00:02] - Camion 8 va al Cajero 41. 
+[08:00:02] - Camion 1 va al Cajero 54. 
+[08:00:03] - Camion 0 va al Cajero 61. 
+[08:02:51] - Camion 3 llega al Cajero 23. Empieza a recargar. 
+[08:04:55] - Camion 10 llega al Cajero 135. Empieza a recargar. 
+[08:05:43] - Camion 0 llega al Cajero 61. Empieza a recargar. 
+[08:07:20] - Camion 5 llega al Cajero 10. Empieza a recargar. 
+[08:08:31] - Camion 9 llega al Cajero 91. Empieza a recargar. 
+[08:08:37] - Camion 6 llega al Cajero 54. Empieza a recargar. 
+[08:08:39] - Camion 1 llega al Cajero 54. Empieza a recargar. 
+[08:09:45] - Camion 2 llega al Cajero 103. Empieza a recargar. 
+[08:10:03] - Camion 11 llega al Cajero 2. Empieza a recargar. 
+[08:11:29] - Camion 7 llega al Cajero 157. Empieza a recargar. 
+[08:12:00] - Camion 4 llega al Cajero 41. Empieza a recargar. 
+[08:12:07] - Camion 8 llega al Cajero 41. Empieza a recargar. 
+[08:19:20] - Camion 5 termina de recargar al Cajero 10. 
+[08:19:20] * Cajero 10 recargado. 
+[08:19:21] - Camion 5 va al Cajero 76. 
+[08:20:51] - Camion 3 termina de recargar al Cajero 23. 
+[08:20:51] * Cajero 23 recargado. 
+[08:20:52] - Camion 3 va al Cajero 91. 
+[08:21:45] - Camion 2 termina de recargar al Cajero 103. 
+[08:21:45] * Cajero 103 recargado. 
+[08:21:46] - Camion 2 va al Cajero 103. 
+[08:21:46] - Camion 2 llega al Cajero 103. Empieza a recargar. 
+[08:22:04] - Camion 11 termina de recargar al Cajero 2. 
+[08:22:04] * Cajero 2 recargado. 
+[08:22:05] - Camion 11 va al Cajero 104. 
+[08:22:56] - Camion 10 termina de recargar al Cajero 135. 
+[08:22:56] * Cajero 135 recargado. 
+[08:22:57] - Camion 10 va al Cajero 135. 
+[08:22:57] - Camion 10 llega al Cajero 135. Empieza a recargar. 
+[08:23:30] - Camion 7 termina de recargar al Cajero 157. 
+[08:23:30] * Cajero 157 recargado. 
+[08:23:31] - Camion 7 va al Cajero 157. 
+[08:23:31] - Camion 7 llega al Cajero 157. Empieza a recargar. 
+[08:24:01] - Camion 4 termina de recargar al Cajero 41. 
+[08:24:01] * Cajero 41 recargado. 
+[08:24:02] - Camion 4 va al Cajero 169. 
+[08:24:08] - Camion 8 termina de recargar al Cajero 41. 
+[08:24:08] * Cajero 41 recargado. 
+[08:24:09] - Camion 8 va al Cajero 170. 
+[08:27:51] - Camion 3 llega al Cajero 91. Empieza a recargar. 
+[08:28:24] - Camion 5 llega al Cajero 76. Empieza a recargar. 
+[08:29:44] - Camion 0 termina de recargar al Cajero 61. 
+[08:29:44] * Cajero 61 recargado. 
+[08:29:45] - Camion 0 va al Cajero 223. 
+[08:30:31] - Camion 11 llega al Cajero 104. Empieza a recargar. 
+[08:32:33] - Camion 9 termina de recargar al Cajero 91. 
+[08:32:33] * Cajero 91 recargado. 
+[08:32:34] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:32:34] - Camion 4 llega al Cajero 169. Empieza a recargar. 
+[08:32:38] - Camion 6 termina de recargar al Cajero 54. 
+[08:32:38] * Cajero 54 recargado. 
+[08:32:39] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[08:32:40] - Camion 1 termina de recargar al Cajero 54. 
+[08:32:40] * Cajero 54 recargado. 
+[08:32:41] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:33:09] * Cajero 162 entra en Stock Out. 
+[08:33:40] * Cajero 90 entra en Stock Out. 
+[08:33:48] - Camion 2 termina de recargar al Cajero 103. 
+[08:33:48] * Cajero 103 recargado. 
+[08:33:49] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:35:31] - Camion 7 termina de recargar al Cajero 157. 
+[08:35:31] * Cajero 157 recargado. 
+[08:35:32] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:37:02] - Camion 8 llega al Cajero 170. Empieza a recargar. 
+[08:40:58] - Camion 10 termina de recargar al Cajero 135. 
+[08:40:58] * Cajero 135 recargado. 
+[08:40:59] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:41:05] - Camion 9 llega a la Bodega. 
+[08:41:17] - Camion 6 llega a la Bodega. 
+[08:41:19] - Camion 1 llega a la Bodega. 
+[08:41:33] - Camion 0 llega al Cajero 223. Empieza a recargar. 
+[08:42:31] - Camion 11 termina de recargar al Cajero 104. 
+[08:42:31] * Cajero 104 recargado. 
+[08:42:32] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[08:43:34] - Camion 2 llega a la Bodega. 
+[08:45:54] - Camion 10 llega a la Bodega. 
+[08:46:24] - Camion 5 termina de recargar al Cajero 76. 
+[08:46:24] * Cajero 76 recargado. 
+[08:46:25] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[08:47:00] - Camion 7 llega a la Bodega. 
+[08:48:36] - Camion 5 llega a la Bodega. 
+[08:49:02] - Camion 8 termina de recargar al Cajero 170. 
+[08:49:02] * Cajero 170 recargado. 
+[08:49:03] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:50:58] - Camion 11 llega a la Bodega. 
+[08:51:53] - Camion 3 termina de recargar al Cajero 91. 
+[08:51:53] * Cajero 91 recargado. 
+[08:51:54] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:56:37] - Camion 4 termina de recargar al Cajero 169. 
+[08:56:37] * Cajero 169 recargado. 
+[08:56:38] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:59:35] - Camion 0 termina de recargar al Cajero 223. 
+[08:59:35] * Cajero 223 recargado. 
+[08:59:36] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[09:00:25] - Camion 3 llega a la Bodega. 
+[09:00:51] - Camion 8 llega a la Bodega. 
+[09:04:05] - Camion 4 llega a la Bodega. 
+[09:07:28] - Camion 0 llega a la Bodega. 
+[10:54:33] * Cajero 145 entra en Stock Out. 
+[11:57:15] * Cajero 117 entra en Stock Out. 
+[12:18:28] * Cajero 154 entra en Stock Out. 
+[14:07:04] * Cajero 165 entra en Stock Out. 
+[14:07:04] * Cajero 212 entra en Stock Out. 
+[14:29:18] * Cajero 203 entra en Stock Out. 
+
+Viernes-Manana 
+[08:00:00] - Camion 9 va al Cajero 31. 
+[08:00:00] - Camion 1 va al Cajero 33. 
+[08:00:00] - Camion 10 va al Cajero 46. 
+[08:00:00] - Camion 5 va al Cajero 67. 
+[08:00:00] - Camion 3 va al Cajero 90. 
+[08:00:00] - Camion 4 va al Cajero 94. 
+[08:00:01] - Camion 6 va al Cajero 117. 
+[08:00:01] - Camion 7 va al Cajero 121. 
+[08:00:01] - Camion 8 va al Cajero 156. 
+[08:00:01] * Cajero 43 entra en Stock Out. 
+[08:00:02] - Camion 2 va al Cajero 162. 
+[08:00:02] - Camion 0 va al Cajero 165. 
+[08:00:03] - Camion 11 va al Cajero 180. 
+[08:02:51] - Camion 7 llega al Cajero 121. Empieza a recargar. 
+[08:03:12] - Camion 8 llega al Cajero 156. Empieza a recargar. 
+[08:03:32] - Camion 11 llega al Cajero 180. Empieza a recargar. 
+[08:03:43] - Camion 1 llega al Cajero 33. Empieza a recargar. 
+[08:03:43] - Camion 5 llega al Cajero 67. Empieza a recargar. 
+[08:04:28] - Camion 9 llega al Cajero 31. Empieza a recargar. 
+[08:06:55] - Camion 2 llega al Cajero 162. Empieza a recargar. 
+[08:07:01] - Camion 10 llega al Cajero 46. Empieza a recargar. 
+[08:07:19] - Camion 4 llega al Cajero 94. Empieza a recargar. 
+[08:08:40] - Camion 0 llega al Cajero 165. Empieza a recargar. 
+[08:11:03] - Camion 6 llega al Cajero 117. Empieza a recargar. 
+[08:11:10] - Camion 3 llega al Cajero 90. Empieza a recargar. 
+[08:15:12] - Camion 8 termina de recargar al Cajero 156. 
+[08:15:12] * Cajero 156 recargado. 
+[08:15:13] - Camion 8 va al Cajero 183. 
+[08:15:43] - Camion 1 termina de recargar al Cajero 33. 
+[08:15:43] * Cajero 33 recargado. 
+[08:15:44] - Camion 1 va al Cajero 200. 
+[08:16:28] - Camion 9 termina de recargar al Cajero 31. 
+[08:16:28] * Cajero 31 recargado. 
+[08:16:29] - Camion 9 va al Cajero 203. 
+[08:19:01] - Camion 10 termina de recargar al Cajero 46. 
+[08:19:01] * Cajero 46 recargado. 
+[08:19:02] - Camion 10 va al Cajero 212. 
+[08:20:27] - Camion 8 llega al Cajero 183. Empieza a recargar. 
+[08:20:51] - Camion 7 termina de recargar al Cajero 121. 
+[08:20:51] * Cajero 121 recargado. 
+[08:20:52] - Camion 7 va al Cajero 4. 
+[08:21:34] - Camion 11 termina de recargar al Cajero 180. 
+[08:21:34] * Cajero 180 recargado. 
+[08:21:35] - Camion 11 va al Cajero 5. 
+[08:21:45] - Camion 5 termina de recargar al Cajero 67. 
+[08:21:45] * Cajero 67 recargado. 
+[08:21:46] - Camion 5 va al Cajero 14. 
+[08:22:05] - Camion 1 llega al Cajero 200. Empieza a recargar. 
+[08:23:03] - Camion 6 termina de recargar al Cajero 117. 
+[08:23:03] * Cajero 117 recargado. 
+[08:23:04] - Camion 6 va al Cajero 16. 
+[08:24:21] - Camion 7 llega al Cajero 4. Empieza a recargar. 
+[08:24:57] - Camion 2 termina de recargar al Cajero 162. 
+[08:24:57] * Cajero 162 recargado. 
+[08:24:58] - Camion 2 va al Cajero 27. 
+[08:26:07] - Camion 10 llega al Cajero 212. Empieza a recargar. 
+[08:26:32] - Camion 9 llega al Cajero 203. Empieza a recargar. 
+[08:26:40] - Camion 0 termina de recargar al Cajero 165. 
+[08:26:40] * Cajero 165 recargado. 
+[08:26:41] - Camion 0 va al Cajero 31. 
+[08:27:53] - Camion 5 llega al Cajero 14. Empieza a recargar. 
+[08:29:12] - Camion 3 termina de recargar al Cajero 90. 
+[08:29:12] * Cajero 90 recargado. 
+[08:29:13] - Camion 3 va al Cajero 33. 
+[08:29:31] - Camion 6 llega al Cajero 16. Empieza a recargar. 
+[08:30:50] - Camion 0 llega al Cajero 31. Empieza a recargar. 
+[08:31:21] - Camion 4 termina de recargar al Cajero 94. 
+[08:31:21] * Cajero 94 recargado. 
+[08:31:22] - Camion 4 va al Cajero 40. 
+[08:32:29] - Camion 8 termina de recargar al Cajero 183. 
+[08:32:29] * Cajero 183 recargado. 
+[08:32:30] - Camion 8 va al Cajero 46. 
+[08:36:21] - Camion 7 termina de recargar al Cajero 4. 
+[08:36:21] * Cajero 4 recargado. 
+[08:36:22] - Camion 7 va al Cajero 59. 
+[08:36:48] - Camion 11 llega al Cajero 5. Empieza a recargar. 
+[08:37:20] - Camion 2 llega al Cajero 27. Empieza a recargar. 
+[08:39:59] - Camion 4 llega al Cajero 40. Empieza a recargar. 
+[08:40:06] - Camion 1 termina de recargar al Cajero 200. 
+[08:40:06] * Cajero 200 recargado. 
+[08:40:07] - Camion 1 va al Cajero 67. 
+[08:42:02] - Camion 7 llega al Cajero 59. Empieza a recargar. 
+[08:42:14] - Camion 8 llega al Cajero 46. Empieza a recargar. 
+[08:42:50] - Camion 0 termina de recargar al Cajero 31. 
+[08:42:50] * Cajero 31 recargado. 
+[08:42:51] - Camion 0 va al Cajero 70. 
+[08:43:52] - Camion 3 llega al Cajero 33. Empieza a recargar. 
+[08:44:09] - Camion 10 termina de recargar al Cajero 212. 
+[08:44:09] * Cajero 212 recargado. 
+[08:44:10] - Camion 10 va al Cajero 79. 
+[08:44:33] - Camion 9 termina de recargar al Cajero 203. 
+[08:44:33] * Cajero 203 recargado. 
+[08:44:34] - Camion 9 va al Cajero 85. 
+[08:48:54] - Camion 1 llega al Cajero 67. Empieza a recargar. 
+[08:50:24] - Camion 0 llega al Cajero 70. Empieza a recargar. 
+[08:50:37] * Cajero 178 entra en Stock Out. 
+[08:51:54] - Camion 5 termina de recargar al Cajero 14. 
+[08:51:54] * Cajero 14 recargado. 
+[08:51:55] - Camion 5 va al Cajero 90. 
+[08:52:38] - Camion 9 llega al Cajero 85. Empieza a recargar. 
+[08:53:32] - Camion 6 termina de recargar al Cajero 16. 
+[08:53:32] * Cajero 16 recargado. 
+[08:53:33] - Camion 6 va al Cajero 94. 
+[08:53:54] - Camion 5 llega al Cajero 90. Empieza a recargar. 
+[08:54:14] - Camion 8 termina de recargar al Cajero 46. 
+[08:54:14] * Cajero 46 recargado. 
+[08:54:15] - Camion 8 va al Cajero 113. 
+[08:54:50] - Camion 11 termina de recargar al Cajero 5. 
+[08:54:50] * Cajero 5 recargado. 
+[08:54:51] - Camion 11 va al Cajero 117. 
+[08:55:53] - Camion 3 termina de recargar al Cajero 33. 
+[08:55:53] * Cajero 33 recargado. 
+[08:55:54] - Camion 3 va al Cajero 119. 
+[08:57:03] - Camion 10 llega al Cajero 79. Empieza a recargar. 
+[08:57:59] - Camion 4 termina de recargar al Cajero 40. 
+[08:57:59] * Cajero 40 recargado. 
+[08:58:00] - Camion 4 va al Cajero 121. 
+[08:58:34] - Camion 11 llega al Cajero 117. Empieza a recargar. 
+[09:00:03] - Camion 7 termina de recargar al Cajero 59. 
+[09:00:03] * Cajero 59 recargado. 
+[09:00:04] - Camion 7 va al Cajero 122. 
+[09:00:27] - Camion 6 llega al Cajero 94. Empieza a recargar. 
+[09:01:21] - Camion 2 termina de recargar al Cajero 27. 
+[09:01:21] * Cajero 27 recargado. 
+[09:01:22] - Camion 2 va al Cajero 127. 
+[09:02:01] - Camion 8 llega al Cajero 113. Empieza a recargar. 
+[09:03:21] - Camion 3 llega al Cajero 119. Empieza a recargar. 
+[09:04:38] - Camion 9 termina de recargar al Cajero 85. 
+[09:04:38] * Cajero 85 recargado. 
+[09:04:39] - Camion 9 va al Cajero 156. 
+[09:05:05] - Camion 7 llega al Cajero 122. Empieza a recargar. 
+[09:06:57] - Camion 1 termina de recargar al Cajero 67. 
+[09:06:57] * Cajero 67 recargado. 
+[09:06:58] - Camion 1 va al Cajero 158. 
+[09:08:25] - Camion 0 termina de recargar al Cajero 70. 
+[09:08:25] * Cajero 70 recargado. 
+[09:08:26] - Camion 0 va al Cajero 162. 
+[09:08:42] - Camion 4 llega al Cajero 121. Empieza a recargar. 
+[09:09:03] - Camion 10 termina de recargar al Cajero 79. 
+[09:09:03] * Cajero 79 recargado. 
+[09:09:04] - Camion 10 va al Cajero 165. 
+[09:09:58] * Cajero 108 entra en Stock Out. 
+[09:10:19] - Camion 9 llega al Cajero 156. Empieza a recargar. 
+[09:10:35] - Camion 11 termina de recargar al Cajero 117. 
+[09:10:35] * Cajero 117 recargado. 
+[09:10:36] - Camion 11 va al Cajero 178. 
+[09:11:40] - Camion 1 llega al Cajero 158. Empieza a recargar. 
+[09:11:54] - Camion 10 llega al Cajero 165. Empieza a recargar. 
+[09:11:56] - Camion 5 termina de recargar al Cajero 90. 
+[09:11:56] * Cajero 90 recargado. 
+[09:11:57] - Camion 5 va al Cajero 179. 
+[09:13:35] - Camion 5 llega al Cajero 179. Empieza a recargar. 
+[09:15:09] - Camion 2 llega al Cajero 127. Empieza a recargar. 
+[09:15:21] - Camion 3 termina de recargar al Cajero 119. 
+[09:15:21] * Cajero 119 recargado. 
+[09:15:22] - Camion 3 va al Cajero 180. 
+[09:17:31] * Cajero 155 entra en Stock Out. 
+[09:20:01] - Camion 8 termina de recargar al Cajero 113. 
+[09:20:01] * Cajero 113 recargado. 
+[09:20:02] - Camion 8 va al Cajero 183. 
+[09:21:15] - Camion 3 llega al Cajero 180. Empieza a recargar. 
+[09:22:19] - Camion 0 llega al Cajero 162. Empieza a recargar. 
+[09:22:19] - Camion 9 termina de recargar al Cajero 156. 
+[09:22:19] * Cajero 156 recargado. 
+[09:22:20] - Camion 9 va al Cajero 196. 
+[09:23:41] - Camion 1 termina de recargar al Cajero 158. 
+[09:23:41] * Cajero 158 recargado. 
+[09:23:42] - Camion 1 va al Cajero 200. 
+[09:24:12] - Camion 8 llega al Cajero 183. Empieza a recargar. 
+[09:24:29] - Camion 11 llega al Cajero 178. Empieza a recargar. 
+[09:24:29] - Camion 6 termina de recargar al Cajero 94. 
+[09:24:29] * Cajero 94 recargado. 
+[09:24:30] - Camion 6 va al Cajero 203. 
+[09:25:58] - Camion 9 llega al Cajero 196. Empieza a recargar. 
+[09:26:42] - Camion 4 termina de recargar al Cajero 121. 
+[09:26:42] * Cajero 121 recargado. 
+[09:26:43] - Camion 4 va al Cajero 211. 
+[09:27:45] - Camion 1 llega al Cajero 200. Empieza a recargar. 
+[09:29:08] - Camion 7 termina de recargar al Cajero 122. 
+[09:29:08] * Cajero 122 recargado. 
+[09:29:09] - Camion 7 va al Cajero 212. 
+[09:29:57] - Camion 10 termina de recargar al Cajero 165. 
+[09:29:57] * Cajero 165 recargado. 
+[09:29:58] - Camion 10 va al Cajero 218. 
+[09:35:12] - Camion 6 llega al Cajero 203. Empieza a recargar. 
+[09:35:54] - Camion 4 llega al Cajero 211. Empieza a recargar. 
+[09:36:11] - Camion 10 llega al Cajero 218. Empieza a recargar. 
+[09:36:12] - Camion 8 termina de recargar al Cajero 183. 
+[09:36:12] * Cajero 183 recargado. 
+[09:36:13] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[09:37:36] - Camion 5 termina de recargar al Cajero 179. 
+[09:37:36] * Cajero 179 recargado. 
+[09:37:37] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[09:37:58] - Camion 9 termina de recargar al Cajero 196. 
+[09:37:58] * Cajero 196 recargado. 
+[09:37:59] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[09:39:10] - Camion 2 termina de recargar al Cajero 127. 
+[09:39:10] * Cajero 127 recargado. 
+[09:39:11] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[09:39:16] - Camion 3 termina de recargar al Cajero 180. 
+[09:39:16] * Cajero 180 recargado. 
+[09:39:17] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[09:39:49] - Camion 8 llega a la Bodega. 
+[09:40:10] - Camion 9 llega a la Bodega. 
+[09:40:20] - Camion 0 termina de recargar al Cajero 162. 
+[09:40:20] * Cajero 162 recargado. 
+[09:40:21] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[09:42:46] - Camion 3 llega a la Bodega. 
+[09:45:46] - Camion 1 termina de recargar al Cajero 200. 
+[09:45:46] * Cajero 200 recargado. 
+[09:45:47] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[09:46:11] - Camion 2 llega a la Bodega. 
+[09:46:57] - Camion 7 llega al Cajero 212. Empieza a recargar. 
+[09:47:15] - Camion 0 llega a la Bodega. 
+[09:47:22] - Camion 5 llega a la Bodega. 
+[09:47:54] - Camion 4 termina de recargar al Cajero 211. 
+[09:47:54] * Cajero 211 recargado. 
+[09:47:55] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[09:48:31] - Camion 11 termina de recargar al Cajero 178. 
+[09:48:31] * Cajero 178 recargado. 
+[09:48:32] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[09:50:50] - Camion 1 llega a la Bodega. 
+[09:53:14] - Camion 6 termina de recargar al Cajero 203. 
+[09:53:14] * Cajero 203 recargado. 
+[09:53:15] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[09:54:12] - Camion 11 llega a la Bodega. 
+[09:54:13] - Camion 10 termina de recargar al Cajero 218. 
+[09:54:13] * Cajero 218 recargado. 
+[09:54:14] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[09:55:47] - Camion 4 llega a la Bodega. 
+[09:58:51] - Camion 6 llega a la Bodega. 
+[10:02:46] - Camion 10 llega a la Bodega. 
+[10:04:58] - Camion 7 termina de recargar al Cajero 212. 
+[10:04:58] * Cajero 212 recargado. 
+[10:04:59] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[10:12:31] - Camion 7 llega a la Bodega. 
+[10:57:17] * Cajero 163 entra en Stock Out. 
+[12:00:00] * Cajero 30 entra en Stock Out. 
+
+Viernes-Tarde 
+[08:00:00] - Camion 8 va al Cajero 190. 
+[08:00:00] - Camion 3 va al Cajero 11. 
+[08:00:00] - Camion 0 va al Cajero 18. 
+[08:00:00] - Camion 1 va al Cajero 32. 
+[08:00:00] - Camion 4 va al Cajero 44. 
+[08:00:00] - Camion 10 va al Cajero 100. 
+[08:00:01] - Camion 9 va al Cajero 124. 
+[08:00:01] - Camion 5 va al Cajero 132. 
+[08:00:01] - Camion 6 va al Cajero 138. 
+[08:00:02] - Camion 2 va al Cajero 187. 
+[08:00:02] - Camion 7 va al Cajero 190. 
+[08:00:03] - Camion 11 va al Cajero 208. 
+[08:00:47] - Camion 9 llega al Cajero 124. Empieza a recargar. 
+[08:02:11] - Camion 0 llega al Cajero 18. Empieza a recargar. 
+[08:02:31] - Camion 10 llega al Cajero 100. Empieza a recargar. 
+[08:03:49] - Camion 4 llega al Cajero 44. Empieza a recargar. 
+[08:04:51] - Camion 11 llega al Cajero 208. Empieza a recargar. 
+[08:05:27] - Camion 8 llega al Cajero 190. Empieza a recargar. 
+[08:05:29] - Camion 7 llega al Cajero 190. Empieza a recargar. 
+[08:06:17] - Camion 5 llega al Cajero 132. Empieza a recargar. 
+[08:06:54] - Camion 2 llega al Cajero 187. Empieza a recargar. 
+[08:09:04] - Camion 3 llega al Cajero 11. Empieza a recargar. 
+[08:11:10] - Camion 1 llega al Cajero 32. Empieza a recargar. 
+[08:12:55] - Camion 6 llega al Cajero 138. Empieza a recargar. 
+[08:14:11] - Camion 0 termina de recargar al Cajero 18. 
+[08:14:11] * Cajero 18 recargado. 
+[08:14:12] - Camion 0 va al Cajero 217. 
+[08:14:32] - Camion 10 termina de recargar al Cajero 100. 
+[08:14:32] * Cajero 100 recargado. 
+[08:14:33] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:15:50] - Camion 4 termina de recargar al Cajero 44. 
+[08:15:50] * Cajero 44 recargado. 
+[08:15:51] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:16:52] - Camion 11 termina de recargar al Cajero 208. 
+[08:16:52] * Cajero 208 recargado. 
+[08:16:53] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[08:17:04] - Camion 10 llega a la Bodega. 
+[08:17:28] - Camion 8 termina de recargar al Cajero 190. 
+[08:17:28] * Cajero 190 recargado. 
+[08:17:29] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:17:30] - Camion 7 termina de recargar al Cajero 190. 
+[08:17:30] * Cajero 190 recargado. 
+[08:17:31] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:18:18] - Camion 5 termina de recargar al Cajero 132. 
+[08:18:18] * Cajero 132 recargado. 
+[08:18:19] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[08:18:40] - Camion 0 llega al Cajero 217. Empieza a recargar. 
+[08:18:47] - Camion 9 termina de recargar al Cajero 124. 
+[08:18:47] * Cajero 124 recargado. 
+[08:18:48] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:19:34] - Camion 9 llega a la Bodega. 
+[08:19:42] - Camion 4 llega a la Bodega. 
+[08:21:42] - Camion 11 llega a la Bodega. 
+[08:22:57] - Camion 8 llega a la Bodega. 
+[08:22:59] - Camion 7 llega a la Bodega. 
+[08:24:33] - Camion 5 llega a la Bodega. 
+[08:27:04] - Camion 3 termina de recargar al Cajero 11. 
+[08:27:04] * Cajero 11 recargado. 
+[08:27:05] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:29:11] - Camion 1 termina de recargar al Cajero 32. 
+[08:29:11] * Cajero 32 recargado. 
+[08:29:12] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:30:40] - Camion 0 termina de recargar al Cajero 217. 
+[08:30:40] * Cajero 217 recargado. 
+[08:30:41] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:30:56] - Camion 2 termina de recargar al Cajero 187. 
+[08:30:56] * Cajero 187 recargado. 
+[08:30:57] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:30:57] - Camion 6 termina de recargar al Cajero 138. 
+[08:30:57] * Cajero 138 recargado. 
+[08:30:58] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[08:36:08] - Camion 3 llega a la Bodega. 
+[08:37:20] - Camion 0 llega a la Bodega. 
+[08:37:50] - Camion 2 llega a la Bodega. 
+[08:40:21] - Camion 1 llega a la Bodega. 
+[08:43:52] - Camion 6 llega a la Bodega. 
+[09:43:37] * Cajero 106 entra en Stock Out. 
+[10:29:38] * Cajero 116 entra en Stock Out. 
+[10:51:27] * Cajero 102 entra en Stock Out. 
+[11:36:18] * Cajero 109 entra en Stock Out. 
+[12:35:51] * Cajero 148 entra en Stock Out. 
+[13:35:21] * Cajero 137 entra en Stock Out. 
+[14:12:14] * Cajero 221 entra en Stock Out. 
+[15:07:22] * Cajero 227 entra en Stock Out. 
+
+Viernes-Noche 
+[08:00:00] - Camion 10 va al Cajero 106. 
+[08:00:00] - Camion 4 va al Cajero 137. 
+[08:00:00] - Camion 8 va al Cajero 148. 
+[08:00:00] - Camion 5 va al Cajero 219. 
+[08:00:00] - Camion 0 va al Cajero 10. 
+[08:00:00] - Camion 1 va al Cajero 41. 
+[08:00:01] - Camion 9 va al Cajero 54. 
+[08:00:01] - Camion 7 va al Cajero 89. 
+[08:00:01] - Camion 2 va al Cajero 91. 
+[08:00:02] - Camion 11 va al Cajero 93. 
+[08:00:02] - Camion 6 va al Cajero 104. 
+[08:00:03] - Camion 3 va al Cajero 106. 
+[08:05:53] - Camion 10 llega al Cajero 106. Empieza a recargar. 
+[08:05:56] - Camion 3 llega al Cajero 106. Empieza a recargar. 
+[08:06:46] - Camion 8 llega al Cajero 148. Empieza a recargar. 
+[08:07:06] - Camion 7 llega al Cajero 89. Empieza a recargar. 
+[08:07:19] - Camion 0 llega al Cajero 10. Empieza a recargar. 
+[08:08:18] - Camion 5 llega al Cajero 219. Empieza a recargar. 
+[08:08:26] - Camion 6 llega al Cajero 104. Empieza a recargar. 
+[08:08:33] - Camion 2 llega al Cajero 91. Empieza a recargar. 
+[08:08:38] - Camion 9 llega al Cajero 54. Empieza a recargar. 
+[08:08:54] - Camion 11 llega al Cajero 93. Empieza a recargar. 
+[08:11:15] - Camion 4 llega al Cajero 137. Empieza a recargar. 
+[08:12:03] - Camion 1 llega al Cajero 41. Empieza a recargar. 
+[08:18:46] - Camion 8 termina de recargar al Cajero 148. 
+[08:18:46] * Cajero 148 recargado. 
+[08:18:47] - Camion 8 va al Cajero 137. 
+[08:19:07] - Camion 7 termina de recargar al Cajero 89. 
+[08:19:07] * Cajero 89 recargado. 
+[08:19:08] - Camion 7 va al Cajero 148. 
+[08:19:20] - Camion 0 termina de recargar al Cajero 10. 
+[08:19:20] * Cajero 10 recargado. 
+[08:19:21] - Camion 0 va al Cajero 149. 
+[08:20:19] - Camion 5 termina de recargar al Cajero 219. 
+[08:20:19] * Cajero 219 recargado. 
+[08:20:20] - Camion 5 va al Cajero 157. 
+[08:20:27] - Camion 6 termina de recargar al Cajero 104. 
+[08:20:27] * Cajero 104 recargado. 
+[08:20:28] - Camion 6 va al Cajero 201. 
+[08:23:15] - Camion 4 termina de recargar al Cajero 137. 
+[08:23:15] * Cajero 137 recargado. 
+[08:23:16] - Camion 4 va al Cajero 219. 
+[08:23:30] - Camion 5 llega al Cajero 157. Empieza a recargar. 
+[08:24:04] - Camion 1 termina de recargar al Cajero 41. 
+[08:24:04] * Cajero 41 recargado. 
+[08:24:05] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:26:36] - Camion 6 llega al Cajero 201. Empieza a recargar. 
+[08:26:54] - Camion 11 termina de recargar al Cajero 93. 
+[08:26:54] * Cajero 93 recargado. 
+[08:26:55] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[08:28:37] - Camion 0 llega al Cajero 149. Empieza a recargar. 
+[08:29:53] - Camion 10 termina de recargar al Cajero 106. 
+[08:29:53] * Cajero 106 recargado. 
+[08:29:54] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:29:57] - Camion 3 termina de recargar al Cajero 106. 
+[08:29:57] * Cajero 106 recargado. 
+[08:29:58] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:31:55] - Camion 4 llega al Cajero 219. Empieza a recargar. 
+[08:32:35] - Camion 2 termina de recargar al Cajero 91. 
+[08:32:35] * Cajero 91 recargado. 
+[08:32:36] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:32:39] - Camion 9 termina de recargar al Cajero 54. 
+[08:32:39] * Cajero 54 recargado. 
+[08:32:40] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:32:59] - Camion 7 llega al Cajero 148. Empieza a recargar. 
+[08:34:49] - Camion 8 llega al Cajero 137. Empieza a recargar. 
+[08:35:33] - Camion 5 termina de recargar al Cajero 157. 
+[08:35:33] * Cajero 157 recargado. 
+[08:35:34] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[08:35:45] - Camion 11 llega a la Bodega. 
+[08:35:48] - Camion 10 llega a la Bodega. 
+[08:35:52] - Camion 3 llega a la Bodega. 
+[08:36:08] - Camion 1 llega a la Bodega. 
+[08:41:09] - Camion 2 llega a la Bodega. 
+[08:41:18] - Camion 9 llega a la Bodega. 
+[08:43:55] - Camion 4 termina de recargar al Cajero 219. 
+[08:43:55] * Cajero 219 recargado. 
+[08:43:56] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:44:37] - Camion 6 termina de recargar al Cajero 201. 
+[08:44:37] * Cajero 201 recargado. 
+[08:44:38] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[08:45:00] - Camion 7 termina de recargar al Cajero 148. 
+[08:45:00] * Cajero 148 recargado. 
+[08:45:01] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:46:38] - Camion 0 termina de recargar al Cajero 149. 
+[08:46:38] * Cajero 149 recargado. 
+[08:46:39] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:46:51] - Camion 8 termina de recargar al Cajero 137. 
+[08:46:51] * Cajero 137 recargado. 
+[08:46:52] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:47:02] - Camion 5 llega a la Bodega. 
+[08:48:37] - Camion 0 llega a la Bodega. 
+[08:51:17] - Camion 6 llega a la Bodega. 
+[08:51:48] - Camion 7 llega a la Bodega. 
+[08:52:14] - Camion 4 llega a la Bodega. 
+[08:58:09] - Camion 8 llega a la Bodega. 
+[09:03:26] * Cajero 61 entra en Stock Out. 
+[09:16:10] * Cajero 103 entra en Stock Out. 
+[10:17:09] * Cajero 82 entra en Stock Out. 
+[10:36:32] * Cajero 135 entra en Stock Out. 
+[11:23:05] * Cajero 13 entra en Stock Out. 
+[14:13:36] * Cajero 86 entra en Stock Out. 
+[14:48:43] * Cajero 175 entra en Stock Out. 
+
+Sabado-Manana 
+[08:00:00] - Camion 11 va al Cajero 34. 
+[08:00:00] - Camion 3 va al Cajero 43. 
+[08:00:00] - Camion 2 va al Cajero 82. 
+[08:00:00] - Camion 5 va al Cajero 108. 
+[08:00:00] - Camion 6 va al Cajero 155. 
+[08:00:00] - Camion 4 va al Cajero 163. 
+[08:00:01] - Camion 10 va al Cajero 221. 
+[08:00:01] - Camion 9 va al Cajero 227. 
+[08:00:01] - Camion 7 va al Cajero 2. 
+[08:00:02] - Camion 1 va al Cajero 16. 
+[08:00:02] - Camion 8 va al Cajero 21. 
+[08:00:03] - Camion 0 va al Cajero 31. 
+[08:02:58] - Camion 10 llega al Cajero 221. Empieza a recargar. 
+[08:03:49] - Camion 11 llega al Cajero 34. Empieza a recargar. 
+[08:03:56] - Camion 6 llega al Cajero 155. Empieza a recargar. 
+[08:04:31] - Camion 0 llega al Cajero 31. Empieza a recargar. 
+[08:04:37] - Camion 1 llega al Cajero 16. Empieza a recargar. 
+[08:05:14] - Camion 5 llega al Cajero 108. Empieza a recargar. 
+[08:05:27] - Camion 2 llega al Cajero 82. Empieza a recargar. 
+[08:06:35] - Camion 9 llega al Cajero 227. Empieza a recargar. 
+[08:07:39] - Camion 3 llega al Cajero 43. Empieza a recargar. 
+[08:09:46] - Camion 8 llega al Cajero 21. Empieza a recargar. 
+[08:10:04] - Camion 7 llega al Cajero 2. Empieza a recargar. 
+[08:10:19] - Camion 4 llega al Cajero 163. Empieza a recargar. 
+[08:16:31] - Camion 0 termina de recargar al Cajero 31. 
+[08:16:31] * Cajero 31 recargado. 
+[08:16:32] - Camion 0 va al Cajero 33. 
+[08:20:58] - Camion 10 termina de recargar al Cajero 221. 
+[08:20:58] * Cajero 221 recargado. 
+[08:20:59] - Camion 10 va al Cajero 34. 
+[08:21:50] - Camion 11 termina de recargar al Cajero 34. 
+[08:21:50] * Cajero 34 recargado. 
+[08:21:51] - Camion 11 va al Cajero 40. 
+[08:21:57] - Camion 6 termina de recargar al Cajero 155. 
+[08:21:57] * Cajero 155 recargado. 
+[08:21:58] - Camion 6 va al Cajero 43. 
+[08:22:04] - Camion 7 termina de recargar al Cajero 2. 
+[08:22:04] * Cajero 2 recargado. 
+[08:22:05] - Camion 7 va al Cajero 46. 
+[08:22:20] - Camion 4 termina de recargar al Cajero 163. 
+[08:22:20] * Cajero 163 recargado. 
+[08:22:21] - Camion 4 va al Cajero 67. 
+[08:22:57] - Camion 10 llega al Cajero 34. Empieza a recargar. 
+[08:22:58] - Camion 0 llega al Cajero 33. Empieza a recargar. 
+[08:23:27] - Camion 2 termina de recargar al Cajero 82. 
+[08:23:27] * Cajero 82 recargado. 
+[08:23:28] - Camion 2 va al Cajero 76. 
+[08:24:36] - Camion 9 termina de recargar al Cajero 227. 
+[08:24:36] * Cajero 227 recargado. 
+[08:24:37] - Camion 9 va al Cajero 79. 
+[08:25:40] - Camion 3 termina de recargar al Cajero 43. 
+[08:25:40] * Cajero 43 recargado. 
+[08:25:41] - Camion 3 va al Cajero 82. 
+[08:27:40] - Camion 11 llega al Cajero 40. Empieza a recargar. 
+[08:27:47] - Camion 8 termina de recargar al Cajero 21. 
+[08:27:47] * Cajero 21 recargado. 
+[08:27:48] - Camion 8 va al Cajero 85. 
+[08:28:39] - Camion 1 termina de recargar al Cajero 16. 
+[08:28:39] * Cajero 16 recargado. 
+[08:28:40] - Camion 1 va al Cajero 108. 
+[08:29:04] - Camion 7 llega al Cajero 46. Empieza a recargar. 
+[08:29:15] - Camion 5 termina de recargar al Cajero 108. 
+[08:29:15] * Cajero 108 recargado. 
+[08:29:16] - Camion 5 va al Cajero 112. 
+[08:30:56] - Camion 6 llega al Cajero 43. Empieza a recargar. 
+[08:31:06] - Camion 2 llega al Cajero 76. Empieza a recargar. 
+[08:31:17] - Camion 9 llega al Cajero 79. Empieza a recargar. 
+[08:32:28] - Camion 3 llega al Cajero 82. Empieza a recargar. 
+[08:34:58] - Camion 0 termina de recargar al Cajero 33. 
+[08:34:58] * Cajero 33 recargado. 
+[08:34:59] - Camion 0 va al Cajero 121. 
+[08:35:00] - Camion 1 llega al Cajero 108. Empieza a recargar. 
+[08:35:01] - Camion 8 llega al Cajero 85. Empieza a recargar. 
+[08:35:42] - Camion 4 llega al Cajero 67. Empieza a recargar. 
+[08:36:11] * Cajero 84 entra en Stock Out. 
+[08:36:11] * Cajero 112 entra en Stock Out. 
+[08:40:52] - Camion 0 llega al Cajero 121. Empieza a recargar. 
+[08:40:59] - Camion 10 termina de recargar al Cajero 34. 
+[08:40:59] * Cajero 34 recargado. 
+[08:41:00] - Camion 10 va al Cajero 127. 
+[08:41:04] - Camion 7 termina de recargar al Cajero 46. 
+[08:41:04] * Cajero 46 recargado. 
+[08:41:05] - Camion 7 va al Cajero 142. 
+[08:41:39] - Camion 5 llega al Cajero 112. Empieza a recargar. 
+[08:43:17] - Camion 9 termina de recargar al Cajero 79. 
+[08:43:17] * Cajero 79 recargado. 
+[08:43:18] - Camion 9 va al Cajero 155. 
+[08:45:14] - Camion 7 llega al Cajero 142. Empieza a recargar. 
+[08:45:42] - Camion 11 termina de recargar al Cajero 40. 
+[08:45:42] * Cajero 40 recargado. 
+[08:45:43] - Camion 11 va al Cajero 156. 
+[08:47:01] - Camion 8 termina de recargar al Cajero 85. 
+[08:47:01] * Cajero 85 recargado. 
+[08:47:02] - Camion 8 va al Cajero 158. 
+[08:48:34] - Camion 8 llega al Cajero 158. Empieza a recargar. 
+[08:48:58] - Camion 6 termina de recargar al Cajero 43. 
+[08:48:58] * Cajero 43 recargado. 
+[08:48:59] - Camion 6 va al Cajero 162. 
+[08:49:07] - Camion 2 termina de recargar al Cajero 76. 
+[08:49:07] * Cajero 76 recargado. 
+[08:49:08] - Camion 2 va al Cajero 163. 
+[08:50:30] - Camion 3 termina de recargar al Cajero 82. 
+[08:50:30] * Cajero 82 recargado. 
+[08:50:31] - Camion 3 va al Cajero 169. 
+[08:51:49] - Camion 10 llega al Cajero 127. Empieza a recargar. 
+[08:53:29] - Camion 9 llega al Cajero 155. Empieza a recargar. 
+[08:53:43] - Camion 4 termina de recargar al Cajero 67. 
+[08:53:43] * Cajero 67 recargado. 
+[08:53:44] - Camion 4 va al Cajero 178. 
+[08:54:21] * Cajero 23 entra en Stock Out. 
+[08:56:21] - Camion 4 llega al Cajero 178. Empieza a recargar. 
+[08:56:31] - Camion 6 llega al Cajero 162. Empieza a recargar. 
+[08:57:13] - Camion 2 llega al Cajero 163. Empieza a recargar. 
+[08:57:14] - Camion 7 termina de recargar al Cajero 142. 
+[08:57:14] * Cajero 142 recargado. 
+[08:57:15] - Camion 7 va al Cajero 180. 
+[08:57:18] - Camion 3 llega al Cajero 169. Empieza a recargar. 
+[08:57:24] - Camion 11 llega al Cajero 156. Empieza a recargar. 
+[08:58:53] - Camion 0 termina de recargar al Cajero 121. 
+[08:58:53] * Cajero 121 recargado. 
+[08:58:54] - Camion 0 va al Cajero 196. 
+[08:59:01] - Camion 1 termina de recargar al Cajero 108. 
+[08:59:01] * Cajero 108 recargado. 
+[08:59:02] - Camion 1 va al Cajero 200. 
+[09:00:35] - Camion 8 termina de recargar al Cajero 158. 
+[09:00:35] * Cajero 158 recargado. 
+[09:00:36] - Camion 8 va al Cajero 205. 
+[09:01:09] - Camion 8 llega al Cajero 205. Empieza a recargar. 
+[09:01:31] - Camion 0 llega al Cajero 196. Empieza a recargar. 
+[09:02:18] - Camion 7 llega al Cajero 180. Empieza a recargar. 
+[09:05:41] - Camion 5 termina de recargar al Cajero 112. 
+[09:05:41] * Cajero 112 recargado. 
+[09:05:42] - Camion 5 va al Cajero 211. 
+[09:07:08] - Camion 1 llega al Cajero 200. Empieza a recargar. 
+[09:09:13] - Camion 2 termina de recargar al Cajero 163. 
+[09:09:13] * Cajero 163 recargado. 
+[09:09:14] - Camion 2 va al Cajero 221. 
+[09:09:24] - Camion 11 termina de recargar al Cajero 156. 
+[09:09:24] * Cajero 156 recargado. 
+[09:09:25] - Camion 11 va al Cajero 224. 
+[09:10:38] - Camion 5 llega al Cajero 211. Empieza a recargar. 
+[09:11:29] - Camion 9 termina de recargar al Cajero 155. 
+[09:11:29] * Cajero 155 recargado. 
+[09:11:30] - Camion 9 va al Cajero 227. 
+[09:13:10] - Camion 8 termina de recargar al Cajero 205. 
+[09:13:10] * Cajero 205 recargado. 
+[09:13:11] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[09:13:32] - Camion 0 termina de recargar al Cajero 196. 
+[09:13:32] * Cajero 196 recargado. 
+[09:13:33] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[09:14:31] - Camion 6 termina de recargar al Cajero 162. 
+[09:14:31] * Cajero 162 recargado. 
+[09:14:32] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[09:14:59] - Camion 9 llega al Cajero 227. Empieza a recargar. 
+[09:15:44] - Camion 0 llega a la Bodega. 
+[09:15:51] - Camion 10 termina de recargar al Cajero 127. 
+[09:15:51] * Cajero 127 recargado. 
+[09:15:52] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[09:16:02] - Camion 8 llega a la Bodega. 
+[09:16:34] - Camion 2 llega al Cajero 221. Empieza a recargar. 
+[09:18:23] - Camion 11 llega al Cajero 224. Empieza a recargar. 
+[09:20:19] - Camion 7 termina de recargar al Cajero 180. 
+[09:20:19] * Cajero 180 recargado. 
+[09:20:20] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[09:20:23] - Camion 4 termina de recargar al Cajero 178. 
+[09:20:23] * Cajero 178 recargado. 
+[09:20:24] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[09:21:21] - Camion 3 termina de recargar al Cajero 169. 
+[09:21:21] * Cajero 169 recargado. 
+[09:21:22] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[09:21:27] - Camion 6 llega a la Bodega. 
+[09:22:38] - Camion 5 termina de recargar al Cajero 211. 
+[09:22:38] * Cajero 211 recargado. 
+[09:22:39] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[09:22:52] - Camion 10 llega a la Bodega. 
+[09:23:50] - Camion 7 llega a la Bodega. 
+[09:25:10] - Camion 1 termina de recargar al Cajero 200. 
+[09:25:10] * Cajero 200 recargado. 
+[09:25:11] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[09:26:05] - Camion 4 llega a la Bodega. 
+[09:28:48] - Camion 3 llega a la Bodega. 
+[09:30:08] * Cajero 170 entra en Stock Out. 
+[09:30:12] - Camion 1 llega a la Bodega. 
+[09:30:31] - Camion 5 llega a la Bodega. 
+[09:33:01] - Camion 9 termina de recargar al Cajero 227. 
+[09:33:01] * Cajero 227 recargado. 
+[09:33:02] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[09:34:35] - Camion 2 termina de recargar al Cajero 221. 
+[09:34:35] * Cajero 221 recargado. 
+[09:34:36] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[09:36:24] - Camion 11 termina de recargar al Cajero 224. 
+[09:36:24] * Cajero 224 recargado. 
+[09:36:25] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[09:37:33] - Camion 2 llega a la Bodega. 
+[09:39:35] - Camion 9 llega a la Bodega. 
+[09:42:14] - Camion 11 llega a la Bodega. 
+[10:06:51] * Cajero 94 entra en Stock Out. 
+[10:19:36] * Cajero 223 entra en Stock Out. 
+[11:52:43] * Cajero 4 entra en Stock Out. 
+[12:21:09] * Cajero 71 entra en Stock Out. 
+[14:18:57] * Cajero 69 entra en Stock Out. 
+[15:39:35] * Cajero 26 entra en Stock Out. 
+[15:42:40] * Cajero 183 entra en Stock Out. 
+
+Sabado-Tarde 
+[08:00:00] - Camion 0 va al Cajero 26. 
+[08:00:00] - Camion 6 va al Cajero 86. 
+[08:00:00] - Camion 7 va al Cajero 102. 
+[08:00:00] - Camion 3 va al Cajero 109. 
+[08:00:00] - Camion 5 va al Cajero 116. 
+[08:00:00] - Camion 9 va al Cajero 145. 
+[08:00:01] - Camion 8 va al Cajero 164. 
+[08:00:01] - Camion 4 va al Cajero 5. 
+[08:00:01] - Camion 2 va al Cajero 18. 
+[08:00:02] - Camion 10 va al Cajero 26. 
+[08:00:02] - Camion 11 va al Cajero 27. 
+[08:00:03] - Camion 1 va al Cajero 32. 
+[08:02:12] - Camion 2 llega al Cajero 18. Empieza a recargar. 
+[08:03:29] - Camion 7 llega al Cajero 102. Empieza a recargar. 
+[08:03:57] - Camion 8 llega al Cajero 164. Empieza a recargar. 
+[08:04:09] - Camion 0 llega al Cajero 26. Empieza a recargar. 
+[08:04:12] - Camion 10 llega al Cajero 26. Empieza a recargar. 
+[08:04:42] - Camion 6 llega al Cajero 86. Empieza a recargar. 
+[08:06:20] - Camion 5 llega al Cajero 116. Empieza a recargar. 
+[08:07:00] - Camion 9 llega al Cajero 145. Empieza a recargar. 
+[08:07:53] - Camion 3 llega al Cajero 109. Empieza a recargar. 
+[08:10:31] - Camion 11 llega al Cajero 27. Empieza a recargar. 
+[08:11:12] - Camion 1 llega al Cajero 32. Empieza a recargar. 
+[08:11:43] * Cajero 90 entra en Stock Out. 
+[08:11:44] - Camion 4 llega al Cajero 5. Empieza a recargar. 
+[08:14:12] - Camion 2 termina de recargar al Cajero 18. 
+[08:14:12] * Cajero 18 recargado. 
+[08:14:13] - Camion 2 va al Cajero 35. 
+[08:16:09] - Camion 0 termina de recargar al Cajero 26. 
+[08:16:09] * Cajero 26 recargado. 
+[08:16:10] - Camion 0 va al Cajero 44. 
+[08:16:13] - Camion 10 termina de recargar al Cajero 26. 
+[08:16:13] * Cajero 26 recargado. 
+[08:16:14] - Camion 10 va al Cajero 86. 
+[08:19:53] - Camion 3 termina de recargar al Cajero 109. 
+[08:19:53] * Cajero 109 recargado. 
+[08:19:54] - Camion 3 va al Cajero 90. 
+[08:20:33] * Cajero 75 entra en Stock Out. 
+[08:21:30] - Camion 7 termina de recargar al Cajero 102. 
+[08:21:30] * Cajero 102 recargado. 
+[08:21:31] - Camion 7 va al Cajero 102. 
+[08:21:31] - Camion 7 llega al Cajero 102. Empieza a recargar. 
+[08:22:43] - Camion 6 termina de recargar al Cajero 86. 
+[08:22:43] * Cajero 86 recargado. 
+[08:22:44] - Camion 6 va al Cajero 109. 
+[08:23:10] - Camion 3 llega al Cajero 90. Empieza a recargar. 
+[08:24:08] - Camion 0 llega al Cajero 44. Empieza a recargar. 
+[08:24:21] - Camion 5 termina de recargar al Cajero 116. 
+[08:24:21] * Cajero 116 recargado. 
+[08:24:22] - Camion 5 va al Cajero 116. 
+[08:24:22] - Camion 5 llega al Cajero 116. Empieza a recargar. 
+[08:24:52] - Camion 10 llega al Cajero 86. Empieza a recargar. 
+[08:26:26] - Camion 2 llega al Cajero 35. Empieza a recargar. 
+[08:27:58] - Camion 8 termina de recargar al Cajero 164. 
+[08:27:58] * Cajero 164 recargado. 
+[08:27:59] - Camion 8 va al Cajero 117. 
+[08:29:12] - Camion 1 termina de recargar al Cajero 32. 
+[08:29:12] * Cajero 32 recargado. 
+[08:29:13] - Camion 1 va al Cajero 119. 
+[08:29:45] - Camion 4 termina de recargar al Cajero 5. 
+[08:29:45] * Cajero 5 recargado. 
+[08:29:46] - Camion 4 va al Cajero 124. 
+[08:31:02] - Camion 9 termina de recargar al Cajero 145. 
+[08:31:02] * Cajero 145 recargado. 
+[08:31:03] - Camion 9 va al Cajero 138. 
+[08:34:33] - Camion 11 termina de recargar al Cajero 27. 
+[08:34:33] * Cajero 27 recargado. 
+[08:34:34] - Camion 11 va al Cajero 145. 
+[08:35:07] - Camion 6 llega al Cajero 109. Empieza a recargar. 
+[08:36:08] - Camion 0 termina de recargar al Cajero 44. 
+[08:36:08] * Cajero 44 recargado. 
+[08:36:09] - Camion 0 va al Cajero 164. 
+[08:38:49] - Camion 1 llega al Cajero 119. Empieza a recargar. 
+[08:39:33] - Camion 7 termina de recargar al Cajero 102. 
+[08:39:33] * Cajero 102 recargado. 
+[08:39:34] - Camion 7 va al Cajero 179. 
+[08:41:11] - Camion 3 termina de recargar al Cajero 90. 
+[08:41:11] * Cajero 90 recargado. 
+[08:41:12] - Camion 3 va al Cajero 187. 
+[08:41:34] - Camion 4 llega al Cajero 124. Empieza a recargar. 
+[08:42:17] - Camion 8 llega al Cajero 117. Empieza a recargar. 
+[08:42:24] - Camion 5 termina de recargar al Cajero 116. 
+[08:42:24] * Cajero 116 recargado. 
+[08:42:25] - Camion 5 va al Cajero 190. 
+[08:42:53] - Camion 10 termina de recargar al Cajero 86. 
+[08:42:53] * Cajero 86 recargado. 
+[08:42:54] - Camion 10 va al Cajero 212. 
+[08:43:18] - Camion 9 llega al Cajero 138. Empieza a recargar. 
+[08:43:54] - Camion 0 llega al Cajero 164. Empieza a recargar. 
+[08:44:24] - Camion 11 llega al Cajero 145. Empieza a recargar. 
+[08:46:10] - Camion 10 llega al Cajero 212. Empieza a recargar. 
+[08:47:07] - Camion 6 termina de recargar al Cajero 109. 
+[08:47:07] * Cajero 109 recargado. 
+[08:47:08] - Camion 6 va al Cajero 217. 
+[08:48:39] - Camion 7 llega al Cajero 179. Empieza a recargar. 
+[08:50:27] - Camion 2 termina de recargar al Cajero 35. 
+[08:50:27] * Cajero 35 recargado. 
+[08:50:28] - Camion 2 va al Cajero 218. 
+[08:50:42] - Camion 5 llega al Cajero 190. Empieza a recargar. 
+[08:50:51] - Camion 1 termina de recargar al Cajero 119. 
+[08:50:51] * Cajero 119 recargado. 
+[08:50:52] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:54:17] - Camion 8 termina de recargar al Cajero 117. 
+[08:54:17] * Cajero 117 recargado. 
+[08:54:18] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:54:48] - Camion 1 llega a la Bodega. 
+[08:58:19] - Camion 2 llega al Cajero 218. Empieza a recargar. 
+[08:59:13] - Camion 3 llega al Cajero 187. Empieza a recargar. 
+[08:59:35] - Camion 4 termina de recargar al Cajero 124. 
+[08:59:35] * Cajero 124 recargado. 
+[08:59:36] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[09:00:22] - Camion 4 llega a la Bodega. 
+[09:01:20] - Camion 9 termina de recargar al Cajero 138. 
+[09:01:20] * Cajero 138 recargado. 
+[09:01:21] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[09:01:41] - Camion 6 llega al Cajero 217. Empieza a recargar. 
+[09:01:57] * Cajero 141 entra en Stock Out. 
+[09:01:57] * Cajero 189 entra en Stock Out. 
+[09:02:42] - Camion 5 termina de recargar al Cajero 190. 
+[09:02:42] * Cajero 190 recargado. 
+[09:02:43] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[09:04:10] - Camion 10 termina de recargar al Cajero 212. 
+[09:04:10] * Cajero 212 recargado. 
+[09:04:11] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[09:05:22] - Camion 8 llega a la Bodega. 
+[09:07:55] - Camion 0 termina de recargar al Cajero 164. 
+[09:07:55] * Cajero 164 recargado. 
+[09:07:56] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[09:08:10] - Camion 5 llega a la Bodega. 
+[09:08:25] - Camion 11 termina de recargar al Cajero 145. 
+[09:08:25] * Cajero 145 recargado. 
+[09:08:26] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[09:11:44] - Camion 10 llega a la Bodega. 
+[09:11:53] - Camion 0 llega a la Bodega. 
+[09:12:41] - Camion 7 termina de recargar al Cajero 179. 
+[09:12:41] * Cajero 179 recargado. 
+[09:12:42] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[09:13:41] - Camion 6 termina de recargar al Cajero 217. 
+[09:13:41] * Cajero 217 recargado. 
+[09:13:42] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[09:14:14] - Camion 9 llega a la Bodega. 
+[09:15:27] - Camion 11 llega a la Bodega. 
+[09:16:21] - Camion 2 termina de recargar al Cajero 218. 
+[09:16:21] * Cajero 218 recargado. 
+[09:16:22] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[09:20:21] - Camion 6 llega a la Bodega. 
+[09:22:26] - Camion 7 llega a la Bodega. 
+[09:23:14] - Camion 3 termina de recargar al Cajero 187. 
+[09:23:14] * Cajero 187 recargado. 
+[09:23:15] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[09:24:55] - Camion 2 llega a la Bodega. 
+[09:30:08] - Camion 3 llega a la Bodega. 
+[10:26:26] * Cajero 165 entra en Stock Out. 
+[10:57:30] * Cajero 203 entra en Stock Out. 
+[11:08:52] * Cajero 115 entra en Stock Out. 
+[12:20:01] * Cajero 113 entra en Stock Out. 
+[12:37:56] * Cajero 122 entra en Stock Out. 
+[12:44:03] * Cajero 11 entra en Stock Out. 
+[12:44:44] * Cajero 59 entra en Stock Out. 
+[13:02:16] * Cajero 70 entra en Stock Out. 
+[13:04:19] * Cajero 14 entra en Stock Out. 
+[14:29:49] * Cajero 208 entra en Stock Out. 
+
+Sabado-Noche 
+[08:00:00] - Camion 1 va al Cajero 14. 
+[08:00:00] - Camion 8 va al Cajero 70. 
+[08:00:00] - Camion 10 va al Cajero 103. 
+[08:00:00] - Camion 9 va al Cajero 115. 
+[08:00:00] - Camion 6 va al Cajero 141. 
+[08:00:00] - Camion 2 va al Cajero 10. 
+[08:00:01] - Camion 4 va al Cajero 14. 
+[08:00:01] - Camion 0 va al Cajero 24. 
+[08:00:01] - Camion 7 va al Cajero 25. 
+[08:00:02] - Camion 5 va al Cajero 41. 
+[08:00:02] - Camion 3 va al Cajero 54. 
+[08:00:03] - Camion 11 va al Cajero 70. 
+[08:02:04] - Camion 6 llega al Cajero 141. Empieza a recargar. 
+[08:03:44] - Camion 7 llega al Cajero 25. Empieza a recargar. 
+[08:06:46] - Camion 9 llega al Cajero 115. Empieza a recargar. 
+[08:07:21] - Camion 2 llega al Cajero 10. Empieza a recargar. 
+[08:07:39] - Camion 0 llega al Cajero 24. Empieza a recargar. 
+[08:08:39] - Camion 3 llega al Cajero 54. Empieza a recargar. 
+[08:09:10] - Camion 1 llega al Cajero 14. Empieza a recargar. 
+[08:09:12] - Camion 4 llega al Cajero 14. Empieza a recargar. 
+[08:09:43] - Camion 10 llega al Cajero 103. Empieza a recargar. 
+[08:12:01] - Camion 8 llega al Cajero 70. Empieza a recargar. 
+[08:12:04] - Camion 11 llega al Cajero 70. Empieza a recargar. 
+[08:12:07] - Camion 5 llega al Cajero 41. Empieza a recargar. 
+[08:15:44] - Camion 7 termina de recargar al Cajero 25. 
+[08:15:44] * Cajero 25 recargado. 
+[08:15:45] - Camion 7 va al Cajero 87. 
+[08:19:21] - Camion 2 termina de recargar al Cajero 10. 
+[08:19:21] * Cajero 10 recargado. 
+[08:19:22] - Camion 2 va al Cajero 91. 
+[08:20:04] - Camion 6 termina de recargar al Cajero 141. 
+[08:20:04] * Cajero 141 recargado. 
+[08:20:05] - Camion 6 va al Cajero 100. 
+[08:21:43] - Camion 10 termina de recargar al Cajero 103. 
+[08:21:43] * Cajero 103 recargado. 
+[08:21:44] - Camion 10 va al Cajero 103. 
+[08:21:44] - Camion 10 llega al Cajero 103. Empieza a recargar. 
+[08:23:34] - Camion 6 llega al Cajero 100. Empieza a recargar. 
+[08:23:36] - Camion 7 llega al Cajero 87. Empieza a recargar. 
+[08:24:07] - Camion 5 termina de recargar al Cajero 41. 
+[08:24:07] * Cajero 41 recargado. 
+[08:24:08] - Camion 5 va al Cajero 104. 
+[08:26:02] - Camion 2 llega al Cajero 91. Empieza a recargar. 
+[08:30:02] - Camion 8 termina de recargar al Cajero 70. 
+[08:30:02] * Cajero 70 recargado. 
+[08:30:03] - Camion 8 va al Cajero 115. 
+[08:30:05] - Camion 11 termina de recargar al Cajero 70. 
+[08:30:05] * Cajero 70 recargado. 
+[08:30:06] - Camion 11 va al Cajero 141. 
+[08:30:48] - Camion 9 termina de recargar al Cajero 115. 
+[08:30:48] * Cajero 115 recargado. 
+[08:30:49] - Camion 9 va al Cajero 157. 
+[08:31:41] - Camion 0 termina de recargar al Cajero 24. 
+[08:31:41] * Cajero 24 recargado. 
+[08:31:42] - Camion 0 va al Cajero 184. 
+[08:32:40] - Camion 3 termina de recargar al Cajero 54. 
+[08:32:40] * Cajero 54 recargado. 
+[08:32:41] - Camion 3 va al Cajero 219. 
+[08:32:54] * Cajero 104 entra en Stock Out. 
+[08:33:11] - Camion 1 termina de recargar al Cajero 14. 
+[08:33:11] * Cajero 14 recargado. 
+[08:33:12] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:33:13] - Camion 4 termina de recargar al Cajero 14. 
+[08:33:13] * Cajero 14 recargado. 
+[08:33:14] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:33:38] - Camion 5 llega al Cajero 104. Empieza a recargar. 
+[08:33:47] - Camion 10 termina de recargar al Cajero 103. 
+[08:33:47] * Cajero 103 recargado. 
+[08:33:48] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:34:19] - Camion 0 llega al Cajero 184. Empieza a recargar. 
+[08:34:20] - Camion 3 llega al Cajero 219. Empieza a recargar. 
+[08:35:35] - Camion 6 termina de recargar al Cajero 100. 
+[08:35:35] * Cajero 100 recargado. 
+[08:35:36] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[08:38:07] - Camion 6 llega a la Bodega. 
+[08:42:04] - Camion 8 llega al Cajero 115. Empieza a recargar. 
+[08:42:16] - Camion 9 llega al Cajero 157. Empieza a recargar. 
+[08:42:24] - Camion 1 llega a la Bodega. 
+[08:42:25] - Camion 4 llega a la Bodega. 
+[08:43:32] - Camion 10 llega a la Bodega. 
+[08:43:45] - Camion 11 llega al Cajero 141. Empieza a recargar. 
+[08:45:38] - Camion 5 termina de recargar al Cajero 104. 
+[08:45:38] * Cajero 104 recargado. 
+[08:45:39] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[08:46:20] - Camion 3 termina de recargar al Cajero 219. 
+[08:46:20] * Cajero 219 recargado. 
+[08:46:21] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:47:37] - Camion 7 termina de recargar al Cajero 87. 
+[08:47:37] * Cajero 87 recargado. 
+[08:47:38] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:50:03] - Camion 2 termina de recargar al Cajero 91. 
+[08:50:03] * Cajero 91 recargado. 
+[08:50:04] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:51:47] - Camion 7 llega a la Bodega. 
+[08:52:21] - Camion 0 termina de recargar al Cajero 184. 
+[08:52:21] * Cajero 184 recargado. 
+[08:52:22] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:54:03] - Camion 5 llega a la Bodega. 
+[08:54:16] - Camion 9 termina de recargar al Cajero 157. 
+[08:54:16] * Cajero 157 recargado. 
+[08:54:17] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:54:39] - Camion 3 llega a la Bodega. 
+[08:57:23] - Camion 0 llega a la Bodega. 
+[08:58:37] - Camion 2 llega a la Bodega. 
+[09:01:46] - Camion 11 termina de recargar al Cajero 141. 
+[09:01:46] * Cajero 141 recargado. 
+[09:01:47] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[09:03:51] - Camion 11 llega a la Bodega. 
+[09:05:46] - Camion 9 llega a la Bodega. 
+[09:06:06] - Camion 8 termina de recargar al Cajero 115. 
+[09:06:06] * Cajero 115 recargado. 
+[09:06:07] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[09:12:53] - Camion 8 llega a la Bodega. 
+[12:21:04] * Cajero 17 entra en Stock Out. 
+[12:21:04] * Cajero 77 entra en Stock Out. 
+[12:21:04] * Cajero 97 entra en Stock Out. 
+[14:50:14] * Cajero 132 entra en Stock Out. 
+
+Domingo-Manana 
+[08:00:00] - Camion 6 va al Cajero 4. 
+[08:00:00] - Camion 4 va al Cajero 11. 
+[08:00:00] - Camion 7 va al Cajero 13. 
+[08:00:00] - Camion 3 va al Cajero 23. 
+[08:00:00] - Camion 2 va al Cajero 59. 
+[08:00:00] - Camion 9 va al Cajero 69. 
+[08:00:01] - Camion 1 va al Cajero 71. 
+[08:00:01] - Camion 5 va al Cajero 77. 
+[08:00:01] - Camion 11 va al Cajero 84. 
+[08:00:02] - Camion 10 va al Cajero 94. 
+[08:00:02] - Camion 8 va al Cajero 97. 
+[08:00:03] - Camion 0 va al Cajero 113. 
+[08:00:39] - Camion 9 llega al Cajero 69. Empieza a recargar. 
+[08:00:49] - Camion 0 llega al Cajero 113. Empieza a recargar. 
+[08:01:19] - Camion 6 llega al Cajero 4. Empieza a recargar. 
+[08:02:50] - Camion 3 llega al Cajero 23. Empieza a recargar. 
+[08:03:56] - Camion 7 llega al Cajero 13. Empieza a recargar. 
+[08:05:02] - Camion 11 llega al Cajero 84. Empieza a recargar. 
+[08:05:16] - Camion 2 llega al Cajero 59. Empieza a recargar. 
+[08:06:42] - Camion 1 llega al Cajero 71. Empieza a recargar. 
+[08:07:22] - Camion 10 llega al Cajero 94. Empieza a recargar. 
+[08:09:04] - Camion 4 llega al Cajero 11. Empieza a recargar. 
+[08:11:30] - Camion 5 llega al Cajero 77. Empieza a recargar. 
+[08:13:19] - Camion 6 termina de recargar al Cajero 4. 
+[08:13:19] * Cajero 4 recargado. 
+[08:13:20] - Camion 6 va al Cajero 122. 
+[08:14:48] - Camion 8 llega al Cajero 97. Empieza a recargar. 
+[08:17:02] - Camion 11 termina de recargar al Cajero 84. 
+[08:17:02] * Cajero 84 recargado. 
+[08:17:03] - Camion 11 va al Cajero 132. 
+[08:18:39] - Camion 9 termina de recargar al Cajero 69. 
+[08:18:39] * Cajero 69 recargado. 
+[08:18:40] - Camion 9 va al Cajero 154. 
+[08:18:50] - Camion 0 termina de recargar al Cajero 113. 
+[08:18:50] * Cajero 113 recargado. 
+[08:18:51] - Camion 0 va al Cajero 165. 
+[08:20:52] - Camion 3 termina de recargar al Cajero 23. 
+[08:20:52] * Cajero 23 recargado. 
+[08:20:53] - Camion 3 va al Cajero 183. 
+[08:21:57] - Camion 7 termina de recargar al Cajero 13. 
+[08:21:57] * Cajero 13 recargado. 
+[08:21:58] - Camion 7 va al Cajero 223. 
+[08:22:57] - Camion 6 llega al Cajero 122. Empieza a recargar. 
+[08:23:18] - Camion 2 termina de recargar al Cajero 59. 
+[08:23:18] * Cajero 59 recargado. 
+[08:23:19] - Camion 2 va al Cajero 4. 
+[08:23:30] - Camion 5 termina de recargar al Cajero 77. 
+[08:23:30] * Cajero 77 recargado. 
+[08:23:31] - Camion 5 va al Cajero 11. 
+[08:25:13] - Camion 9 llega al Cajero 154. Empieza a recargar. 
+[08:26:56] - Camion 0 llega al Cajero 165. Empieza a recargar. 
+[08:27:04] - Camion 4 termina de recargar al Cajero 11. 
+[08:27:04] * Cajero 11 recargado. 
+[08:27:05] - Camion 4 va al Cajero 13. 
+[08:27:20] - Camion 3 llega al Cajero 183. Empieza a recargar. 
+[08:28:18] - Camion 11 llega al Cajero 132. Empieza a recargar. 
+[08:28:59] - Camion 2 llega al Cajero 4. Empieza a recargar. 
+[08:30:43] - Camion 1 termina de recargar al Cajero 71. 
+[08:30:43] * Cajero 71 recargado. 
+[08:30:44] - Camion 1 va al Cajero 16. 
+[08:31:23] - Camion 10 termina de recargar al Cajero 94. 
+[08:31:23] * Cajero 94 recargado. 
+[08:31:24] - Camion 10 va al Cajero 23. 
+[08:32:51] - Camion 8 termina de recargar al Cajero 97. 
+[08:32:51] * Cajero 97 recargado. 
+[08:32:52] - Camion 8 va al Cajero 28. 
+[08:33:34] - Camion 5 llega al Cajero 11. Empieza a recargar. 
+[08:33:47] - Camion 7 llega al Cajero 223. Empieza a recargar. 
+[08:36:57] - Camion 1 llega al Cajero 16. Empieza a recargar. 
+[08:37:03] - Camion 4 llega al Cajero 13. Empieza a recargar. 
+[08:39:20] - Camion 3 termina de recargar al Cajero 183. 
+[08:39:20] * Cajero 183 recargado. 
+[08:39:21] - Camion 3 va al Cajero 33. 
+[08:40:16] - Camion 10 llega al Cajero 23. Empieza a recargar. 
+[08:40:19] - Camion 11 termina de recargar al Cajero 132. 
+[08:40:19] * Cajero 132 recargado. 
+[08:40:20] - Camion 11 va al Cajero 34. 
+[08:41:00] - Camion 2 termina de recargar al Cajero 4. 
+[08:41:00] * Cajero 4 recargado. 
+[08:41:01] - Camion 2 va al Cajero 40. 
+[08:43:13] - Camion 9 termina de recargar al Cajero 154. 
+[08:43:13] * Cajero 154 recargado. 
+[08:43:14] - Camion 9 va al Cajero 46. 
+[08:44:57] - Camion 0 termina de recargar al Cajero 165. 
+[08:44:57] * Cajero 165 recargado. 
+[08:44:58] - Camion 0 va al Cajero 59. 
+[08:46:40] - Camion 3 llega al Cajero 33. Empieza a recargar. 
+[08:46:43] - Camion 9 llega al Cajero 46. Empieza a recargar. 
+[08:46:58] - Camion 6 termina de recargar al Cajero 122. 
+[08:46:58] * Cajero 122 recargado. 
+[08:46:59] - Camion 6 va al Cajero 67. 
+[08:49:02] - Camion 8 llega al Cajero 28. Empieza a recargar. 
+[08:49:19] - Camion 11 llega al Cajero 34. Empieza a recargar. 
+[08:50:07] - Camion 0 llega al Cajero 59. Empieza a recargar. 
+[08:50:51] - Camion 2 llega al Cajero 40. Empieza a recargar. 
+[08:51:37] - Camion 5 termina de recargar al Cajero 11. 
+[08:51:37] * Cajero 11 recargado. 
+[08:51:38] - Camion 5 va al Cajero 69. 
+[08:51:48] - Camion 7 termina de recargar al Cajero 223. 
+[08:51:48] * Cajero 223 recargado. 
+[08:51:49] - Camion 7 va al Cajero 71. 
+[08:54:06] - Camion 7 llega al Cajero 71. Empieza a recargar. 
+[08:54:13] - Camion 6 llega al Cajero 67. Empieza a recargar. 
+[08:55:03] - Camion 4 termina de recargar al Cajero 13. 
+[08:55:03] * Cajero 13 recargado. 
+[08:55:04] - Camion 4 va al Cajero 77. 
+[08:58:17] - Camion 10 termina de recargar al Cajero 23. 
+[08:58:17] * Cajero 23 recargado. 
+[08:58:18] - Camion 10 va al Cajero 79. 
+[08:58:41] - Camion 3 termina de recargar al Cajero 33. 
+[08:58:41] * Cajero 33 recargado. 
+[08:58:42] - Camion 3 va al Cajero 84. 
+[08:58:44] - Camion 9 termina de recargar al Cajero 46. 
+[08:58:44] * Cajero 46 recargado. 
+[08:58:45] - Camion 9 va al Cajero 85. 
+[09:00:42] - Camion 5 llega al Cajero 69. Empieza a recargar. 
+[09:00:58] - Camion 1 termina de recargar al Cajero 16. 
+[09:00:58] * Cajero 16 recargado. 
+[09:00:59] - Camion 1 va al Cajero 89. 
+[09:01:04] - Camion 8 termina de recargar al Cajero 28. 
+[09:01:04] * Cajero 28 recargado. 
+[09:01:05] - Camion 8 va al Cajero 94. 
+[09:02:25] - Camion 3 llega al Cajero 84. Empieza a recargar. 
+[09:06:55] - Camion 10 llega al Cajero 79. Empieza a recargar. 
+[09:07:20] - Camion 11 termina de recargar al Cajero 34. 
+[09:07:20] * Cajero 34 recargado. 
+[09:07:21] - Camion 11 va al Cajero 97. 
+[09:07:38] - Camion 8 llega al Cajero 94. Empieza a recargar. 
+[09:08:03] - Camion 9 llega al Cajero 85. Empieza a recargar. 
+[09:08:08] - Camion 0 termina de recargar al Cajero 59. 
+[09:08:08] * Cajero 59 recargado. 
+[09:08:09] - Camion 0 va al Cajero 113. 
+[09:08:52] - Camion 2 termina de recargar al Cajero 40. 
+[09:08:52] * Cajero 40 recargado. 
+[09:08:53] - Camion 2 va al Cajero 121. 
+[09:10:28] - Camion 4 llega al Cajero 77. Empieza a recargar. 
+[09:12:13] - Camion 6 termina de recargar al Cajero 67. 
+[09:12:13] * Cajero 67 recargado. 
+[09:12:14] - Camion 6 va al Cajero 122. 
+[09:12:37] - Camion 0 llega al Cajero 113. Empieza a recargar. 
+[09:12:41] - Camion 1 llega al Cajero 89. Empieza a recargar. 
+[09:14:25] - Camion 3 termina de recargar al Cajero 84. 
+[09:14:25] * Cajero 84 recargado. 
+[09:14:26] - Camion 3 va al Cajero 127. 
+[09:18:07] - Camion 7 termina de recargar al Cajero 71. 
+[09:18:07] * Cajero 71 recargado. 
+[09:18:08] - Camion 7 va al Cajero 132. 
+[09:18:44] - Camion 5 termina de recargar al Cajero 69. 
+[09:18:44] * Cajero 69 recargado. 
+[09:18:45] - Camion 5 va al Cajero 137. 
+[09:18:57] - Camion 10 termina de recargar al Cajero 79. 
+[09:18:57] * Cajero 79 recargado. 
+[09:18:58] - Camion 10 va al Cajero 154. 
+[09:19:23] - Camion 11 llega al Cajero 97. Empieza a recargar. 
+[09:19:26] - Camion 6 llega al Cajero 122. Empieza a recargar. 
+[09:19:36] - Camion 2 llega al Cajero 121. Empieza a recargar. 
+[09:20:03] - Camion 9 termina de recargar al Cajero 85. 
+[09:20:03] * Cajero 85 recargado. 
+[09:20:04] - Camion 9 va al Cajero 155. 
+[09:21:42] - Camion 9 llega al Cajero 155. Empieza a recargar. 
+[09:22:29] - Camion 4 termina de recargar al Cajero 77. 
+[09:22:29] * Cajero 77 recargado. 
+[09:22:30] - Camion 4 va al Cajero 158. 
+[09:22:45] - Camion 3 llega al Cajero 127. Empieza a recargar. 
+[09:22:48] * Cajero 162 entra en Stock Out. 
+[09:24:41] - Camion 1 termina de recargar al Cajero 89. 
+[09:24:41] * Cajero 89 recargado. 
+[09:24:42] - Camion 1 va al Cajero 162. 
+[09:25:11] - Camion 10 llega al Cajero 154. Empieza a recargar. 
+[09:27:17] * Cajero 229 entra en Stock Out. 
+[09:28:11] - Camion 7 llega al Cajero 132. Empieza a recargar. 
+[09:29:21] - Camion 5 llega al Cajero 137. Empieza a recargar. 
+[09:30:38] - Camion 0 termina de recargar al Cajero 113. 
+[09:30:38] * Cajero 113 recargado. 
+[09:30:39] - Camion 0 va al Cajero 163. 
+[09:31:39] - Camion 8 termina de recargar al Cajero 94. 
+[09:31:39] * Cajero 94 recargado. 
+[09:31:40] - Camion 8 va al Cajero 165. 
+[09:32:20] - Camion 1 llega al Cajero 162. Empieza a recargar. 
+[09:36:30] - Camion 4 llega al Cajero 158. Empieza a recargar. 
+[09:37:26] - Camion 11 termina de recargar al Cajero 97. 
+[09:37:26] * Cajero 97 recargado. 
+[09:37:27] - Camion 11 va al Cajero 180. 
+[09:37:36] - Camion 2 termina de recargar al Cajero 121. 
+[09:37:36] * Cajero 121 recargado. 
+[09:37:37] - Camion 2 va al Cajero 183. 
+[09:39:05] - Camion 8 llega al Cajero 165. Empieza a recargar. 
+[09:39:43] - Camion 9 termina de recargar al Cajero 155. 
+[09:39:43] * Cajero 155 recargado. 
+[09:39:44] - Camion 9 va al Cajero 196. 
+[09:40:11] - Camion 7 termina de recargar al Cajero 132. 
+[09:40:11] * Cajero 132 recargado. 
+[09:40:12] - Camion 7 va al Cajero 199. 
+[09:41:12] * Cajero 180 entra en Stock Out. 
+[09:41:16] * Cajero 178 entra en Stock Out. 
+[09:41:22] - Camion 5 termina de recargar al Cajero 137. 
+[09:41:22] * Cajero 137 recargado. 
+[09:41:23] - Camion 5 va al Cajero 200. 
+[09:41:42] - Camion 0 llega al Cajero 163. Empieza a recargar. 
+[09:43:11] - Camion 2 llega al Cajero 183. Empieza a recargar. 
+[09:43:11] - Camion 10 termina de recargar al Cajero 154. 
+[09:43:11] * Cajero 154 recargado. 
+[09:43:12] - Camion 10 va al Cajero 211. 
+[09:43:27] - Camion 6 termina de recargar al Cajero 122. 
+[09:43:27] * Cajero 122 recargado. 
+[09:43:28] - Camion 6 va al Cajero 223. 
+[09:45:52] - Camion 9 llega al Cajero 196. Empieza a recargar. 
+[09:46:47] - Camion 3 termina de recargar al Cajero 127. 
+[09:46:47] * Cajero 127 recargado. 
+[09:46:48] - Camion 3 va al Cajero 227. 
+[09:47:34] - Camion 10 llega al Cajero 211. Empieza a recargar. 
+[09:48:30] - Camion 4 termina de recargar al Cajero 158. 
+[09:48:30] * Cajero 158 recargado. 
+[09:48:31] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[09:50:23] - Camion 1 termina de recargar al Cajero 162. 
+[09:50:23] * Cajero 162 recargado. 
+[09:50:24] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[09:50:41] - Camion 7 llega al Cajero 199. Empieza a recargar. 
+[09:51:02] - Camion 4 llega a la Bodega. 
+[09:53:42] - Camion 0 termina de recargar al Cajero 163. 
+[09:53:42] * Cajero 163 recargado. 
+[09:53:43] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[09:54:52] - Camion 3 llega al Cajero 227. Empieza a recargar. 
+[09:55:12] - Camion 2 termina de recargar al Cajero 183. 
+[09:55:12] * Cajero 183 recargado. 
+[09:55:13] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[09:55:28] - Camion 5 llega al Cajero 200. Empieza a recargar. 
+[09:55:42] - Camion 11 llega al Cajero 180. Empieza a recargar. 
+[09:57:07] - Camion 8 termina de recargar al Cajero 165. 
+[09:57:07] * Cajero 165 recargado. 
+[09:57:08] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[09:57:18] - Camion 1 llega a la Bodega. 
+[09:57:54] - Camion 9 termina de recargar al Cajero 196. 
+[09:57:54] * Cajero 196 recargado. 
+[09:57:55] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[09:58:49] - Camion 2 llega a la Bodega. 
+[09:59:35] - Camion 10 termina de recargar al Cajero 211. 
+[09:59:35] * Cajero 211 recargado. 
+[09:59:36] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[10:00:06] - Camion 9 llega a la Bodega. 
+[10:01:38] - Camion 6 llega al Cajero 223. Empieza a recargar. 
+[10:04:00] - Camion 0 llega a la Bodega. 
+[10:05:47] - Camion 8 llega a la Bodega. 
+[10:07:29] - Camion 10 llega a la Bodega. 
+[10:12:52] - Camion 3 termina de recargar al Cajero 227. 
+[10:12:52] * Cajero 227 recargado. 
+[10:12:53] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[10:13:29] - Camion 5 termina de recargar al Cajero 200. 
+[10:13:29] * Cajero 200 recargado. 
+[10:13:30] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[10:13:43] - Camion 11 termina de recargar al Cajero 180. 
+[10:13:43] * Cajero 180 recargado. 
+[10:13:44] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[10:14:42] - Camion 7 termina de recargar al Cajero 199. 
+[10:14:42] * Cajero 199 recargado. 
+[10:14:43] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[10:17:13] - Camion 11 llega a la Bodega. 
+[10:18:31] - Camion 5 llega a la Bodega. 
+[10:19:00] - Camion 7 llega a la Bodega. 
+[10:19:26] - Camion 3 llega a la Bodega. 
+[10:19:40] - Camion 6 termina de recargar al Cajero 223. 
+[10:19:40] * Cajero 223 recargado. 
+[10:19:41] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[10:27:32] - Camion 6 llega a la Bodega. 
+[11:39:19] * Cajero 156 entra en Stock Out. 
+[12:22:09] * Cajero 31 entra en Stock Out. 
+[13:30:13] * Cajero 106 entra en Stock Out. 
+[14:45:33] * Cajero 148 entra en Stock Out. 
+[14:56:37] * Cajero 111 entra en Stock Out. 
+[15:03:01] * Cajero 221 entra en Stock Out. 
+
+Domingo-Tarde 
+[08:00:00] - Camion 4 va al Cajero 229. 
+[08:00:00] - Camion 2 va al Cajero 32. 
+[08:00:00] - Camion 0 va al Cajero 76. 
+[08:00:00] - Camion 10 va al Cajero 90. 
+[08:00:00] - Camion 5 va al Cajero 102. 
+[08:00:00] - Camion 3 va al Cajero 109. 
+[08:00:01] - Camion 1 va al Cajero 116. 
+[08:00:01] - Camion 8 va al Cajero 138. 
+[08:00:01] - Camion 7 va al Cajero 164. 
+[08:00:02] - Camion 9 va al Cajero 187. 
+[08:00:02] - Camion 6 va al Cajero 201. 
+[08:00:03] - Camion 11 va al Cajero 217. 
+[08:02:11] - Camion 0 llega al Cajero 76. Empieza a recargar. 
+[08:03:29] - Camion 5 llega al Cajero 102. Empieza a recargar. 
+[08:03:57] - Camion 7 llega al Cajero 164. Empieza a recargar. 
+[08:06:07] - Camion 4 llega al Cajero 229. Empieza a recargar. 
+[08:06:21] - Camion 1 llega al Cajero 116. Empieza a recargar. 
+[08:06:41] - Camion 6 llega al Cajero 201. Empieza a recargar. 
+[08:06:43] - Camion 11 llega al Cajero 217. Empieza a recargar. 
+[08:06:55] - Camion 9 llega al Cajero 187. Empieza a recargar. 
+[08:07:52] - Camion 3 llega al Cajero 109. Empieza a recargar. 
+[08:11:09] - Camion 2 llega al Cajero 32. Empieza a recargar. 
+[08:11:10] - Camion 10 llega al Cajero 90. Empieza a recargar. 
+[08:12:56] - Camion 8 llega al Cajero 138. Empieza a recargar. 
+[08:18:07] - Camion 4 termina de recargar al Cajero 229. 
+[08:18:07] * Cajero 229 recargado. 
+[08:18:08] - Camion 4 va al Cajero 229. 
+[08:18:08] - Camion 4 llega al Cajero 229. Empieza a recargar. 
+[08:18:43] - Camion 11 termina de recargar al Cajero 217. 
+[08:18:43] * Cajero 217 recargado. 
+[08:18:44] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[08:19:52] - Camion 3 termina de recargar al Cajero 109. 
+[08:19:52] * Cajero 109 recargado. 
+[08:19:53] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:20:11] - Camion 0 termina de recargar al Cajero 76. 
+[08:20:11] * Cajero 76 recargado. 
+[08:20:12] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:21:30] - Camion 5 termina de recargar al Cajero 102. 
+[08:21:30] * Cajero 102 recargado. 
+[08:21:31] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[08:22:23] - Camion 0 llega a la Bodega. 
+[08:24:22] - Camion 1 termina de recargar al Cajero 116. 
+[08:24:22] * Cajero 116 recargado. 
+[08:24:23] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:24:42] - Camion 6 termina de recargar al Cajero 201. 
+[08:24:42] * Cajero 201 recargado. 
+[08:24:43] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[08:25:01] - Camion 5 llega a la Bodega. 
+[08:25:23] - Camion 11 llega a la Bodega. 
+[08:27:45] - Camion 3 llega a la Bodega. 
+[08:27:58] - Camion 7 termina de recargar al Cajero 164. 
+[08:27:58] * Cajero 164 recargado. 
+[08:27:59] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:29:10] - Camion 2 termina de recargar al Cajero 32. 
+[08:29:10] * Cajero 32 recargado. 
+[08:29:11] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:29:11] - Camion 10 termina de recargar al Cajero 90. 
+[08:29:11] * Cajero 90 recargado. 
+[08:29:12] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:30:08] - Camion 4 termina de recargar al Cajero 229. 
+[08:30:08] * Cajero 229 recargado. 
+[08:30:09] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:30:45] - Camion 1 llega a la Bodega. 
+[08:30:57] - Camion 8 termina de recargar al Cajero 138. 
+[08:30:57] * Cajero 138 recargado. 
+[08:30:58] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:30:58] - Camion 9 termina de recargar al Cajero 187. 
+[08:30:58] * Cajero 187 recargado. 
+[08:30:59] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:31:23] - Camion 6 llega a la Bodega. 
+[08:31:56] - Camion 7 llega a la Bodega. 
+[08:35:16] * Cajero 149 entra en Stock Out. 
+[08:36:16] - Camion 4 llega a la Bodega. 
+[08:37:51] - Camion 9 llega a la Bodega. 
+[08:40:20] - Camion 2 llega a la Bodega. 
+[08:40:21] - Camion 10 llega a la Bodega. 
+[08:40:32] * Cajero 2 entra en Stock Out. 
+[08:43:52] - Camion 8 llega a la Bodega. 
+[09:49:40] * Cajero 93 entra en Stock Out. 
+[10:24:59] * Cajero 43 entra en Stock Out. 
+[10:34:37] * Cajero 190 entra en Stock Out. 
+[10:41:22] * Cajero 169 entra en Stock Out. 
+[10:49:09] * Cajero 18 entra en Stock Out. 
+[10:50:20] * Cajero 150 entra en Stock Out. 
+[10:59:31] * Cajero 108 entra en Stock Out. 
+[13:16:17] * Cajero 44 entra en Stock Out. 
+[14:15:41] * Cajero 124 entra en Stock Out. 
+[14:56:26] * Cajero 92 entra en Stock Out. 
+
+Domingo-Noche 
+[08:00:00] - Camion 0 va al Cajero 93. 
+[08:00:00] - Camion 11 va al Cajero 135. 
+[08:00:00] - Camion 1 va al Cajero 149. 
+[08:00:00] - Camion 7 va al Cajero 5. 
+[08:00:00] - Camion 9 va al Cajero 10. 
+[08:00:00] - Camion 10 va al Cajero 21. 
+[08:00:01] - Camion 5 va al Cajero 41. 
+[08:00:01] - Camion 6 va al Cajero 54. 
+[08:00:01] - Camion 2 va al Cajero 68. 
+[08:00:01] * Cajero 139 entra en Stock Out. 
+[08:00:02] - Camion 3 va al Cajero 82. 
+[08:00:02] - Camion 8 va al Cajero 91. 
+[08:00:03] - Camion 4 va al Cajero 93. 
+[08:01:58] - Camion 1 llega al Cajero 149. Empieza a recargar. 
+[08:04:55] - Camion 11 llega al Cajero 135. Empieza a recargar. 
+[08:05:29] - Camion 3 llega al Cajero 82. Empieza a recargar. 
+[08:07:19] - Camion 9 llega al Cajero 10. Empieza a recargar. 
+[08:08:34] - Camion 8 llega al Cajero 91. Empieza a recargar. 
+[08:08:38] - Camion 6 llega al Cajero 54. Empieza a recargar. 
+[08:08:50] - Camion 0 llega al Cajero 93. Empieza a recargar. 
+[08:08:54] - Camion 4 llega al Cajero 93. Empieza a recargar. 
+[08:09:44] - Camion 10 llega al Cajero 21. Empieza a recargar. 
+[08:11:43] - Camion 7 llega al Cajero 5. Empieza a recargar. 
+[08:12:03] - Camion 5 llega al Cajero 41. Empieza a recargar. 
+[08:14:01] - Camion 2 llega al Cajero 68. Empieza a recargar. 
+[08:19:19] - Camion 9 termina de recargar al Cajero 10. 
+[08:19:19] * Cajero 10 recargado. 
+[08:19:20] - Camion 9 va al Cajero 96. 
+[08:19:58] - Camion 1 termina de recargar al Cajero 149. 
+[08:19:58] * Cajero 149 recargado. 
+[08:19:59] - Camion 1 va al Cajero 103. 
+[08:22:56] - Camion 11 termina de recargar al Cajero 135. 
+[08:22:56] * Cajero 135 recargado. 
+[08:22:57] - Camion 11 va al Cajero 104. 
+[08:23:30] - Camion 3 termina de recargar al Cajero 82. 
+[08:23:30] * Cajero 82 recargado. 
+[08:23:31] - Camion 3 va al Cajero 112. 
+[08:24:03] - Camion 5 termina de recargar al Cajero 41. 
+[08:24:03] * Cajero 41 recargado. 
+[08:24:04] - Camion 5 va al Cajero 119. 
+[08:26:02] - Camion 2 termina de recargar al Cajero 68. 
+[08:26:02] * Cajero 68 recargado. 
+[08:26:03] - Camion 2 va al Cajero 135. 
+[08:26:50] - Camion 0 termina de recargar al Cajero 93. 
+[08:26:50] * Cajero 93 recargado. 
+[08:26:51] - Camion 0 va al Cajero 139. 
+[08:26:55] - Camion 4 termina de recargar al Cajero 93. 
+[08:26:55] * Cajero 93 recargado. 
+[08:26:56] - Camion 4 va al Cajero 145. 
+[08:27:45] - Camion 10 termina de recargar al Cajero 21. 
+[08:27:45] * Cajero 21 recargado. 
+[08:27:46] - Camion 10 va al Cajero 149. 
+[08:29:44] - Camion 7 termina de recargar al Cajero 5. 
+[08:29:44] * Cajero 5 recargado. 
+[08:29:45] - Camion 7 va al Cajero 157. 
+[08:30:28] - Camion 9 llega al Cajero 96. Empieza a recargar. 
+[08:30:50] - Camion 7 llega al Cajero 157. Empieza a recargar. 
+[08:31:40] - Camion 1 llega al Cajero 103. Empieza a recargar. 
+[08:32:36] - Camion 8 termina de recargar al Cajero 91. 
+[08:32:36] * Cajero 91 recargado. 
+[08:32:37] - Camion 8 va al Cajero 168. 
+[08:32:39] - Camion 6 termina de recargar al Cajero 54. 
+[08:32:39] * Cajero 54 recargado. 
+[08:32:40] - Camion 6 va al Cajero 171. 
+[08:33:59] - Camion 6 llega al Cajero 171. Empieza a recargar. 
+[08:34:32] - Camion 5 llega al Cajero 119. Empieza a recargar. 
+[08:34:55] - Camion 0 llega al Cajero 139. Empieza a recargar. 
+[08:34:58] - Camion 3 llega al Cajero 112. Empieza a recargar. 
+[08:36:17] - Camion 11 llega al Cajero 104. Empieza a recargar. 
+[08:39:23] - Camion 8 llega al Cajero 168. Empieza a recargar. 
+[08:39:26] - Camion 10 llega al Cajero 149. Empieza a recargar. 
+[08:42:46] - Camion 4 llega al Cajero 145. Empieza a recargar. 
+[08:42:50] - Camion 7 termina de recargar al Cajero 157. 
+[08:42:50] * Cajero 157 recargado. 
+[08:42:51] - Camion 7 va al Cajero 179. 
+[08:43:41] - Camion 1 termina de recargar al Cajero 103. 
+[08:43:41] * Cajero 103 recargado. 
+[08:43:42] - Camion 1 va al Cajero 205. 
+[08:43:53] - Camion 2 llega al Cajero 135. Empieza a recargar. 
+[08:46:00] - Camion 6 termina de recargar al Cajero 171. 
+[08:46:00] * Cajero 171 recargado. 
+[08:46:01] - Camion 6 va al Cajero 212. 
+[08:46:33] - Camion 5 termina de recargar al Cajero 119. 
+[08:46:33] * Cajero 119 recargado. 
+[08:46:34] - Camion 5 va al Cajero 218. 
+[08:48:17] - Camion 11 termina de recargar al Cajero 104. 
+[08:48:17] * Cajero 104 recargado. 
+[08:48:18] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[08:48:29] - Camion 9 termina de recargar al Cajero 96. 
+[08:48:29] * Cajero 96 recargado. 
+[08:48:30] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:52:58] - Camion 1 llega al Cajero 205. Empieza a recargar. 
+[08:53:33] - Camion 5 llega al Cajero 218. Empieza a recargar. 
+[08:54:52] - Camion 7 llega al Cajero 179. Empieza a recargar. 
+[08:55:13] - Camion 6 llega al Cajero 212. Empieza a recargar. 
+[08:56:44] - Camion 11 llega a la Bodega. 
+[08:57:24] - Camion 8 termina de recargar al Cajero 168. 
+[08:57:24] * Cajero 168 recargado. 
+[08:57:25] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:57:27] - Camion 10 termina de recargar al Cajero 149. 
+[08:57:27] * Cajero 149 recargado. 
+[08:57:28] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:57:47] - Camion 9 llega a la Bodega. 
+[08:58:57] - Camion 0 termina de recargar al Cajero 139. 
+[08:58:57] * Cajero 139 recargado. 
+[08:58:58] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:58:59] - Camion 3 termina de recargar al Cajero 112. 
+[08:58:59] * Cajero 112 recargado. 
+[08:59:00] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:59:26] - Camion 10 llega a la Bodega. 
+[09:01:53] - Camion 2 termina de recargar al Cajero 135. 
+[09:01:53] * Cajero 135 recargado. 
+[09:01:54] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[09:02:22] - Camion 0 llega a la Bodega. 
+[09:04:59] - Camion 1 termina de recargar al Cajero 205. 
+[09:04:59] * Cajero 205 recargado. 
+[09:05:00] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[09:05:20] * Cajero 117 entra en Stock Out. 
+[09:06:48] - Camion 4 termina de recargar al Cajero 145. 
+[09:06:48] * Cajero 145 recargado. 
+[09:06:49] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[09:06:49] - Camion 2 llega a la Bodega. 
+[09:07:51] - Camion 1 llega a la Bodega. 
+[09:09:00] - Camion 8 llega a la Bodega. 
+[09:09:37] - Camion 3 llega a la Bodega. 
+[09:11:35] - Camion 5 termina de recargar al Cajero 218. 
+[09:11:35] * Cajero 218 recargado. 
+[09:11:36] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[09:13:13] - Camion 6 termina de recargar al Cajero 212. 
+[09:13:13] * Cajero 212 recargado. 
+[09:13:14] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[09:13:50] - Camion 4 llega a la Bodega. 
+[09:18:53] - Camion 7 termina de recargar al Cajero 179. 
+[09:18:53] * Cajero 179 recargado. 
+[09:18:54] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[09:20:08] - Camion 5 llega a la Bodega. 
+[09:20:47] - Camion 6 llega a la Bodega. 
+[09:28:38] - Camion 7 llega a la Bodega. 
+[11:08:38] * Cajero 27 entra en Stock Out. 
+[11:26:20] * Cajero 219 entra en Stock Out. 
+[12:23:01] * Cajero 125 entra en Stock Out. 
+[12:23:01] * Cajero 173 entra en Stock Out. 
+[12:42:14] * Cajero 142 entra en Stock Out. 
+[13:49:02] * Cajero 224 entra en Stock Out. 
+
+Semana 2
+Lunes-Manana 
+[08:00:00] - Camion 11 va al Cajero 27. 
+[08:00:00] - Camion 10 va al Cajero 31. 
+[08:00:00] - Camion 2 va al Cajero 43. 
+[08:00:00] - Camion 8 va al Cajero 92. 
+[08:00:00] - Camion 4 va al Cajero 106. 
+[08:00:00] - Camion 6 va al Cajero 108. 
+[08:00:01] - Camion 9 va al Cajero 117. 
+[08:00:01] - Camion 1 va al Cajero 125. 
+[08:00:01] - Camion 5 va al Cajero 142. 
+[08:00:02] - Camion 0 va al Cajero 148. 
+[08:00:02] - Camion 7 va al Cajero 173. 
+[08:00:03] - Camion 3 va al Cajero 175. 
+[08:02:07] - Camion 3 llega al Cajero 175. Empieza a recargar. 
+[08:03:30] - Camion 5 llega al Cajero 142. Empieza a recargar. 
+[08:04:28] - Camion 10 llega al Cajero 31. Empieza a recargar. 
+[08:05:14] - Camion 6 llega al Cajero 108. Empieza a recargar. 
+[08:05:53] - Camion 4 llega al Cajero 106. Empieza a recargar. 
+[08:06:02] - Camion 7 llega al Cajero 173. Empieza a recargar. 
+[08:06:26] - Camion 8 llega al Cajero 92. Empieza a recargar. 
+[08:06:49] - Camion 0 llega al Cajero 148. Empieza a recargar. 
+[08:07:39] - Camion 2 llega al Cajero 43. Empieza a recargar. 
+[08:07:39] - Camion 1 llega al Cajero 125. Empieza a recargar. 
+[08:10:28] - Camion 11 llega al Cajero 27. Empieza a recargar. 
+[08:11:07] - Camion 9 llega al Cajero 117. Empieza a recargar. 
+[08:15:30] - Camion 5 termina de recargar al Cajero 142. 
+[08:15:30] * Cajero 142 recargado. 
+[08:15:31] - Camion 5 va al Cajero 178. 
+[08:16:29] - Camion 10 termina de recargar al Cajero 31. 
+[08:16:29] * Cajero 31 recargado. 
+[08:16:30] - Camion 10 va al Cajero 203. 
+[08:18:49] - Camion 0 termina de recargar al Cajero 148. 
+[08:18:49] * Cajero 148 recargado. 
+[08:18:50] - Camion 0 va al Cajero 221. 
+[08:20:07] - Camion 3 termina de recargar al Cajero 175. 
+[08:20:07] * Cajero 175 recargado. 
+[08:20:08] - Camion 3 va al Cajero 224. 
+[08:23:07] - Camion 9 termina de recargar al Cajero 117. 
+[08:23:07] * Cajero 117 recargado. 
+[08:23:08] - Camion 9 va al Cajero 4. 
+[08:24:02] - Camion 7 termina de recargar al Cajero 173. 
+[08:24:02] * Cajero 173 recargado. 
+[08:24:03] - Camion 7 va al Cajero 14. 
+[08:24:41] - Camion 5 llega al Cajero 178. Empieza a recargar. 
+[08:25:22] - Camion 3 llega al Cajero 224. Empieza a recargar. 
+[08:25:40] - Camion 2 termina de recargar al Cajero 43. 
+[08:25:40] * Cajero 43 recargado. 
+[08:25:41] - Camion 2 va al Cajero 27. 
+[08:26:33] - Camion 10 llega al Cajero 203. Empieza a recargar. 
+[08:26:36] - Camion 0 llega al Cajero 221. Empieza a recargar. 
+[08:29:16] - Camion 6 termina de recargar al Cajero 108. 
+[08:29:16] * Cajero 108 recargado. 
+[08:29:17] - Camion 6 va al Cajero 31. 
+[08:29:54] - Camion 4 termina de recargar al Cajero 106. 
+[08:29:54] * Cajero 106 recargado. 
+[08:29:55] - Camion 4 va al Cajero 43. 
+[08:30:28] - Camion 8 termina de recargar al Cajero 92. 
+[08:30:28] * Cajero 92 recargado. 
+[08:30:29] - Camion 8 va al Cajero 46. 
+[08:31:41] - Camion 1 termina de recargar al Cajero 125. 
+[08:31:41] * Cajero 125 recargado. 
+[08:31:42] - Camion 1 va al Cajero 51. 
+[08:34:29] - Camion 11 termina de recargar al Cajero 27. 
+[08:34:29] * Cajero 27 recargado. 
+[08:34:30] - Camion 11 va al Cajero 64. 
+[08:35:30] - Camion 9 llega al Cajero 4. Empieza a recargar. 
+[08:37:28] - Camion 6 llega al Cajero 31. Empieza a recargar. 
+[08:39:14] - Camion 7 llega al Cajero 14. Empieza a recargar. 
+[08:41:56] - Camion 4 llega al Cajero 43. Empieza a recargar. 
+[08:43:14] - Camion 11 llega al Cajero 64. Empieza a recargar. 
+[08:43:22] - Camion 3 termina de recargar al Cajero 224. 
+[08:43:22] * Cajero 224 recargado. 
+[08:43:23] - Camion 3 va al Cajero 67. 
+[08:43:49] - Camion 2 llega al Cajero 27. Empieza a recargar. 
+[08:43:56] - Camion 8 llega al Cajero 46. Empieza a recargar. 
+[08:44:29] - Camion 1 llega al Cajero 51. Empieza a recargar. 
+[08:44:34] - Camion 10 termina de recargar al Cajero 203. 
+[08:44:34] * Cajero 203 recargado. 
+[08:44:35] - Camion 10 va al Cajero 70. 
+[08:44:37] - Camion 0 termina de recargar al Cajero 221. 
+[08:44:37] * Cajero 221 recargado. 
+[08:44:38] - Camion 0 va al Cajero 79. 
+[08:47:31] - Camion 9 termina de recargar al Cajero 4. 
+[08:47:31] * Cajero 4 recargado. 
+[08:47:32] - Camion 9 va al Cajero 81. 
+[08:48:42] - Camion 5 termina de recargar al Cajero 178. 
+[08:48:42] * Cajero 178 recargado. 
+[08:48:43] - Camion 5 va al Cajero 85. 
+[08:49:30] - Camion 6 termina de recargar al Cajero 31. 
+[08:49:30] * Cajero 31 recargado. 
+[08:49:31] - Camion 6 va al Cajero 92. 
+[08:52:27] - Camion 9 llega al Cajero 81. Empieza a recargar. 
+[08:52:53] - Camion 3 llega al Cajero 67. Empieza a recargar. 
+[08:54:05] - Camion 5 llega al Cajero 85. Empieza a recargar. 
+[08:55:19] - Camion 0 llega al Cajero 79. Empieza a recargar. 
+[08:55:56] - Camion 8 termina de recargar al Cajero 46. 
+[08:55:56] * Cajero 46 recargado. 
+[08:55:57] - Camion 8 va al Cajero 94. 
+[08:56:30] - Camion 8 llega al Cajero 94. Empieza a recargar. 
+[08:56:30] - Camion 1 termina de recargar al Cajero 51. 
+[08:56:30] * Cajero 51 recargado. 
+[08:56:31] - Camion 1 va al Cajero 100. 
+[08:57:50] - Camion 6 llega al Cajero 92. Empieza a recargar. 
+[08:59:56] - Camion 4 termina de recargar al Cajero 43. 
+[08:59:56] * Cajero 43 recargado. 
+[08:59:57] - Camion 4 va al Cajero 106. 
+[09:00:51] * Cajero 146 entra en Stock Out. 
+[09:00:51] * Cajero 181 entra en Stock Out. 
+[09:01:15] - Camion 11 termina de recargar al Cajero 64. 
+[09:01:15] * Cajero 64 recargado. 
+[09:01:16] - Camion 11 va al Cajero 108. 
+[09:02:10] - Camion 10 llega al Cajero 70. Empieza a recargar. 
+[09:03:15] - Camion 7 termina de recargar al Cajero 14. 
+[09:03:15] * Cajero 14 recargado. 
+[09:03:16] - Camion 7 va al Cajero 117. 
+[09:03:32] - Camion 1 llega al Cajero 100. Empieza a recargar. 
+[09:06:05] - Camion 5 termina de recargar al Cajero 85. 
+[09:06:05] * Cajero 85 recargado. 
+[09:06:06] - Camion 5 va al Cajero 121. 
+[09:07:20] - Camion 0 termina de recargar al Cajero 79. 
+[09:07:20] * Cajero 79 recargado. 
+[09:07:21] - Camion 0 va al Cajero 125. 
+[09:07:51] - Camion 2 termina de recargar al Cajero 27. 
+[09:07:51] * Cajero 27 recargado. 
+[09:07:52] - Camion 2 va al Cajero 129. 
+[09:10:53] - Camion 3 termina de recargar al Cajero 67. 
+[09:10:53] * Cajero 67 recargado. 
+[09:10:54] - Camion 3 va al Cajero 142. 
+[09:11:14] - Camion 5 llega al Cajero 121. Empieza a recargar. 
+[09:11:53] - Camion 7 llega al Cajero 117. Empieza a recargar. 
+[09:11:58] - Camion 4 llega al Cajero 106. Empieza a recargar. 
+[09:12:31] - Camion 0 llega al Cajero 125. Empieza a recargar. 
+[09:13:56] - Camion 11 llega al Cajero 108. Empieza a recargar. 
+[09:15:32] - Camion 1 termina de recargar al Cajero 100. 
+[09:15:32] * Cajero 100 recargado. 
+[09:15:33] - Camion 1 va al Cajero 146. 
+[09:16:29] - Camion 9 termina de recargar al Cajero 81. 
+[09:16:29] * Cajero 81 recargado. 
+[09:16:30] - Camion 9 va al Cajero 148. 
+[09:17:27] - Camion 3 llega al Cajero 142. Empieza a recargar. 
+[09:18:44] - Camion 1 llega al Cajero 146. Empieza a recargar. 
+[09:20:10] - Camion 10 termina de recargar al Cajero 70. 
+[09:20:10] * Cajero 70 recargado. 
+[09:20:11] - Camion 10 va al Cajero 158. 
+[09:20:27] - Camion 2 llega al Cajero 129. Empieza a recargar. 
+[09:20:33] - Camion 8 termina de recargar al Cajero 94. 
+[09:20:33] * Cajero 94 recargado. 
+[09:20:34] - Camion 8 va al Cajero 162. 
+[09:21:51] - Camion 6 termina de recargar al Cajero 92. 
+[09:21:51] * Cajero 92 recargado. 
+[09:21:52] - Camion 6 va al Cajero 173. 
+[09:23:53] - Camion 7 termina de recargar al Cajero 117. 
+[09:23:53] * Cajero 117 recargado. 
+[09:23:54] - Camion 7 va al Cajero 175. 
+[09:25:22] - Camion 9 llega al Cajero 148. Empieza a recargar. 
+[09:27:33] - Camion 8 llega al Cajero 162. Empieza a recargar. 
+[09:29:17] - Camion 5 termina de recargar al Cajero 121. 
+[09:29:17] * Cajero 121 recargado. 
+[09:29:18] - Camion 5 va al Cajero 178. 
+[09:29:27] - Camion 3 termina de recargar al Cajero 142. 
+[09:29:27] * Cajero 142 recargado. 
+[09:29:28] - Camion 3 va al Cajero 181. 
+[09:31:13] - Camion 10 llega al Cajero 158. Empieza a recargar. 
+[09:34:20] - Camion 6 llega al Cajero 173. Empieza a recargar. 
+[09:34:23] - Camion 7 llega al Cajero 175. Empieza a recargar. 
+[09:36:00] - Camion 4 termina de recargar al Cajero 106. 
+[09:36:00] * Cajero 106 recargado. 
+[09:36:01] - Camion 4 va al Cajero 197. 
+[09:36:32] - Camion 0 termina de recargar al Cajero 125. 
+[09:36:32] * Cajero 125 recargado. 
+[09:36:33] - Camion 0 va al Cajero 200. 
+[09:36:45] - Camion 1 termina de recargar al Cajero 146. 
+[09:36:45] * Cajero 146 recargado. 
+[09:36:46] - Camion 1 va al Cajero 203. 
+[09:37:22] - Camion 9 termina de recargar al Cajero 148. 
+[09:37:22] * Cajero 148 recargado. 
+[09:37:23] - Camion 9 va al Cajero 204. 
+[09:37:50] - Camion 5 llega al Cajero 178. Empieza a recargar. 
+[09:37:57] - Camion 11 termina de recargar al Cajero 108. 
+[09:37:57] * Cajero 108 recargado. 
+[09:37:58] - Camion 11 va al Cajero 210. 
+[09:38:13] - Camion 3 llega al Cajero 181. Empieza a recargar. 
+[09:40:42] - Camion 11 llega al Cajero 210. Empieza a recargar. 
+[09:41:23] - Camion 4 llega al Cajero 197. Empieza a recargar. 
+[09:41:48] - Camion 0 llega al Cajero 200. Empieza a recargar. 
+[09:43:13] - Camion 10 termina de recargar al Cajero 158. 
+[09:43:13] * Cajero 158 recargado. 
+[09:43:14] - Camion 10 va al Cajero 211. 
+[09:44:29] - Camion 2 termina de recargar al Cajero 129. 
+[09:44:29] * Cajero 129 recargado. 
+[09:44:30] - Camion 2 va al Cajero 221. 
+[09:45:35] - Camion 8 termina de recargar al Cajero 162. 
+[09:45:35] * Cajero 162 recargado. 
+[09:45:36] - Camion 8 va al Cajero 224. 
+[09:46:16] - Camion 1 llega al Cajero 203. Empieza a recargar. 
+[09:47:13] - Camion 9 llega al Cajero 204. Empieza a recargar. 
+[09:50:13] - Camion 3 termina de recargar al Cajero 181. 
+[09:50:13] * Cajero 181 recargado. 
+[09:50:14] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[09:52:22] - Camion 6 termina de recargar al Cajero 173. 
+[09:52:22] * Cajero 173 recargado. 
+[09:52:23] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[09:52:24] - Camion 7 termina de recargar al Cajero 175. 
+[09:52:24] * Cajero 175 recargado. 
+[09:52:25] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[09:52:43] - Camion 11 termina de recargar al Cajero 210. 
+[09:52:43] * Cajero 210 recargado. 
+[09:52:44] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[09:53:37] - Camion 10 llega al Cajero 211. Empieza a recargar. 
+[09:54:29] - Camion 7 llega a la Bodega. 
+[09:55:28] - Camion 3 llega a la Bodega. 
+[09:55:38] - Camion 8 llega al Cajero 224. Empieza a recargar. 
+[09:58:19] - Camion 11 llega a la Bodega. 
+[09:58:25] - Camion 6 llega a la Bodega. 
+[09:58:42] - Camion 2 llega al Cajero 221. Empieza a recargar. 
+[09:59:24] - Camion 4 termina de recargar al Cajero 197. 
+[09:59:24] * Cajero 197 recargado. 
+[09:59:25] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[09:59:49] - Camion 0 termina de recargar al Cajero 200. 
+[09:59:49] * Cajero 200 recargado. 
+[09:59:50] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[10:01:51] - Camion 5 termina de recargar al Cajero 178. 
+[10:01:51] * Cajero 178 recargado. 
+[10:01:52] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[10:04:18] - Camion 1 termina de recargar al Cajero 203. 
+[10:04:18] * Cajero 203 recargado. 
+[10:04:19] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[10:04:51] - Camion 0 llega a la Bodega. 
+[10:05:14] - Camion 9 termina de recargar al Cajero 204. 
+[10:05:14] * Cajero 204 recargado. 
+[10:05:15] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[10:05:38] - Camion 10 termina de recargar al Cajero 211. 
+[10:05:38] * Cajero 211 recargado. 
+[10:05:39] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[10:05:39] * Cajero 86 entra en Stock Out. 
+[10:07:33] - Camion 5 llega a la Bodega. 
+[10:08:18] - Camion 9 llega a la Bodega. 
+[10:09:54] - Camion 1 llega a la Bodega. 
+[10:10:39] - Camion 4 llega a la Bodega. 
+[10:13:33] - Camion 10 llega a la Bodega. 
+[10:13:39] - Camion 8 termina de recargar al Cajero 224. 
+[10:13:39] * Cajero 224 recargado. 
+[10:13:40] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[10:16:43] - Camion 2 termina de recargar al Cajero 221. 
+[10:16:43] * Cajero 221 recargado. 
+[10:16:44] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[10:19:27] - Camion 8 llega a la Bodega. 
+[10:19:42] - Camion 2 llega a la Bodega. 
+[10:34:36] * Cajero 180 entra en Stock Out. 
+[10:35:16] * Cajero 155 entra en Stock Out. 
+[10:44:42] * Cajero 33 entra en Stock Out. 
+[11:14:06] * Cajero 40 entra en Stock Out. 
+[11:25:43] * Cajero 220 entra en Stock Out. 
+[11:39:12] * Cajero 196 entra en Stock Out. 
+[12:01:33] * Cajero 16 entra en Stock Out. 
+[12:28:39] * Cajero 163 entra en Stock Out. 
+[12:37:01] * Cajero 127 entra en Stock Out. 
+[12:39:43] * Cajero 1 entra en Stock Out. 
+[12:39:43] * Cajero 209 entra en Stock Out. 
+[12:57:05] * Cajero 26 entra en Stock Out. 
+[13:08:36] * Cajero 11 entra en Stock Out. 
+[14:44:33] * Cajero 35 entra en Stock Out. 
+[15:10:57] * Cajero 128 entra en Stock Out. 
+[15:10:57] * Cajero 176 entra en Stock Out. 
+[15:10:57] * Cajero 193 entra en Stock Out. 
+[15:33:26] * Cajero 34 entra en Stock Out. 
+
+Lunes-Tarde 
+[08:00:00] - Camion 7 va al Cajero 17. 
+[08:00:00] - Camion 11 va al Cajero 18. 
+[08:00:00] - Camion 0 va al Cajero 26. 
+[08:00:00] - Camion 9 va al Cajero 61. 
+[08:00:00] - Camion 4 va al Cajero 86. 
+[08:00:00] - Camion 8 va al Cajero 128. 
+[08:00:01] - Camion 3 va al Cajero 150. 
+[08:00:01] - Camion 5 va al Cajero 189. 
+[08:00:01] - Camion 10 va al Cajero 190. 
+[08:00:02] - Camion 6 va al Cajero 193. 
+[08:00:02] - Camion 2 va al Cajero 17. 
+[08:00:03] - Camion 1 va al Cajero 18. 
+[08:01:40] * Cajero 183 entra en Stock Out. 
+[08:02:11] - Camion 11 llega al Cajero 18. Empieza a recargar. 
+[08:02:14] - Camion 1 llega al Cajero 18. Empieza a recargar. 
+[08:02:46] - Camion 6 llega al Cajero 193. Empieza a recargar. 
+[08:04:10] - Camion 0 llega al Cajero 26. Empieza a recargar. 
+[08:04:41] - Camion 4 llega al Cajero 86. Empieza a recargar. 
+[08:05:28] - Camion 10 llega al Cajero 190. Empieza a recargar. 
+[08:05:41] - Camion 9 llega al Cajero 61. Empieza a recargar. 
+[08:05:41] - Camion 3 llega al Cajero 150. Empieza a recargar. 
+[08:06:02] - Camion 8 llega al Cajero 128. Empieza a recargar. 
+[08:08:57] - Camion 7 llega al Cajero 17. Empieza a recargar. 
+[08:09:01] - Camion 2 llega al Cajero 17. Empieza a recargar. 
+[08:09:14] - Camion 5 llega al Cajero 189. Empieza a recargar. 
+[08:14:11] - Camion 11 termina de recargar al Cajero 18. 
+[08:14:11] * Cajero 18 recargado. 
+[08:14:12] - Camion 11 va al Cajero 20. 
+[08:14:15] - Camion 1 termina de recargar al Cajero 18. 
+[08:14:15] * Cajero 18 recargado. 
+[08:14:16] - Camion 1 va al Cajero 23. 
+[08:14:47] - Camion 6 termina de recargar al Cajero 193. 
+[08:14:47] * Cajero 193 recargado. 
+[08:14:48] - Camion 6 va al Cajero 26. 
+[08:16:11] - Camion 0 termina de recargar al Cajero 26. 
+[08:16:11] * Cajero 26 recargado. 
+[08:16:12] - Camion 0 va al Cajero 38. 
+[08:17:11] - Camion 0 llega al Cajero 38. Empieza a recargar. 
+[08:17:28] - Camion 10 termina de recargar al Cajero 190. 
+[08:17:28] * Cajero 190 recargado. 
+[08:17:29] - Camion 10 va al Cajero 61. 
+[08:17:59] - Camion 1 llega al Cajero 23. Empieza a recargar. 
+[08:19:30] - Camion 6 llega al Cajero 26. Empieza a recargar. 
+[08:20:51] - Camion 11 llega al Cajero 20. Empieza a recargar. 
+[08:22:42] - Camion 4 termina de recargar al Cajero 86. 
+[08:22:42] * Cajero 86 recargado. 
+[08:22:43] - Camion 4 va al Cajero 86. 
+[08:22:43] - Camion 4 llega al Cajero 86. Empieza a recargar. 
+[08:27:14] - Camion 5 termina de recargar al Cajero 189. 
+[08:27:14] * Cajero 189 recargado. 
+[08:27:15] - Camion 5 va al Cajero 90. 
+[08:28:39] - Camion 10 llega al Cajero 61. Empieza a recargar. 
+[08:29:14] - Camion 5 llega al Cajero 90. Empieza a recargar. 
+[08:29:41] - Camion 3 termina de recargar al Cajero 150. 
+[08:29:41] * Cajero 150 recargado. 
+[08:29:42] - Camion 3 va al Cajero 102. 
+[08:29:43] - Camion 9 termina de recargar al Cajero 61. 
+[08:29:43] * Cajero 61 recargado. 
+[08:29:44] - Camion 9 va al Cajero 109. 
+[08:30:04] - Camion 8 termina de recargar al Cajero 128. 
+[08:30:04] * Cajero 128 recargado. 
+[08:30:05] - Camion 8 va al Cajero 114. 
+[08:31:30] - Camion 6 termina de recargar al Cajero 26. 
+[08:31:30] * Cajero 26 recargado. 
+[08:31:31] - Camion 6 va al Cajero 122. 
+[08:31:53] - Camion 3 llega al Cajero 102. Empieza a recargar. 
+[08:32:22] * Cajero 227 entra en Stock Out. 
+[08:32:58] - Camion 7 termina de recargar al Cajero 17. 
+[08:32:58] * Cajero 17 recargado. 
+[08:32:59] - Camion 7 va al Cajero 123. 
+[08:33:02] - Camion 2 termina de recargar al Cajero 17. 
+[08:33:02] * Cajero 17 recargado. 
+[08:33:03] - Camion 2 va al Cajero 128. 
+[08:34:14] - Camion 8 llega al Cajero 114. Empieza a recargar. 
+[08:35:59] - Camion 1 termina de recargar al Cajero 23. 
+[08:35:59] * Cajero 23 recargado. 
+[08:36:00] - Camion 1 va al Cajero 150. 
+[08:37:39] - Camion 6 llega al Cajero 122. Empieza a recargar. 
+[08:38:11] - Camion 2 llega al Cajero 128. Empieza a recargar. 
+[08:38:53] - Camion 11 termina de recargar al Cajero 20. 
+[08:38:53] * Cajero 20 recargado. 
+[08:38:54] - Camion 11 va al Cajero 154. 
+[08:40:44] - Camion 4 termina de recargar al Cajero 86. 
+[08:40:44] * Cajero 86 recargado. 
+[08:40:45] - Camion 4 va al Cajero 165. 
+[08:41:06] - Camion 9 llega al Cajero 109. Empieza a recargar. 
+[08:41:13] - Camion 0 termina de recargar al Cajero 38. 
+[08:41:13] * Cajero 38 recargado. 
+[08:41:14] - Camion 0 va al Cajero 183. 
+[08:43:16] - Camion 7 llega al Cajero 123. Empieza a recargar. 
+[08:43:38] - Camion 0 llega al Cajero 183. Empieza a recargar. 
+[08:44:33] - Camion 1 llega al Cajero 150. Empieza a recargar. 
+[08:46:14] - Camion 8 termina de recargar al Cajero 114. 
+[08:46:14] * Cajero 114 recargado. 
+[08:46:15] - Camion 8 va al Cajero 189. 
+[08:46:53] - Camion 11 llega al Cajero 154. Empieza a recargar. 
+[08:47:14] - Camion 5 termina de recargar al Cajero 90. 
+[08:47:14] * Cajero 90 recargado. 
+[08:47:15] - Camion 5 va al Cajero 190. 
+[08:49:54] - Camion 3 termina de recargar al Cajero 102. 
+[08:49:54] * Cajero 102 recargado. 
+[08:49:55] - Camion 3 va al Cajero 193. 
+[08:51:07] - Camion 3 llega al Cajero 193. Empieza a recargar. 
+[08:52:41] - Camion 10 termina de recargar al Cajero 61. 
+[08:52:41] * Cajero 61 recargado. 
+[08:52:42] - Camion 10 va al Cajero 217. 
+[08:53:06] - Camion 9 termina de recargar al Cajero 109. 
+[08:53:06] * Cajero 109 recargado. 
+[08:53:07] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:54:05] - Camion 4 llega al Cajero 165. Empieza a recargar. 
+[08:55:38] - Camion 0 termina de recargar al Cajero 183. 
+[08:55:38] * Cajero 183 recargado. 
+[08:55:39] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:59:15] - Camion 0 llega a la Bodega. 
+[08:59:41] - Camion 8 llega al Cajero 189. Empieza a recargar. 
+[09:00:58] - Camion 9 llega a la Bodega. 
+[09:01:01] - Camion 5 llega al Cajero 190. Empieza a recargar. 
+[09:01:42] - Camion 6 termina de recargar al Cajero 122. 
+[09:01:42] * Cajero 122 recargado. 
+[09:01:43] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[09:02:12] - Camion 2 termina de recargar al Cajero 128. 
+[09:02:12] * Cajero 128 recargado. 
+[09:02:13] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[09:03:05] - Camion 10 llega al Cajero 217. Empieza a recargar. 
+[09:03:07] - Camion 3 termina de recargar al Cajero 193. 
+[09:03:07] * Cajero 193 recargado. 
+[09:03:08] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[09:04:53] - Camion 11 termina de recargar al Cajero 154. 
+[09:04:53] * Cajero 154 recargado. 
+[09:04:54] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[09:05:52] - Camion 3 llega a la Bodega. 
+[09:07:18] - Camion 7 termina de recargar al Cajero 123. 
+[09:07:18] * Cajero 123 recargado. 
+[09:07:19] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[09:08:13] - Camion 2 llega a la Bodega. 
+[09:08:35] - Camion 1 termina de recargar al Cajero 150. 
+[09:08:35] * Cajero 150 recargado. 
+[09:08:36] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[09:11:29] - Camion 11 llega a la Bodega. 
+[09:11:59] - Camion 6 llega a la Bodega. 
+[09:12:08] - Camion 4 termina de recargar al Cajero 165. 
+[09:12:08] * Cajero 165 recargado. 
+[09:12:09] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[09:13:01] - Camion 5 termina de recargar al Cajero 190. 
+[09:13:01] * Cajero 190 recargado. 
+[09:13:02] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[09:14:16] - Camion 1 llega a la Bodega. 
+[09:15:06] - Camion 10 termina de recargar al Cajero 217. 
+[09:15:06] * Cajero 217 recargado. 
+[09:15:07] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[09:17:42] - Camion 8 termina de recargar al Cajero 189. 
+[09:17:42] * Cajero 189 recargado. 
+[09:17:43] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[09:18:29] - Camion 7 llega a la Bodega. 
+[09:18:29] - Camion 5 llega a la Bodega. 
+[09:20:48] - Camion 4 llega a la Bodega. 
+[09:21:48] - Camion 10 llega a la Bodega. 
+[09:26:54] - Camion 8 llega a la Bodega. 
+[10:07:33] * Cajero 138 entra en Stock Out. 
+[10:29:36] * Cajero 116 entra en Stock Out. 
+[11:39:41] * Cajero 223 entra en Stock Out. 
+[11:49:40] * Cajero 164 entra en Stock Out. 
+[12:30:38] * Cajero 113 entra en Stock Out. 
+[12:36:36] * Cajero 187 entra en Stock Out. 
+[12:52:49] * Cajero 59 entra en Stock Out. 
+[14:11:27] * Cajero 141 entra en Stock Out. 
+[15:00:12] * Cajero 115 entra en Stock Out. 
+[15:01:54] * Cajero 32 entra en Stock Out. 
+[15:12:22] * Cajero 136 entra en Stock Out. 
+
+Lunes-Noche 
+[08:00:00] - Camion 0 va al Cajero 1. 
+[08:00:00] - Camion 3 va al Cajero 30. 
+[08:00:00] - Camion 11 va al Cajero 115. 
+[08:00:00] - Camion 1 va al Cajero 141. 
+[08:00:00] - Camion 5 va al Cajero 219. 
+[08:00:00] - Camion 10 va al Cajero 223. 
+[08:00:01] - Camion 9 va al Cajero 1. 
+[08:00:01] - Camion 6 va al Cajero 10. 
+[08:00:01] - Camion 4 va al Cajero 25. 
+[08:00:02] - Camion 2 va al Cajero 30. 
+[08:00:02] - Camion 8 va al Cajero 52. 
+[08:00:03] - Camion 7 va al Cajero 54. 
+[08:02:04] - Camion 1 llega al Cajero 141. Empieza a recargar. 
+[08:02:45] * Cajero 137 entra en Stock Out. 
+[08:03:44] - Camion 4 llega al Cajero 25. Empieza a recargar. 
+[08:04:35] - Camion 3 llega al Cajero 30. Empieza a recargar. 
+[08:04:38] - Camion 2 llega al Cajero 30. Empieza a recargar. 
+[08:05:17] - Camion 8 llega al Cajero 52. Empieza a recargar. 
+[08:05:53] - Camion 0 llega al Cajero 1. Empieza a recargar. 
+[08:05:54] - Camion 9 llega al Cajero 1. Empieza a recargar. 
+[08:06:48] - Camion 11 llega al Cajero 115. Empieza a recargar. 
+[08:07:21] - Camion 6 llega al Cajero 10. Empieza a recargar. 
+[08:07:51] - Camion 10 llega al Cajero 223. Empieza a recargar. 
+[08:08:19] - Camion 5 llega al Cajero 219. Empieza a recargar. 
+[08:08:44] - Camion 7 llega al Cajero 54. Empieza a recargar. 
+[08:12:07] * Cajero 132 entra en Stock Out. 
+[08:15:44] - Camion 4 termina de recargar al Cajero 25. 
+[08:15:44] * Cajero 25 recargado. 
+[08:15:45] - Camion 4 va al Cajero 71. 
+[08:17:53] - Camion 0 termina de recargar al Cajero 1. 
+[08:17:53] * Cajero 1 recargado. 
+[08:17:54] - Camion 0 va al Cajero 87. 
+[08:17:55] - Camion 9 termina de recargar al Cajero 1. 
+[08:17:55] * Cajero 1 recargado. 
+[08:17:56] - Camion 9 va al Cajero 89. 
+[08:19:21] - Camion 6 termina de recargar al Cajero 10. 
+[08:19:21] * Cajero 10 recargado. 
+[08:19:22] - Camion 6 va al Cajero 91. 
+[08:20:04] - Camion 1 termina de recargar al Cajero 141. 
+[08:20:04] * Cajero 141 recargado. 
+[08:20:05] - Camion 1 va al Cajero 103. 
+[08:20:19] - Camion 5 termina de recargar al Cajero 219. 
+[08:20:19] * Cajero 219 recargado. 
+[08:20:20] - Camion 5 va al Cajero 115. 
+[08:20:26] - Camion 4 llega al Cajero 71. Empieza a recargar. 
+[08:22:37] - Camion 3 termina de recargar al Cajero 30. 
+[08:22:37] * Cajero 30 recargado. 
+[08:22:38] - Camion 3 va al Cajero 132. 
+[08:22:39] - Camion 2 termina de recargar al Cajero 30. 
+[08:22:39] * Cajero 30 recargado. 
+[08:22:40] - Camion 2 va al Cajero 141. 
+[08:23:51] * Cajero 76 entra en Stock Out. 
+[08:24:35] - Camion 9 llega al Cajero 89. Empieza a recargar. 
+[08:25:52] - Camion 10 termina de recargar al Cajero 223. 
+[08:25:52] * Cajero 223 recargado. 
+[08:25:53] - Camion 10 va al Cajero 157. 
+[08:26:02] - Camion 6 llega al Cajero 91. Empieza a recargar. 
+[08:27:57] - Camion 0 llega al Cajero 87. Empieza a recargar. 
+[08:28:25] - Camion 3 llega al Cajero 132. Empieza a recargar. 
+[08:28:37] - Camion 5 llega al Cajero 115. Empieza a recargar. 
+[08:29:18] - Camion 8 termina de recargar al Cajero 52. 
+[08:29:18] * Cajero 52 recargado. 
+[08:29:19] - Camion 8 va al Cajero 219. 
+[08:29:21] - Camion 2 llega al Cajero 141. Empieza a recargar. 
+[08:30:50] - Camion 11 termina de recargar al Cajero 115. 
+[08:30:50] * Cajero 115 recargado. 
+[08:30:51] - Camion 11 va al Cajero 223. 
+[08:31:28] - Camion 1 llega al Cajero 103. Empieza a recargar. 
+[08:32:47] - Camion 7 termina de recargar al Cajero 54. 
+[08:32:47] * Cajero 54 recargado. 
+[08:32:48] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:34:06] - Camion 10 llega al Cajero 157. Empieza a recargar. 
+[08:35:53] - Camion 8 llega al Cajero 219. Empieza a recargar. 
+[08:36:35] - Camion 9 termina de recargar al Cajero 89. 
+[08:36:35] * Cajero 89 recargado. 
+[08:36:36] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:36:59] - Camion 11 llega al Cajero 223. Empieza a recargar. 
+[08:40:25] - Camion 3 termina de recargar al Cajero 132. 
+[08:40:25] * Cajero 132 recargado. 
+[08:40:26] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:41:26] - Camion 7 llega a la Bodega. 
+[08:43:28] - Camion 1 termina de recargar al Cajero 103. 
+[08:43:28] * Cajero 103 recargado. 
+[08:43:29] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:43:42] - Camion 9 llega a la Bodega. 
+[08:44:27] - Camion 4 termina de recargar al Cajero 71. 
+[08:44:27] * Cajero 71 recargado. 
+[08:44:28] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:46:07] - Camion 10 termina de recargar al Cajero 157. 
+[08:46:07] * Cajero 157 recargado. 
+[08:46:08] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:46:40] - Camion 3 llega a la Bodega. 
+[08:47:21] - Camion 2 termina de recargar al Cajero 141. 
+[08:47:21] * Cajero 141 recargado. 
+[08:47:22] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:47:55] - Camion 8 termina de recargar al Cajero 219. 
+[08:47:55] * Cajero 219 recargado. 
+[08:47:56] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:49:26] - Camion 2 llega a la Bodega. 
+[08:50:04] - Camion 6 termina de recargar al Cajero 91. 
+[08:50:04] * Cajero 91 recargado. 
+[08:50:05] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[08:51:07] - Camion 4 llega a la Bodega. 
+[08:51:58] - Camion 0 termina de recargar al Cajero 87. 
+[08:51:58] * Cajero 87 recargado. 
+[08:51:59] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:52:39] - Camion 5 termina de recargar al Cajero 115. 
+[08:52:39] * Cajero 115 recargado. 
+[08:52:40] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[08:53:13] - Camion 1 llega a la Bodega. 
+[08:55:01] - Camion 11 termina de recargar al Cajero 223. 
+[08:55:01] * Cajero 223 recargado. 
+[08:55:02] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[08:56:08] - Camion 0 llega a la Bodega. 
+[08:56:14] - Camion 8 llega a la Bodega. 
+[08:57:37] - Camion 10 llega a la Bodega. 
+[08:58:38] - Camion 6 llega a la Bodega. 
+[08:59:28] - Camion 5 llega a la Bodega. 
+[09:00:44] * Cajero 104 entra en Stock Out. 
+[09:02:54] - Camion 11 llega a la Bodega. 
+[09:18:08] * Cajero 13 entra en Stock Out. 
+[10:02:48] * Cajero 133 entra en Stock Out. 
+[10:31:41] * Cajero 24 entra en Stock Out. 
+[10:52:21] * Cajero 184 entra en Stock Out. 
+[10:57:27] * Cajero 135 entra en Stock Out. 
+[11:27:05] * Cajero 84 entra en Stock Out. 
+[12:29:41] * Cajero 41 entra en Stock Out. 
+[13:31:22] * Cajero 69 entra en Stock Out. 
+
+Martes-Manana 
+[08:00:00] - Camion 7 va al Cajero 2. 
+[08:00:00] - Camion 3 va al Cajero 11. 
+[08:00:00] - Camion 4 va al Cajero 13. 
+[08:00:00] - Camion 0 va al Cajero 16. 
+[08:00:00] - Camion 10 va al Cajero 24. 
+[08:00:00] - Camion 5 va al Cajero 32. 
+[08:00:01] - Camion 9 va al Cajero 33. 
+[08:00:01] - Camion 1 va al Cajero 34. 
+[08:00:01] - Camion 6 va al Cajero 35. 
+[08:00:02] - Camion 2 va al Cajero 41. 
+[08:00:02] - Camion 11 va al Cajero 75. 
+[08:00:03] - Camion 8 va al Cajero 76. 
+[08:02:14] - Camion 8 llega al Cajero 76. Empieza a recargar. 
+[08:03:44] - Camion 9 llega al Cajero 33. Empieza a recargar. 
+[08:03:51] - Camion 1 llega al Cajero 34. Empieza a recargar. 
+[08:03:56] - Camion 4 llega al Cajero 13. Empieza a recargar. 
+[08:04:36] - Camion 0 llega al Cajero 16. Empieza a recargar. 
+[08:06:35] - Camion 11 llega al Cajero 75. Empieza a recargar. 
+[08:07:39] - Camion 10 llega al Cajero 24. Empieza a recargar. 
+[08:09:03] - Camion 3 llega al Cajero 11. Empieza a recargar. 
+[08:10:02] - Camion 7 llega al Cajero 2. Empieza a recargar. 
+[08:11:11] - Camion 5 llega al Cajero 32. Empieza a recargar. 
+[08:12:02] - Camion 2 llega al Cajero 41. Empieza a recargar. 
+[08:13:22] - Camion 6 llega al Cajero 35. Empieza a recargar. 
+[08:15:44] - Camion 9 termina de recargar al Cajero 33. 
+[08:15:44] * Cajero 33 recargado. 
+[08:15:45] - Camion 9 va al Cajero 84. 
+[08:18:35] - Camion 11 termina de recargar al Cajero 75. 
+[08:18:35] * Cajero 75 recargado. 
+[08:18:36] - Camion 11 va al Cajero 104. 
+[08:19:28] - Camion 9 llega al Cajero 84. Empieza a recargar. 
+[08:20:14] - Camion 8 termina de recargar al Cajero 76. 
+[08:20:14] * Cajero 76 recargado. 
+[08:20:15] - Camion 8 va al Cajero 111. 
+[08:21:53] - Camion 1 termina de recargar al Cajero 34. 
+[08:21:53] * Cajero 34 recargado. 
+[08:21:54] - Camion 1 va al Cajero 113. 
+[08:21:57] - Camion 4 termina de recargar al Cajero 13. 
+[08:21:57] * Cajero 13 recargado. 
+[08:21:58] - Camion 4 va al Cajero 127. 
+[08:22:02] - Camion 7 termina de recargar al Cajero 2. 
+[08:22:02] * Cajero 2 recargado. 
+[08:22:03] - Camion 7 va al Cajero 133. 
+[08:23:12] - Camion 8 llega al Cajero 111. Empieza a recargar. 
+[08:24:02] - Camion 2 termina de recargar al Cajero 41. 
+[08:24:02] * Cajero 41 recargado. 
+[08:24:03] - Camion 2 va al Cajero 136. 
+[08:24:43] * Cajero 201 entra en Stock Out. 
+[08:25:01] - Camion 4 llega al Cajero 127. Empieza a recargar. 
+[08:26:09] - Camion 11 llega al Cajero 104. Empieza a recargar. 
+[08:26:31] - Camion 1 llega al Cajero 113. Empieza a recargar. 
+[08:27:03] - Camion 3 termina de recargar al Cajero 11. 
+[08:27:03] * Cajero 11 recargado. 
+[08:27:04] - Camion 3 va al Cajero 137. 
+[08:28:37] - Camion 0 termina de recargar al Cajero 16. 
+[08:28:37] * Cajero 16 recargado. 
+[08:28:38] - Camion 0 va al Cajero 156. 
+[08:29:13] - Camion 5 termina de recargar al Cajero 32. 
+[08:29:13] * Cajero 32 recargado. 
+[08:29:14] - Camion 5 va al Cajero 169. 
+[08:31:28] - Camion 9 termina de recargar al Cajero 84. 
+[08:31:28] * Cajero 84 recargado. 
+[08:31:29] - Camion 9 va al Cajero 170. 
+[08:31:41] - Camion 10 termina de recargar al Cajero 24. 
+[08:31:41] * Cajero 24 recargado. 
+[08:31:42] - Camion 10 va al Cajero 184. 
+[08:34:19] - Camion 10 llega al Cajero 184. Empieza a recargar. 
+[08:34:28] - Camion 5 llega al Cajero 169. Empieza a recargar. 
+[08:35:37] - Camion 2 llega al Cajero 136. Empieza a recargar. 
+[08:36:23] - Camion 0 llega al Cajero 156. Empieza a recargar. 
+[08:36:54] - Camion 3 llega al Cajero 137. Empieza a recargar. 
+[08:37:25] - Camion 6 termina de recargar al Cajero 35. 
+[08:37:25] * Cajero 35 recargado. 
+[08:37:26] - Camion 6 va al Cajero 187. 
+[08:38:09] - Camion 11 termina de recargar al Cajero 104. 
+[08:38:09] * Cajero 104 recargado. 
+[08:38:10] - Camion 11 va al Cajero 196. 
+[08:40:57] - Camion 7 llega al Cajero 133. Empieza a recargar. 
+[08:41:14] - Camion 8 termina de recargar al Cajero 111. 
+[08:41:14] * Cajero 111 recargado. 
+[08:41:15] - Camion 8 va al Cajero 209. 
+[08:43:07] - Camion 9 llega al Cajero 170. Empieza a recargar. 
+[08:44:32] - Camion 1 termina de recargar al Cajero 113. 
+[08:44:32] * Cajero 113 recargado. 
+[08:44:33] - Camion 1 va al Cajero 220. 
+[08:48:23] - Camion 0 termina de recargar al Cajero 156. 
+[08:48:23] * Cajero 156 recargado. 
+[08:48:24] - Camion 0 va al Cajero 227. 
+[08:48:45] - Camion 11 llega al Cajero 196. Empieza a recargar. 
+[08:48:55] - Camion 3 termina de recargar al Cajero 137. 
+[08:48:55] * Cajero 137 recargado. 
+[08:48:56] - Camion 3 va al Cajero 2. 
+[08:49:02] - Camion 4 termina de recargar al Cajero 127. 
+[08:49:02] * Cajero 127 recargado. 
+[08:49:03] - Camion 4 va al Cajero 4. 
+[08:50:52] - Camion 8 llega al Cajero 209. Empieza a recargar. 
+[08:51:58] - Camion 6 llega al Cajero 187. Empieza a recargar. 
+[08:52:21] - Camion 10 termina de recargar al Cajero 184. 
+[08:52:21] * Cajero 184 recargado. 
+[08:52:22] - Camion 10 va al Cajero 5. 
+[08:53:37] - Camion 2 termina de recargar al Cajero 136. 
+[08:53:37] * Cajero 136 recargado. 
+[08:53:38] - Camion 2 va al Cajero 11. 
+[08:54:24] - Camion 1 llega al Cajero 220. Empieza a recargar. 
+[08:55:07] - Camion 9 termina de recargar al Cajero 170. 
+[08:55:07] * Cajero 170 recargado. 
+[08:55:08] - Camion 9 va al Cajero 13. 
+[08:55:23] - Camion 4 llega al Cajero 4. Empieza a recargar. 
+[08:55:54] * Cajero 145 entra en Stock Out. 
+[08:57:28] - Camion 0 llega al Cajero 227. Empieza a recargar. 
+[08:58:29] - Camion 5 termina de recargar al Cajero 169. 
+[08:58:29] * Cajero 169 recargado. 
+[08:58:30] - Camion 5 va al Cajero 16. 
+[09:00:11] - Camion 3 llega al Cajero 2. Empieza a recargar. 
+[09:00:46] - Camion 11 termina de recargar al Cajero 196. 
+[09:00:46] * Cajero 196 recargado. 
+[09:00:47] - Camion 11 va al Cajero 24. 
+[09:02:15] - Camion 2 llega al Cajero 11. Empieza a recargar. 
+[09:03:00] - Camion 9 llega al Cajero 13. Empieza a recargar. 
+[09:05:00] - Camion 7 termina de recargar al Cajero 133. 
+[09:05:00] * Cajero 133 recargado. 
+[09:05:01] - Camion 7 va al Cajero 28. 
+[09:06:22] - Camion 5 llega al Cajero 16. Empieza a recargar. 
+[09:07:23] - Camion 4 termina de recargar al Cajero 4. 
+[09:07:23] * Cajero 4 recargado. 
+[09:07:24] - Camion 4 va al Cajero 31. 
+[09:08:52] - Camion 11 llega al Cajero 24. Empieza a recargar. 
+[09:08:54] - Camion 8 termina de recargar al Cajero 209. 
+[09:08:54] * Cajero 209 recargado. 
+[09:08:55] - Camion 8 va al Cajero 32. 
+[09:09:05] - Camion 10 llega al Cajero 5. Empieza a recargar. 
+[09:12:11] - Camion 3 termina de recargar al Cajero 2. 
+[09:12:11] * Cajero 2 recargado. 
+[09:12:12] - Camion 3 va al Cajero 33. 
+[09:12:24] - Camion 1 termina de recargar al Cajero 220. 
+[09:12:24] * Cajero 220 recargado. 
+[09:12:25] - Camion 1 va al Cajero 34. 
+[09:12:28] - Camion 7 llega al Cajero 28. Empieza a recargar. 
+[09:13:12] - Camion 4 llega al Cajero 31. Empieza a recargar. 
+[09:14:43] - Camion 8 llega al Cajero 32. Empieza a recargar. 
+[09:15:30] - Camion 0 termina de recargar al Cajero 227. 
+[09:15:30] * Cajero 227 recargado. 
+[09:15:31] - Camion 0 va al Cajero 35. 
+[09:15:59] - Camion 6 termina de recargar al Cajero 187. 
+[09:15:59] * Cajero 187 recargado. 
+[09:16:00] - Camion 6 va al Cajero 41. 
+[09:17:39] - Camion 1 llega al Cajero 34. Empieza a recargar. 
+[09:18:33] - Camion 3 llega al Cajero 33. Empieza a recargar. 
+[09:20:18] - Camion 2 termina de recargar al Cajero 11. 
+[09:20:18] * Cajero 11 recargado. 
+[09:20:19] - Camion 2 va al Cajero 67. 
+[09:21:01] - Camion 9 termina de recargar al Cajero 13. 
+[09:21:01] * Cajero 13 recargado. 
+[09:21:02] - Camion 9 va al Cajero 75. 
+[09:23:20] * Cajero 67 entra en Stock Out. 
+[09:23:39] - Camion 9 llega al Cajero 75. Empieza a recargar. 
+[09:24:04] - Camion 0 llega al Cajero 35. Empieza a recargar. 
+[09:24:28] - Camion 7 termina de recargar al Cajero 28. 
+[09:24:28] * Cajero 28 recargado. 
+[09:24:29] - Camion 7 va al Cajero 76. 
+[09:25:13] - Camion 4 termina de recargar al Cajero 31. 
+[09:25:13] * Cajero 31 recargado. 
+[09:25:14] - Camion 4 va al Cajero 84. 
+[09:25:54] - Camion 7 llega al Cajero 76. Empieza a recargar. 
+[09:27:05] - Camion 10 termina de recargar al Cajero 5. 
+[09:27:05] * Cajero 5 recargado. 
+[09:27:06] - Camion 10 va al Cajero 94. 
+[09:27:59] - Camion 4 llega al Cajero 84. Empieza a recargar. 
+[09:29:13] - Camion 6 llega al Cajero 41. Empieza a recargar. 
+[09:30:23] - Camion 5 termina de recargar al Cajero 16. 
+[09:30:23] * Cajero 16 recargado. 
+[09:30:24] - Camion 5 va al Cajero 97. 
+[09:30:33] - Camion 3 termina de recargar al Cajero 33. 
+[09:30:33] * Cajero 33 recargado. 
+[09:30:34] - Camion 3 va al Cajero 104. 
+[09:32:45] - Camion 8 termina de recargar al Cajero 32. 
+[09:32:45] * Cajero 32 recargado. 
+[09:32:46] - Camion 8 va al Cajero 111. 
+[09:32:53] - Camion 11 termina de recargar al Cajero 24. 
+[09:32:53] * Cajero 24 recargado. 
+[09:32:54] - Camion 11 va al Cajero 113. 
+[09:33:06] - Camion 2 llega al Cajero 67. Empieza a recargar. 
+[09:33:41] - Camion 10 llega al Cajero 94. Empieza a recargar. 
+[09:35:40] - Camion 9 termina de recargar al Cajero 75. 
+[09:35:40] * Cajero 75 recargado. 
+[09:35:41] - Camion 9 va al Cajero 119. 
+[09:35:41] - Camion 1 termina de recargar al Cajero 34. 
+[09:35:41] * Cajero 34 recargado. 
+[09:35:42] - Camion 1 va al Cajero 127. 
+[09:39:24] - Camion 9 llega al Cajero 119. Empieza a recargar. 
+[09:39:59] - Camion 4 termina de recargar al Cajero 84. 
+[09:39:59] * Cajero 84 recargado. 
+[09:40:00] - Camion 4 va al Cajero 133. 
+[09:40:34] - Camion 5 llega al Cajero 97. Empieza a recargar. 
+[09:41:05] - Camion 11 llega al Cajero 113. Empieza a recargar. 
+[09:41:14] - Camion 6 termina de recargar al Cajero 41. 
+[09:41:14] * Cajero 41 recargado. 
+[09:41:15] - Camion 6 va al Cajero 136. 
+[09:42:28] - Camion 3 llega al Cajero 104. Empieza a recargar. 
+[09:43:54] - Camion 7 termina de recargar al Cajero 76. 
+[09:43:54] * Cajero 76 recargado. 
+[09:43:55] - Camion 7 va al Cajero 137. 
+[09:46:32] - Camion 1 llega al Cajero 127. Empieza a recargar. 
+[09:48:06] - Camion 0 termina de recargar al Cajero 35. 
+[09:48:06] * Cajero 35 recargado. 
+[09:48:07] - Camion 0 va al Cajero 156. 
+[09:48:10] - Camion 8 llega al Cajero 111. Empieza a recargar. 
+[09:51:09] - Camion 2 termina de recargar al Cajero 67. 
+[09:51:09] * Cajero 67 recargado. 
+[09:51:10] - Camion 2 va al Cajero 158. 
+[09:51:24] - Camion 9 termina de recargar al Cajero 119. 
+[09:51:24] * Cajero 119 recargado. 
+[09:51:25] - Camion 9 va al Cajero 162. 
+[09:52:49] - Camion 6 llega al Cajero 136. Empieza a recargar. 
+[09:52:59] - Camion 7 llega al Cajero 137. Empieza a recargar. 
+[09:53:52] * Cajero 162 entra en Stock Out. 
+[09:53:53] - Camion 4 llega al Cajero 133. Empieza a recargar. 
+[09:54:28] - Camion 3 termina de recargar al Cajero 104. 
+[09:54:28] * Cajero 104 recargado. 
+[09:54:29] - Camion 3 va al Cajero 169. 
+[09:55:28] - Camion 3 llega al Cajero 169. Empieza a recargar. 
+[09:55:51] - Camion 2 llega al Cajero 158. Empieza a recargar. 
+[09:57:42] - Camion 10 termina de recargar al Cajero 94. 
+[09:57:42] * Cajero 94 recargado. 
+[09:57:43] - Camion 10 va al Cajero 170. 
+[09:58:36] - Camion 5 termina de recargar al Cajero 97. 
+[09:58:36] * Cajero 97 recargado. 
+[09:58:37] - Camion 5 va al Cajero 178. 
+[09:59:06] - Camion 11 termina de recargar al Cajero 113. 
+[09:59:06] * Cajero 113 recargado. 
+[09:59:07] - Camion 11 va al Cajero 184. 
+[10:02:14] - Camion 9 llega al Cajero 162. Empieza a recargar. 
+[10:04:37] - Camion 0 llega al Cajero 156. Empieza a recargar. 
+[10:04:41] - Camion 11 llega al Cajero 184. Empieza a recargar. 
+[10:04:59] - Camion 7 termina de recargar al Cajero 137. 
+[10:04:59] * Cajero 137 recargado. 
+[10:05:00] - Camion 7 va al Cajero 187. 
+[10:06:10] - Camion 8 termina de recargar al Cajero 111. 
+[10:06:10] * Cajero 111 recargado. 
+[10:06:11] - Camion 8 va al Cajero 196. 
+[10:07:51] - Camion 2 termina de recargar al Cajero 158. 
+[10:07:51] * Cajero 158 recargado. 
+[10:07:52] - Camion 2 va al Cajero 199. 
+[10:09:22] - Camion 7 llega al Cajero 187. Empieza a recargar. 
+[10:09:42] * Cajero 212 entra en Stock Out. 
+[10:10:34] - Camion 1 termina de recargar al Cajero 127. 
+[10:10:34] * Cajero 127 recargado. 
+[10:10:35] - Camion 1 va al Cajero 200. 
+[10:10:51] - Camion 6 termina de recargar al Cajero 136. 
+[10:10:51] * Cajero 136 recargado. 
+[10:10:52] - Camion 6 va al Cajero 209. 
+[10:10:53] - Camion 8 llega al Cajero 196. Empieza a recargar. 
+[10:14:39] - Camion 2 llega al Cajero 199. Empieza a recargar. 
+[10:16:11] - Camion 5 llega al Cajero 178. Empieza a recargar. 
+[10:16:26] - Camion 6 llega al Cajero 209. Empieza a recargar. 
+[10:16:37] - Camion 0 termina de recargar al Cajero 156. 
+[10:16:37] * Cajero 156 recargado. 
+[10:16:38] - Camion 0 va al Cajero 211. 
+[10:16:50] - Camion 10 llega al Cajero 170. Empieza a recargar. 
+[10:17:55] - Camion 4 termina de recargar al Cajero 133. 
+[10:17:55] * Cajero 133 recargado. 
+[10:17:56] - Camion 4 va al Cajero 212. 
+[10:18:55] - Camion 1 llega al Cajero 200. Empieza a recargar. 
+[10:19:29] - Camion 3 termina de recargar al Cajero 169. 
+[10:19:29] * Cajero 169 recargado. 
+[10:19:30] - Camion 3 va al Cajero 218. 
+[10:20:16] - Camion 9 termina de recargar al Cajero 162. 
+[10:20:16] * Cajero 162 recargado. 
+[10:20:17] - Camion 9 va al Cajero 220. 
+[10:22:07] - Camion 3 llega al Cajero 218. Empieza a recargar. 
+[10:22:43] - Camion 11 termina de recargar al Cajero 184. 
+[10:22:43] * Cajero 184 recargado. 
+[10:22:44] - Camion 11 va al Cajero 221. 
+[10:22:53] - Camion 8 termina de recargar al Cajero 196. 
+[10:22:53] * Cajero 196 recargado. 
+[10:22:54] - Camion 8 va al Cajero 227. 
+[10:26:00] - Camion 4 llega al Cajero 212. Empieza a recargar. 
+[10:26:48] - Camion 0 llega al Cajero 211. Empieza a recargar. 
+[10:28:11] - Camion 9 llega al Cajero 220. Empieza a recargar. 
+[10:28:45] - Camion 11 llega al Cajero 221. Empieza a recargar. 
+[10:28:50] - Camion 10 termina de recargar al Cajero 170. 
+[10:28:50] * Cajero 170 recargado. 
+[10:28:51] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[10:29:52] * Cajero 77 entra en Stock Out. 
+[10:31:39] - Camion 8 llega al Cajero 227. Empieza a recargar. 
+[10:33:23] - Camion 7 termina de recargar al Cajero 187. 
+[10:33:23] * Cajero 187 recargado. 
+[10:33:24] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[10:34:26] - Camion 6 termina de recargar al Cajero 209. 
+[10:34:26] * Cajero 209 recargado. 
+[10:34:27] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[10:36:57] - Camion 1 termina de recargar al Cajero 200. 
+[10:36:57] * Cajero 200 recargado. 
+[10:36:58] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[10:38:41] - Camion 2 termina de recargar al Cajero 199. 
+[10:38:41] * Cajero 199 recargado. 
+[10:38:42] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[10:38:48] - Camion 0 termina de recargar al Cajero 211. 
+[10:38:48] * Cajero 211 recargado. 
+[10:38:49] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[10:39:48] - Camion 6 llega a la Bodega. 
+[10:40:08] - Camion 3 termina de recargar al Cajero 218. 
+[10:40:08] * Cajero 218 recargado. 
+[10:40:09] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[10:40:12] - Camion 5 termina de recargar al Cajero 178. 
+[10:40:12] * Cajero 178 recargado. 
+[10:40:13] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[10:40:16] - Camion 7 llega a la Bodega. 
+[10:40:39] - Camion 10 llega a la Bodega. 
+[10:42:02] - Camion 1 llega a la Bodega. 
+[10:42:58] - Camion 2 llega a la Bodega. 
+[10:44:02] - Camion 4 termina de recargar al Cajero 212. 
+[10:44:02] * Cajero 212 recargado. 
+[10:44:03] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[10:45:53] - Camion 5 llega a la Bodega. 
+[10:46:13] - Camion 9 termina de recargar al Cajero 220. 
+[10:46:13] * Cajero 220 recargado. 
+[10:46:14] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[10:46:41] - Camion 0 llega a la Bodega. 
+[10:46:46] - Camion 11 termina de recargar al Cajero 221. 
+[10:46:46] * Cajero 221 recargado. 
+[10:46:47] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[10:48:41] - Camion 3 llega a la Bodega. 
+[10:49:40] - Camion 8 termina de recargar al Cajero 227. 
+[10:49:40] * Cajero 227 recargado. 
+[10:49:41] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[10:49:44] - Camion 11 llega a la Bodega. 
+[10:51:37] - Camion 4 llega a la Bodega. 
+[10:55:18] - Camion 9 llega a la Bodega. 
+[10:56:16] - Camion 8 llega a la Bodega. 
+[11:07:20] * Cajero 215 entra en Stock Out. 
+[11:24:51] * Cajero 121 entra en Stock Out. 
+[11:27:17] * Cajero 79 entra en Stock Out. 
+[11:46:05] * Cajero 85 entra en Stock Out. 
+[13:03:34] * Cajero 179 entra en Stock Out. 
+[13:12:55] * Cajero 46 entra en Stock Out. 
+
+Martes-Tarde 
+[08:00:00] - Camion 6 va al Cajero 116. 
+[08:00:00] - Camion 10 va al Cajero 145. 
+[08:00:00] - Camion 2 va al Cajero 164. 
+[08:00:00] - Camion 0 va al Cajero 215. 
+[08:00:00] - Camion 11 va al Cajero 21. 
+[08:00:00] - Camion 9 va al Cajero 53. 
+[08:00:01] - Camion 7 va al Cajero 61. 
+[08:00:01] - Camion 5 va al Cajero 90. 
+[08:00:01] - Camion 4 va al Cajero 100. 
+[08:00:01] * Cajero 53 entra en Stock Out. 
+[08:00:01] * Cajero 172 entra en Stock Out. 
+[08:00:01] * Cajero 174 entra en Stock Out. 
+[08:00:02] - Camion 1 va al Cajero 102. 
+[08:00:02] - Camion 8 va al Cajero 109. 
+[08:00:03] - Camion 3 va al Cajero 112. 
+[08:02:32] - Camion 4 llega al Cajero 100. Empieza a recargar. 
+[08:03:32] - Camion 1 llega al Cajero 102. Empieza a recargar. 
+[08:03:56] - Camion 2 llega al Cajero 164. Empieza a recargar. 
+[08:05:01] - Camion 9 llega al Cajero 53. Empieza a recargar. 
+[08:05:42] - Camion 7 llega al Cajero 61. Empieza a recargar. 
+[08:06:20] - Camion 6 llega al Cajero 116. Empieza a recargar. 
+[08:07:00] - Camion 10 llega al Cajero 145. Empieza a recargar. 
+[08:07:54] - Camion 8 llega al Cajero 109. Empieza a recargar. 
+[08:09:43] - Camion 11 llega al Cajero 21. Empieza a recargar. 
+[08:10:39] - Camion 3 llega al Cajero 112. Empieza a recargar. 
+[08:11:03] - Camion 0 llega al Cajero 215. Empieza a recargar. 
+[08:11:12] - Camion 5 llega al Cajero 90. Empieza a recargar. 
+[08:14:32] - Camion 4 termina de recargar al Cajero 100. 
+[08:14:32] * Cajero 100 recargado. 
+[08:14:33] - Camion 4 va al Cajero 116. 
+[08:19:54] - Camion 8 termina de recargar al Cajero 109. 
+[08:19:54] * Cajero 109 recargado. 
+[08:19:55] - Camion 8 va al Cajero 117. 
+[08:21:33] - Camion 1 termina de recargar al Cajero 102. 
+[08:21:33] * Cajero 102 recargado. 
+[08:21:34] - Camion 1 va al Cajero 145. 
+[08:23:23] - Camion 4 llega al Cajero 116. Empieza a recargar. 
+[08:23:31] * Cajero 82 entra en Stock Out. 
+[08:24:20] - Camion 6 termina de recargar al Cajero 116. 
+[08:24:20] * Cajero 116 recargado. 
+[08:24:21] - Camion 6 va al Cajero 164. 
+[08:27:44] - Camion 11 termina de recargar al Cajero 21. 
+[08:27:44] * Cajero 21 recargado. 
+[08:27:45] - Camion 11 va al Cajero 174. 
+[08:27:57] - Camion 2 termina de recargar al Cajero 164. 
+[08:27:57] * Cajero 164 recargado. 
+[08:27:58] - Camion 2 va al Cajero 183. 
+[08:29:02] - Camion 9 termina de recargar al Cajero 53. 
+[08:29:02] * Cajero 53 recargado. 
+[08:29:03] - Camion 9 va al Cajero 190. 
+[08:29:03] - Camion 0 termina de recargar al Cajero 215. 
+[08:29:03] * Cajero 215 recargado. 
+[08:29:04] - Camion 0 va al Cajero 205. 
+[08:29:10] - Camion 2 llega al Cajero 183. Empieza a recargar. 
+[08:29:12] - Camion 1 llega al Cajero 145. Empieza a recargar. 
+[08:29:13] - Camion 5 termina de recargar al Cajero 90. 
+[08:29:13] * Cajero 90 recargado. 
+[08:29:14] - Camion 5 va al Cajero 215. 
+[08:29:43] - Camion 7 termina de recargar al Cajero 61. 
+[08:29:43] * Cajero 61 recargado. 
+[08:29:44] - Camion 7 va al Cajero 217. 
+[08:31:02] - Camion 10 termina de recargar al Cajero 145. 
+[08:31:02] * Cajero 145 recargado. 
+[08:31:03] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:31:47] - Camion 11 llega al Cajero 174. Empieza a recargar. 
+[08:32:55] - Camion 8 llega al Cajero 117. Empieza a recargar. 
+[08:34:38] - Camion 6 llega al Cajero 164. Empieza a recargar. 
+[08:34:41] - Camion 3 termina de recargar al Cajero 112. 
+[08:34:41] * Cajero 112 recargado. 
+[08:34:42] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:36:44] - Camion 9 llega al Cajero 190. Empieza a recargar. 
+[08:38:02] - Camion 10 llega a la Bodega. 
+[08:40:06] - Camion 7 llega al Cajero 217. Empieza a recargar. 
+[08:41:10] - Camion 2 termina de recargar al Cajero 183. 
+[08:41:10] * Cajero 183 recargado. 
+[08:41:11] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:41:25] - Camion 4 termina de recargar al Cajero 116. 
+[08:41:25] * Cajero 116 recargado. 
+[08:41:26] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:42:56] - Camion 0 llega al Cajero 205. Empieza a recargar. 
+[08:44:47] - Camion 2 llega a la Bodega. 
+[08:44:55] - Camion 8 termina de recargar al Cajero 117. 
+[08:44:55] * Cajero 117 recargado. 
+[08:44:56] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:45:19] - Camion 3 llega a la Bodega. 
+[08:46:05] * Cajero 149 entra en Stock Out. 
+[08:47:48] - Camion 4 llega a la Bodega. 
+[08:48:44] - Camion 9 termina de recargar al Cajero 190. 
+[08:48:44] * Cajero 190 recargado. 
+[08:48:45] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:49:47] - Camion 11 termina de recargar al Cajero 174. 
+[08:49:47] * Cajero 174 recargado. 
+[08:49:48] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[08:51:24] - Camion 5 llega al Cajero 215. Empieza a recargar. 
+[08:52:07] - Camion 7 termina de recargar al Cajero 217. 
+[08:52:07] * Cajero 217 recargado. 
+[08:52:08] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:53:14] - Camion 1 termina de recargar al Cajero 145. 
+[08:53:14] * Cajero 145 recargado. 
+[08:53:15] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:54:12] - Camion 9 llega a la Bodega. 
+[08:54:57] - Camion 0 termina de recargar al Cajero 205. 
+[08:54:57] * Cajero 205 recargado. 
+[08:54:58] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:55:29] - Camion 11 llega a la Bodega. 
+[08:55:59] - Camion 8 llega a la Bodega. 
+[08:57:48] - Camion 0 llega a la Bodega. 
+[08:58:41] - Camion 6 termina de recargar al Cajero 164. 
+[08:58:41] * Cajero 164 recargado. 
+[08:58:42] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[08:58:49] - Camion 7 llega a la Bodega. 
+[09:00:15] - Camion 1 llega a la Bodega. 
+[09:02:39] - Camion 6 llega a la Bodega. 
+[09:09:26] - Camion 5 termina de recargar al Cajero 215. 
+[09:09:26] * Cajero 215 recargado. 
+[09:09:27] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[09:20:28] - Camion 5 llega a la Bodega. 
+[09:49:41] * Cajero 93 entra en Stock Out. 
+[10:35:57] * Cajero 43 entra en Stock Out. 
+[10:49:12] * Cajero 18 entra en Stock Out. 
+[11:08:34] * Cajero 203 entra en Stock Out. 
+[11:24:41] * Cajero 229 entra en Stock Out. 
+[11:38:27] * Cajero 108 entra en Stock Out. 
+[11:41:56] * Cajero 27 entra en Stock Out. 
+[13:07:42] * Cajero 226 entra en Stock Out. 
+[13:14:01] * Cajero 70 entra en Stock Out. 
+[13:15:40] * Cajero 14 entra en Stock Out. 
+[14:36:16] * Cajero 106 entra en Stock Out. 
+[15:37:55] * Cajero 148 entra en Stock Out. 
+
+Martes-Noche 
+[08:00:00] - Camion 10 va al Cajero 43. 
+[08:00:00] - Camion 3 va al Cajero 70. 
+[08:00:00] - Camion 9 va al Cajero 93. 
+[08:00:00] - Camion 8 va al Cajero 106. 
+[08:00:00] - Camion 7 va al Cajero 135. 
+[08:00:00] - Camion 6 va al Cajero 148. 
+[08:00:01] - Camion 2 va al Cajero 149. 
+[08:00:01] - Camion 11 va al Cajero 172. 
+[08:00:01] - Camion 1 va al Cajero 176. 
+[08:00:02] - Camion 4 va al Cajero 43. 
+[08:00:02] - Camion 5 va al Cajero 54. 
+[08:00:03] - Camion 0 va al Cajero 70. 
+[08:01:59] - Camion 2 llega al Cajero 149. Empieza a recargar. 
+[08:03:12] - Camion 11 llega al Cajero 172. Empieza a recargar. 
+[08:04:55] - Camion 7 llega al Cajero 135. Empieza a recargar. 
+[08:05:53] - Camion 8 llega al Cajero 106. Empieza a recargar. 
+[08:06:48] - Camion 6 llega al Cajero 148. Empieza a recargar. 
+[08:07:22] - Camion 1 llega al Cajero 176. Empieza a recargar. 
+[08:07:38] - Camion 10 llega al Cajero 43. Empieza a recargar. 
+[08:07:41] - Camion 4 llega al Cajero 43. Empieza a recargar. 
+[08:08:40] - Camion 5 llega al Cajero 54. Empieza a recargar. 
+[08:08:50] - Camion 9 llega al Cajero 93. Empieza a recargar. 
+[08:12:01] - Camion 3 llega al Cajero 70. Empieza a recargar. 
+[08:12:06] - Camion 0 llega al Cajero 70. Empieza a recargar. 
+[08:18:48] - Camion 6 termina de recargar al Cajero 148. 
+[08:18:48] * Cajero 148 recargado. 
+[08:18:49] - Camion 6 va al Cajero 91. 
+[08:19:23] - Camion 1 termina de recargar al Cajero 176. 
+[08:19:23] * Cajero 176 recargado. 
+[08:19:24] - Camion 1 va al Cajero 93. 
+[08:19:59] - Camion 2 termina de recargar al Cajero 149. 
+[08:19:59] * Cajero 149 recargado. 
+[08:20:00] - Camion 2 va al Cajero 103. 
+[08:22:32] - Camion 6 llega al Cajero 91. Empieza a recargar. 
+[08:22:55] - Camion 7 termina de recargar al Cajero 135. 
+[08:22:55] * Cajero 135 recargado. 
+[08:22:56] - Camion 7 va al Cajero 106. 
+[08:25:39] - Camion 10 termina de recargar al Cajero 43. 
+[08:25:39] * Cajero 43 recargado. 
+[08:25:40] - Camion 10 va al Cajero 110. 
+[08:25:42] - Camion 4 termina de recargar al Cajero 43. 
+[08:25:42] * Cajero 43 recargado. 
+[08:25:43] - Camion 4 va al Cajero 135. 
+[08:26:50] - Camion 9 termina de recargar al Cajero 93. 
+[08:26:50] * Cajero 93 recargado. 
+[08:26:51] - Camion 9 va al Cajero 142. 
+[08:27:13] - Camion 11 termina de recargar al Cajero 172. 
+[08:27:13] * Cajero 172 recargado. 
+[08:27:14] - Camion 11 va al Cajero 148. 
+[08:29:55] - Camion 8 termina de recargar al Cajero 106. 
+[08:29:55] * Cajero 106 recargado. 
+[08:29:56] - Camion 8 va al Cajero 149. 
+[08:30:02] - Camion 3 termina de recargar al Cajero 70. 
+[08:30:02] * Cajero 70 recargado. 
+[08:30:03] - Camion 3 va al Cajero 157. 
+[08:30:07] - Camion 0 termina de recargar al Cajero 70. 
+[08:30:07] * Cajero 70 recargado. 
+[08:30:08] - Camion 0 va al Cajero 165. 
+[08:30:36] - Camion 3 llega al Cajero 157. Empieza a recargar. 
+[08:31:17] - Camion 4 llega al Cajero 135. Empieza a recargar. 
+[08:31:25] - Camion 1 llega al Cajero 93. Empieza a recargar. 
+[08:31:41] - Camion 2 llega al Cajero 103. Empieza a recargar. 
+[08:32:42] - Camion 5 termina de recargar al Cajero 54. 
+[08:32:42] * Cajero 54 recargado. 
+[08:32:43] - Camion 5 va al Cajero 172. 
+[08:33:32] - Camion 0 llega al Cajero 165. Empieza a recargar. 
+[08:33:45] - Camion 7 llega al Cajero 106. Empieza a recargar. 
+[08:34:57] - Camion 10 llega al Cajero 110. Empieza a recargar. 
+[08:35:12] - Camion 11 llega al Cajero 148. Empieza a recargar. 
+[08:36:17] - Camion 8 llega al Cajero 149. Empieza a recargar. 
+[08:39:13] - Camion 9 llega al Cajero 142. Empieza a recargar. 
+[08:41:30] - Camion 5 llega al Cajero 172. Empieza a recargar. 
+[08:42:36] - Camion 3 termina de recargar al Cajero 157. 
+[08:42:36] * Cajero 157 recargado. 
+[08:42:37] - Camion 3 va al Cajero 175. 
+[08:43:41] - Camion 2 termina de recargar al Cajero 103. 
+[08:43:41] * Cajero 103 recargado. 
+[08:43:42] - Camion 2 va al Cajero 176. 
+[08:46:34] - Camion 6 termina de recargar al Cajero 91. 
+[08:46:34] * Cajero 91 recargado. 
+[08:46:35] - Camion 6 va al Cajero 188. 
+[08:47:12] - Camion 11 termina de recargar al Cajero 148. 
+[08:47:12] * Cajero 148 recargado. 
+[08:47:13] - Camion 11 va al Cajero 219. 
+[08:49:19] - Camion 4 termina de recargar al Cajero 135. 
+[08:49:19] * Cajero 135 recargado. 
+[08:49:20] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:49:26] - Camion 1 termina de recargar al Cajero 93. 
+[08:49:26] * Cajero 93 recargado. 
+[08:49:27] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:51:13] - Camion 9 termina de recargar al Cajero 142. 
+[08:51:13] * Cajero 142 recargado. 
+[08:51:14] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:51:34] - Camion 0 termina de recargar al Cajero 165. 
+[08:51:34] * Cajero 165 recargado. 
+[08:51:35] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:53:32] - Camion 3 llega al Cajero 175. Empieza a recargar. 
+[08:54:15] - Camion 4 llega a la Bodega. 
+[08:54:18] - Camion 8 termina de recargar al Cajero 149. 
+[08:54:18] * Cajero 149 recargado. 
+[08:54:19] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:54:38] - Camion 11 llega al Cajero 219. Empieza a recargar. 
+[08:54:43] - Camion 9 llega a la Bodega. 
+[08:55:25] - Camion 6 llega al Cajero 188. Empieza a recargar. 
+[08:56:17] - Camion 8 llega a la Bodega. 
+[08:57:46] - Camion 7 termina de recargar al Cajero 106. 
+[08:57:46] * Cajero 106 recargado. 
+[08:57:47] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:58:20] - Camion 1 llega a la Bodega. 
+[08:58:58] - Camion 10 termina de recargar al Cajero 110. 
+[08:58:58] * Cajero 110 recargado. 
+[08:58:59] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[09:00:14] - Camion 0 llega a la Bodega. 
+[09:00:37] - Camion 10 llega a la Bodega. 
+[09:00:44] - Camion 2 llega al Cajero 176. Empieza a recargar. 
+[09:03:42] - Camion 7 llega a la Bodega. 
+[09:05:33] - Camion 5 termina de recargar al Cajero 172. 
+[09:05:33] * Cajero 172 recargado. 
+[09:05:34] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[09:06:38] - Camion 11 termina de recargar al Cajero 219. 
+[09:06:38] * Cajero 219 recargado. 
+[09:06:39] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[09:08:44] - Camion 5 llega a la Bodega. 
+[09:09:29] * Cajero 23 entra en Stock Out. 
+[09:11:33] - Camion 3 termina de recargar al Cajero 175. 
+[09:11:33] * Cajero 175 recargado. 
+[09:11:34] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[09:12:44] - Camion 2 termina de recargar al Cajero 176. 
+[09:12:44] * Cajero 176 recargado. 
+[09:12:45] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[09:13:27] - Camion 6 termina de recargar al Cajero 188. 
+[09:13:27] * Cajero 188 recargado. 
+[09:13:28] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[09:13:38] - Camion 3 llega a la Bodega. 
+[09:14:57] - Camion 11 llega a la Bodega. 
+[09:18:09] - Camion 6 llega a la Bodega. 
+[09:20:06] - Camion 2 llega a la Bodega. 
+[09:23:21] * Cajero 154 entra en Stock Out. 
+[12:10:30] * Cajero 122 entra en Stock Out. 
+[14:26:17] * Cajero 224 entra en Stock Out. 
+[15:47:00] * Cajero 10 entra en Stock Out. 
+
+Miercoles-Manana 
+[08:00:00] - Camion 4 va al Cajero 10. 
+[08:00:00] - Camion 8 va al Cajero 23. 
+[08:00:00] - Camion 0 va al Cajero 40. 
+[08:00:00] - Camion 7 va al Cajero 69. 
+[08:00:00] - Camion 3 va al Cajero 77. 
+[08:00:00] - Camion 6 va al Cajero 79. 
+[08:00:01] - Camion 9 va al Cajero 82. 
+[08:00:01] - Camion 10 va al Cajero 85. 
+[08:00:01] - Camion 11 va al Cajero 108. 
+[08:00:02] - Camion 1 va al Cajero 121. 
+[08:00:02] - Camion 2 va al Cajero 122. 
+[08:00:03] - Camion 5 va al Cajero 124. 
+[08:00:39] - Camion 7 llega al Cajero 69. Empieza a recargar. 
+[08:00:49] - Camion 5 llega al Cajero 124. Empieza a recargar. 
+[08:02:32] - Camion 10 llega al Cajero 85. Empieza a recargar. 
+[08:02:50] - Camion 8 llega al Cajero 23. Empieza a recargar. 
+[08:02:52] - Camion 1 llega al Cajero 121. Empieza a recargar. 
+[08:05:16] - Camion 11 llega al Cajero 108. Empieza a recargar. 
+[08:05:28] - Camion 9 llega al Cajero 82. Empieza a recargar. 
+[08:07:19] - Camion 4 llega al Cajero 10. Empieza a recargar. 
+[08:08:33] - Camion 0 llega al Cajero 40. Empieza a recargar. 
+[08:10:20] - Camion 2 llega al Cajero 122. Empieza a recargar. 
+[08:11:27] - Camion 6 llega al Cajero 79. Empieza a recargar. 
+[08:11:29] - Camion 3 llega al Cajero 77. Empieza a recargar. 
+[08:12:59] * Cajero 99 entra en Stock Out. 
+[08:14:32] - Camion 10 termina de recargar al Cajero 85. 
+[08:14:32] * Cajero 85 recargado. 
+[08:14:33] - Camion 10 va al Cajero 154. 
+[08:18:39] - Camion 7 termina de recargar al Cajero 69. 
+[08:18:39] * Cajero 69 recargado. 
+[08:18:40] - Camion 7 va al Cajero 163. 
+[08:18:50] - Camion 5 termina de recargar al Cajero 124. 
+[08:18:50] * Cajero 124 recargado. 
+[08:18:51] - Camion 5 va al Cajero 179. 
+[08:19:19] - Camion 4 termina de recargar al Cajero 10. 
+[08:19:19] * Cajero 10 recargado. 
+[08:19:20] - Camion 4 va al Cajero 180. 
+[08:20:20] - Camion 10 llega al Cajero 154. Empieza a recargar. 
+[08:20:52] - Camion 8 termina de recargar al Cajero 23. 
+[08:20:52] * Cajero 23 recargado. 
+[08:20:53] - Camion 8 va al Cajero 201. 
+[08:20:53] - Camion 1 termina de recargar al Cajero 121. 
+[08:20:53] * Cajero 121 recargado. 
+[08:20:54] - Camion 1 va al Cajero 203. 
+[08:23:27] - Camion 6 termina de recargar al Cajero 79. 
+[08:23:27] * Cajero 79 recargado. 
+[08:23:28] - Camion 6 va al Cajero 208. 
+[08:23:28] - Camion 9 termina de recargar al Cajero 82. 
+[08:23:28] * Cajero 82 recargado. 
+[08:23:29] - Camion 9 va al Cajero 224. 
+[08:23:30] - Camion 3 termina de recargar al Cajero 77. 
+[08:23:30] * Cajero 77 recargado. 
+[08:23:31] - Camion 3 va al Cajero 226. 
+[08:24:17] - Camion 1 llega al Cajero 203. Empieza a recargar. 
+[08:26:01] - Camion 8 llega al Cajero 201. Empieza a recargar. 
+[08:26:35] - Camion 0 termina de recargar al Cajero 40. 
+[08:26:35] * Cajero 40 recargado. 
+[08:26:36] - Camion 0 va al Cajero 10. 
+[08:27:48] - Camion 5 llega al Cajero 179. Empieza a recargar. 
+[08:27:48] - Camion 0 llega al Cajero 10. Empieza a recargar. 
+[08:28:17] - Camion 7 llega al Cajero 163. Empieza a recargar. 
+[08:29:17] - Camion 11 termina de recargar al Cajero 108. 
+[08:29:17] * Cajero 108 recargado. 
+[08:29:18] - Camion 11 va al Cajero 11. 
+[08:30:04] - Camion 3 llega al Cajero 226. Empieza a recargar. 
+[08:30:08] - Camion 9 llega al Cajero 224. Empieza a recargar. 
+[08:30:10] - Camion 4 llega al Cajero 180. Empieza a recargar. 
+[08:31:03] - Camion 6 llega al Cajero 208. Empieza a recargar. 
+[08:34:22] - Camion 2 termina de recargar al Cajero 122. 
+[08:34:22] * Cajero 122 recargado. 
+[08:34:23] - Camion 2 va al Cajero 16. 
+[08:38:22] - Camion 10 termina de recargar al Cajero 154. 
+[08:38:22] * Cajero 154 recargado. 
+[08:38:23] - Camion 10 va al Cajero 23. 
+[08:39:48] - Camion 0 termina de recargar al Cajero 10. 
+[08:39:48] * Cajero 10 recargado. 
+[08:39:49] - Camion 0 va al Cajero 31. 
+[08:40:09] - Camion 11 llega al Cajero 11. Empieza a recargar. 
+[08:40:18] - Camion 7 termina de recargar al Cajero 163. 
+[08:40:18] * Cajero 163 recargado. 
+[08:40:19] - Camion 7 va al Cajero 40. 
+[08:42:05] - Camion 3 termina de recargar al Cajero 226. 
+[08:42:05] * Cajero 226 recargado. 
+[08:42:06] - Camion 3 va al Cajero 41. 
+[08:42:18] - Camion 1 termina de recargar al Cajero 203. 
+[08:42:18] * Cajero 203 recargado. 
+[08:42:19] - Camion 1 va al Cajero 69. 
+[08:42:39] - Camion 0 llega al Cajero 31. Empieza a recargar. 
+[08:43:03] - Camion 6 termina de recargar al Cajero 208. 
+[08:43:03] * Cajero 208 recargado. 
+[08:43:04] - Camion 6 va al Cajero 73. 
+[08:43:24] - Camion 10 llega al Cajero 23. Empieza a recargar. 
+[08:44:02] - Camion 8 termina de recargar al Cajero 201. 
+[08:44:02] * Cajero 201 recargado. 
+[08:44:03] - Camion 8 va al Cajero 77. 
+[08:45:05] - Camion 2 llega al Cajero 16. Empieza a recargar. 
+[08:47:53] - Camion 1 llega al Cajero 69. Empieza a recargar. 
+[08:48:09] - Camion 9 termina de recargar al Cajero 224. 
+[08:48:09] * Cajero 224 recargado. 
+[08:48:10] - Camion 9 va al Cajero 79. 
+[08:48:11] - Camion 4 termina de recargar al Cajero 180. 
+[08:48:11] * Cajero 180 recargado. 
+[08:48:12] - Camion 4 va al Cajero 82. 
+[08:51:49] - Camion 5 termina de recargar al Cajero 179. 
+[08:51:49] * Cajero 179 recargado. 
+[08:51:50] - Camion 5 va al Cajero 85. 
+[08:51:56] - Camion 7 llega al Cajero 40. Empieza a recargar. 
+[08:53:50] - Camion 9 llega al Cajero 79. Empieza a recargar. 
+[08:54:39] - Camion 0 termina de recargar al Cajero 31. 
+[08:54:39] * Cajero 31 recargado. 
+[08:54:40] - Camion 0 va al Cajero 89. 
+[08:55:38] - Camion 4 llega al Cajero 82. Empieza a recargar. 
+[08:57:43] - Camion 3 llega al Cajero 41. Empieza a recargar. 
+[08:58:12] - Camion 11 termina de recargar al Cajero 11. 
+[08:58:12] * Cajero 11 recargado. 
+[08:58:13] - Camion 11 va al Cajero 94. 
+[08:58:55] - Camion 6 llega al Cajero 73. Empieza a recargar. 
+[08:58:57] * Cajero 139 entra en Stock Out. 
+[08:59:16] - Camion 5 llega al Cajero 85. Empieza a recargar. 
+[09:01:26] - Camion 10 termina de recargar al Cajero 23. 
+[09:01:26] * Cajero 23 recargado. 
+[09:01:27] - Camion 10 va al Cajero 104. 
+[09:02:11] - Camion 8 llega al Cajero 77. Empieza a recargar. 
+[09:04:06] - Camion 11 llega al Cajero 94. Empieza a recargar. 
+[09:05:50] - Camion 9 termina de recargar al Cajero 79. 
+[09:05:50] * Cajero 79 recargado. 
+[09:05:51] - Camion 9 va al Cajero 108. 
+[09:05:53] - Camion 1 termina de recargar al Cajero 69. 
+[09:05:53] * Cajero 69 recargado. 
+[09:05:54] - Camion 1 va al Cajero 121. 
+[09:06:16] - Camion 0 llega al Cajero 89. Empieza a recargar. 
+[09:08:05] - Camion 1 llega al Cajero 121. Empieza a recargar. 
+[09:08:21] - Camion 10 llega al Cajero 104. Empieza a recargar. 
+[09:09:06] - Camion 2 termina de recargar al Cajero 16. 
+[09:09:06] * Cajero 16 recargado. 
+[09:09:07] - Camion 2 va al Cajero 122. 
+[09:09:43] - Camion 3 termina de recargar al Cajero 41. 
+[09:09:43] * Cajero 41 recargado. 
+[09:09:44] - Camion 3 va al Cajero 124. 
+[09:09:58] - Camion 7 termina de recargar al Cajero 40. 
+[09:09:58] * Cajero 40 recargado. 
+[09:09:59] - Camion 7 va al Cajero 127. 
+[09:11:16] - Camion 5 termina de recargar al Cajero 85. 
+[09:11:16] * Cajero 85 recargado. 
+[09:11:17] - Camion 5 va al Cajero 132. 
+[09:11:27] * Cajero 68 entra en Stock Out. 
+[09:13:40] - Camion 4 termina de recargar al Cajero 82. 
+[09:13:40] * Cajero 82 recargado. 
+[09:13:41] - Camion 4 va al Cajero 139. 
+[09:14:12] - Camion 8 termina de recargar al Cajero 77. 
+[09:14:12] * Cajero 77 recargado. 
+[09:14:13] - Camion 8 va al Cajero 154. 
+[09:16:12] - Camion 4 llega al Cajero 139. Empieza a recargar. 
+[09:16:57] - Camion 6 termina de recargar al Cajero 73. 
+[09:16:57] * Cajero 73 recargado. 
+[09:16:58] - Camion 6 va al Cajero 156. 
+[09:18:16] - Camion 0 termina de recargar al Cajero 89. 
+[09:18:16] * Cajero 89 recargado. 
+[09:18:17] - Camion 0 va al Cajero 158. 
+[09:19:04] - Camion 9 llega al Cajero 108. Empieza a recargar. 
+[09:19:49] - Camion 2 llega al Cajero 122. Empieza a recargar. 
+[09:20:01] - Camion 5 llega al Cajero 132. Empieza a recargar. 
+[09:20:21] - Camion 10 termina de recargar al Cajero 104. 
+[09:20:21] * Cajero 104 recargado. 
+[09:20:22] - Camion 10 va al Cajero 162. 
+[09:21:46] - Camion 7 llega al Cajero 127. Empieza a recargar. 
+[09:21:52] - Camion 3 llega al Cajero 124. Empieza a recargar. 
+[09:22:15] - Camion 8 llega al Cajero 154. Empieza a recargar. 
+[09:26:06] - Camion 1 termina de recargar al Cajero 121. 
+[09:26:06] * Cajero 121 recargado. 
+[09:26:07] - Camion 1 va al Cajero 163. 
+[09:26:21] - Camion 0 llega al Cajero 158. Empieza a recargar. 
+[09:28:08] - Camion 11 termina de recargar al Cajero 94. 
+[09:28:08] * Cajero 94 recargado. 
+[09:28:09] - Camion 11 va al Cajero 171. 
+[09:30:31] - Camion 6 llega al Cajero 156. Empieza a recargar. 
+[09:30:46] - Camion 11 llega al Cajero 171. Empieza a recargar. 
+[09:32:01] - Camion 5 termina de recargar al Cajero 132. 
+[09:32:01] * Cajero 132 recargado. 
+[09:32:02] - Camion 5 va al Cajero 179. 
+[09:33:32] - Camion 1 llega al Cajero 163. Empieza a recargar. 
+[09:33:54] * Cajero 96 entra en Stock Out. 
+[09:35:40] - Camion 10 llega al Cajero 162. Empieza a recargar. 
+[09:38:21] - Camion 0 termina de recargar al Cajero 158. 
+[09:38:21] * Cajero 158 recargado. 
+[09:38:22] - Camion 0 va al Cajero 180. 
+[09:39:52] - Camion 3 termina de recargar al Cajero 124. 
+[09:39:52] * Cajero 124 recargado. 
+[09:39:53] - Camion 3 va al Cajero 182. 
+[09:40:15] - Camion 4 termina de recargar al Cajero 139. 
+[09:40:15] * Cajero 139 recargado. 
+[09:40:16] - Camion 4 va al Cajero 187. 
+[09:40:16] - Camion 8 termina de recargar al Cajero 154. 
+[09:40:16] * Cajero 154 recargado. 
+[09:40:17] - Camion 8 va al Cajero 196. 
+[09:42:33] - Camion 6 termina de recargar al Cajero 156. 
+[09:42:33] * Cajero 156 recargado. 
+[09:42:34] - Camion 6 va al Cajero 200. 
+[09:42:47] - Camion 11 termina de recargar al Cajero 171. 
+[09:42:47] * Cajero 171 recargado. 
+[09:42:48] - Camion 11 va al Cajero 201. 
+[09:42:50] - Camion 0 llega al Cajero 180. Empieza a recargar. 
+[09:43:05] - Camion 9 termina de recargar al Cajero 108. 
+[09:43:05] * Cajero 108 recargado. 
+[09:43:06] - Camion 9 va al Cajero 203. 
+[09:43:38] - Camion 5 llega al Cajero 179. Empieza a recargar. 
+[09:43:50] - Camion 2 termina de recargar al Cajero 122. 
+[09:43:50] * Cajero 122 recargado. 
+[09:43:51] - Camion 2 va al Cajero 206. 
+[09:45:33] - Camion 1 termina de recargar al Cajero 163. 
+[09:45:33] * Cajero 163 recargado. 
+[09:45:34] - Camion 1 va al Cajero 208. 
+[09:45:48] - Camion 7 termina de recargar al Cajero 127. 
+[09:45:48] * Cajero 127 recargado. 
+[09:45:49] - Camion 7 va al Cajero 211. 
+[09:46:24] - Camion 8 llega al Cajero 196. Empieza a recargar. 
+[09:47:34] - Camion 9 llega al Cajero 203. Empieza a recargar. 
+[09:50:18] - Camion 4 llega al Cajero 187. Empieza a recargar. 
+[09:50:47] - Camion 6 llega al Cajero 200. Empieza a recargar. 
+[09:50:50] - Camion 3 llega al Cajero 182. Empieza a recargar. 
+[09:51:01] - Camion 1 llega al Cajero 208. Empieza a recargar. 
+[09:51:30] - Camion 2 llega al Cajero 206. Empieza a recargar. 
+[09:53:42] - Camion 10 termina de recargar al Cajero 162. 
+[09:53:42] * Cajero 162 recargado. 
+[09:53:43] - Camion 10 va al Cajero 224. 
+[09:55:03] - Camion 11 llega al Cajero 201. Empieza a recargar. 
+[09:58:24] - Camion 8 termina de recargar al Cajero 196. 
+[09:58:24] * Cajero 196 recargado. 
+[09:58:25] - Camion 8 va al Cajero 226. 
+[10:00:42] - Camion 7 llega al Cajero 211. Empieza a recargar. 
+[10:00:51] - Camion 0 termina de recargar al Cajero 180. 
+[10:00:51] * Cajero 180 recargado. 
+[10:00:52] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[10:02:27] - Camion 8 llega al Cajero 226. Empieza a recargar. 
+[10:03:01] - Camion 1 termina de recargar al Cajero 208. 
+[10:03:01] * Cajero 208 recargado. 
+[10:03:02] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[10:03:30] * Cajero 86 entra en Stock Out. 
+[10:03:31] - Camion 2 termina de recargar al Cajero 206. 
+[10:03:31] * Cajero 206 recargado. 
+[10:03:32] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[10:03:36] * Cajero 67 entra en Stock Out. 
+[10:03:46] - Camion 10 llega al Cajero 224. Empieza a recargar. 
+[10:04:23] - Camion 0 llega a la Bodega. 
+[10:05:35] - Camion 9 termina de recargar al Cajero 203. 
+[10:05:35] * Cajero 203 recargado. 
+[10:05:36] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[10:07:15] - Camion 2 llega a la Bodega. 
+[10:07:39] - Camion 5 termina de recargar al Cajero 179. 
+[10:07:39] * Cajero 179 recargado. 
+[10:07:40] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[10:07:51] - Camion 1 llega a la Bodega. 
+[10:08:47] - Camion 6 termina de recargar al Cajero 200. 
+[10:08:47] * Cajero 200 recargado. 
+[10:08:48] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[10:11:12] - Camion 9 llega a la Bodega. 
+[10:12:42] - Camion 7 termina de recargar al Cajero 211. 
+[10:12:42] * Cajero 211 recargado. 
+[10:12:43] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[10:13:04] - Camion 11 termina de recargar al Cajero 201. 
+[10:13:04] * Cajero 201 recargado. 
+[10:13:05] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[10:13:49] - Camion 6 llega a la Bodega. 
+[10:14:20] - Camion 4 termina de recargar al Cajero 187. 
+[10:14:20] * Cajero 187 recargado. 
+[10:14:21] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[10:14:29] - Camion 8 termina de recargar al Cajero 226. 
+[10:14:29] * Cajero 226 recargado. 
+[10:14:30] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[10:14:52] - Camion 3 termina de recargar al Cajero 182. 
+[10:14:52] * Cajero 182 recargado. 
+[10:14:53] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[10:15:02] * Cajero 223 entra en Stock Out. 
+[10:17:24] - Camion 5 llega a la Bodega. 
+[10:19:25] - Camion 8 llega a la Bodega. 
+[10:19:44] - Camion 11 llega a la Bodega. 
+[10:20:36] - Camion 7 llega a la Bodega. 
+[10:21:15] - Camion 4 llega a la Bodega. 
+[10:21:48] - Camion 10 termina de recargar al Cajero 224. 
+[10:21:48] * Cajero 224 recargado. 
+[10:21:49] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[10:25:43] - Camion 3 llega a la Bodega. 
+[10:27:37] - Camion 10 llega a la Bodega. 
+[10:53:16] * Cajero 168 entra en Stock Out. 
+[11:01:05] * Cajero 178 entra en Stock Out. 
+[11:16:34] * Cajero 33 entra en Stock Out. 
+[11:22:39] * Cajero 30 entra en Stock Out. 
+[12:23:45] * Cajero 4 entra en Stock Out. 
+[13:12:22] * Cajero 26 entra en Stock Out. 
+[14:27:23] * Cajero 189 entra en Stock Out. 
+
+Miercoles-Tarde 
+[08:00:00] - Camion 0 va al Cajero 18. 
+[08:00:00] - Camion 1 va al Cajero 44. 
+[08:00:00] - Camion 6 va al Cajero 68. 
+[08:00:00] - Camion 8 va al Cajero 86. 
+[08:00:00] - Camion 7 va al Cajero 96. 
+[08:00:00] - Camion 3 va al Cajero 189. 
+[08:00:01] - Camion 2 va al Cajero 229. 
+[08:00:01] - Camion 5 va al Cajero 2. 
+[08:00:01] - Camion 4 va al Cajero 6. 
+[08:00:02] - Camion 9 va al Cajero 17. 
+[08:00:02] - Camion 10 va al Cajero 18. 
+[08:00:03] - Camion 11 va al Cajero 32. 
+[08:01:47] * Cajero 34 entra en Stock Out. 
+[08:02:11] - Camion 0 llega al Cajero 18. Empieza a recargar. 
+[08:02:13] - Camion 10 llega al Cajero 18. Empieza a recargar. 
+[08:03:50] - Camion 1 llega al Cajero 44. Empieza a recargar. 
+[08:04:41] - Camion 8 llega al Cajero 86. Empieza a recargar. 
+[08:05:29] * Cajero 32 entra en Stock Out. 
+[08:06:08] - Camion 2 llega al Cajero 229. Empieza a recargar. 
+[08:06:34] - Camion 4 llega al Cajero 6. Empieza a recargar. 
+[08:09:00] - Camion 9 llega al Cajero 17. Empieza a recargar. 
+[08:09:10] - Camion 3 llega al Cajero 189. Empieza a recargar. 
+[08:09:17] - Camion 7 llega al Cajero 96. Empieza a recargar. 
+[08:10:06] - Camion 5 llega al Cajero 2. Empieza a recargar. 
+[08:11:14] - Camion 11 llega al Cajero 32. Empieza a recargar. 
+[08:13:59] - Camion 6 llega al Cajero 68. Empieza a recargar. 
+[08:14:11] - Camion 0 termina de recargar al Cajero 18. 
+[08:14:11] * Cajero 18 recargado. 
+[08:14:12] - Camion 0 va al Cajero 34. 
+[08:14:14] - Camion 10 termina de recargar al Cajero 18. 
+[08:14:14] * Cajero 18 recargado. 
+[08:14:15] - Camion 10 va al Cajero 44. 
+[08:15:12] * Cajero 221 entra en Stock Out. 
+[08:15:50] - Camion 0 llega al Cajero 34. Empieza a recargar. 
+[08:15:51] - Camion 1 termina de recargar al Cajero 44. 
+[08:15:51] * Cajero 44 recargado. 
+[08:15:52] - Camion 1 va al Cajero 51. 
+[08:15:54] - Camion 10 llega al Cajero 44. Empieza a recargar. 
+[08:18:08] - Camion 2 termina de recargar al Cajero 229. 
+[08:18:08] * Cajero 229 recargado. 
+[08:18:09] - Camion 2 va al Cajero 61. 
+[08:18:35] - Camion 4 termina de recargar al Cajero 6. 
+[08:18:35] * Cajero 6 recargado. 
+[08:18:36] - Camion 4 va al Cajero 68. 
+[08:22:06] - Camion 5 termina de recargar al Cajero 2. 
+[08:22:06] * Cajero 2 recargado. 
+[08:22:07] - Camion 5 va al Cajero 71. 
+[08:22:42] - Camion 8 termina de recargar al Cajero 86. 
+[08:22:42] * Cajero 86 recargado. 
+[08:22:43] - Camion 8 va al Cajero 72. 
+[08:22:52] - Camion 1 llega al Cajero 51. Empieza a recargar. 
+[08:25:48] - Camion 2 llega al Cajero 61. Empieza a recargar. 
+[08:25:59] - Camion 6 termina de recargar al Cajero 68. 
+[08:25:59] * Cajero 68 recargado. 
+[08:26:00] - Camion 6 va al Cajero 76. 
+[08:27:10] - Camion 3 termina de recargar al Cajero 189. 
+[08:27:10] * Cajero 189 recargado. 
+[08:27:11] - Camion 3 va al Cajero 86. 
+[08:27:18] - Camion 7 termina de recargar al Cajero 96. 
+[08:27:18] * Cajero 96 recargado. 
+[08:27:19] - Camion 7 va al Cajero 90. 
+[08:27:54] - Camion 10 termina de recargar al Cajero 44. 
+[08:27:54] * Cajero 44 recargado. 
+[08:27:55] - Camion 10 va al Cajero 92. 
+[08:28:46] - Camion 5 llega al Cajero 71. Empieza a recargar. 
+[08:29:16] - Camion 11 termina de recargar al Cajero 32. 
+[08:29:16] * Cajero 32 recargado. 
+[08:29:17] - Camion 11 va al Cajero 96. 
+[08:32:48] - Camion 4 llega al Cajero 68. Empieza a recargar. 
+[08:33:02] - Camion 9 termina de recargar al Cajero 17. 
+[08:33:02] * Cajero 17 recargado. 
+[08:33:03] - Camion 9 va al Cajero 109. 
+[08:33:53] - Camion 0 termina de recargar al Cajero 34. 
+[08:33:53] * Cajero 34 recargado. 
+[08:33:54] - Camion 0 va al Cajero 116. 
+[08:34:54] - Camion 1 termina de recargar al Cajero 51. 
+[08:34:54] * Cajero 51 recargado. 
+[08:34:55] - Camion 1 va al Cajero 119. 
+[08:37:16] - Camion 8 llega al Cajero 72. Empieza a recargar. 
+[08:38:10] - Camion 10 llega al Cajero 92. Empieza a recargar. 
+[08:39:28] - Camion 0 llega al Cajero 116. Empieza a recargar. 
+[08:40:49] - Camion 3 llega al Cajero 86. Empieza a recargar. 
+[08:40:58] - Camion 11 llega al Cajero 96. Empieza a recargar. 
+[08:41:35] - Camion 1 llega al Cajero 119. Empieza a recargar. 
+[08:41:44] - Camion 6 llega al Cajero 76. Empieza a recargar. 
+[08:43:59] - Camion 9 llega al Cajero 109. Empieza a recargar. 
+[08:44:48] - Camion 4 termina de recargar al Cajero 68. 
+[08:44:48] * Cajero 68 recargado. 
+[08:44:49] - Camion 4 va al Cajero 125. 
+[08:47:45] - Camion 7 llega al Cajero 90. Empieza a recargar. 
+[08:49:17] - Camion 8 termina de recargar al Cajero 72. 
+[08:49:17] * Cajero 72 recargado. 
+[08:49:18] - Camion 8 va al Cajero 150. 
+[08:49:49] - Camion 2 termina de recargar al Cajero 61. 
+[08:49:49] * Cajero 61 recargado. 
+[08:49:50] - Camion 2 va al Cajero 164. 
+[08:51:10] - Camion 4 llega al Cajero 125. Empieza a recargar. 
+[08:52:47] - Camion 5 termina de recargar al Cajero 71. 
+[08:52:47] * Cajero 71 recargado. 
+[08:52:48] - Camion 5 va al Cajero 167. 
+[08:53:35] - Camion 1 termina de recargar al Cajero 119. 
+[08:53:35] * Cajero 119 recargado. 
+[08:53:36] - Camion 1 va al Cajero 170. 
+[08:55:59] - Camion 9 termina de recargar al Cajero 109. 
+[08:55:59] * Cajero 109 recargado. 
+[08:56:00] - Camion 9 va al Cajero 173. 
+[08:57:15] - Camion 2 llega al Cajero 164. Empieza a recargar. 
+[08:57:28] - Camion 0 termina de recargar al Cajero 116. 
+[08:57:28] * Cajero 116 recargado. 
+[08:57:29] - Camion 0 va al Cajero 181. 
+[08:58:50] - Camion 3 termina de recargar al Cajero 86. 
+[08:58:50] * Cajero 86 recargado. 
+[08:58:51] - Camion 3 va al Cajero 183. 
+[08:58:59] - Camion 11 termina de recargar al Cajero 96. 
+[08:58:59] * Cajero 96 recargado. 
+[08:59:00] - Camion 11 va al Cajero 189. 
+[08:59:46] - Camion 6 termina de recargar al Cajero 76. 
+[08:59:46] * Cajero 76 recargado. 
+[08:59:47] - Camion 6 va al Cajero 190. 
+[09:01:06] - Camion 5 llega al Cajero 167. Empieza a recargar. 
+[09:01:28] - Camion 1 llega al Cajero 170. Empieza a recargar. 
+[09:02:12] - Camion 10 termina de recargar al Cajero 92. 
+[09:02:12] * Cajero 92 recargado. 
+[09:02:13] - Camion 10 va al Cajero 197. 
+[09:04:48] - Camion 8 llega al Cajero 150. Empieza a recargar. 
+[09:05:48] - Camion 7 termina de recargar al Cajero 90. 
+[09:05:48] * Cajero 90 recargado. 
+[09:05:49] - Camion 7 va al Cajero 210. 
+[09:06:03] - Camion 3 llega al Cajero 183. Empieza a recargar. 
+[09:06:59] - Camion 6 llega al Cajero 190. Empieza a recargar. 
+[09:09:03] - Camion 0 llega al Cajero 181. Empieza a recargar. 
+[09:09:10] * Cajero 227 entra en Stock Out. 
+[09:09:13] - Camion 10 llega al Cajero 197. Empieza a recargar. 
+[09:09:53] - Camion 9 llega al Cajero 173. Empieza a recargar. 
+[09:13:28] - Camion 1 termina de recargar al Cajero 170. 
+[09:13:28] * Cajero 170 recargado. 
+[09:13:29] - Camion 1 va al Cajero 212. 
+[09:15:11] - Camion 4 termina de recargar al Cajero 125. 
+[09:15:11] * Cajero 125 recargado. 
+[09:15:12] - Camion 4 va al Cajero 221. 
+[09:17:29] - Camion 11 llega al Cajero 189. Empieza a recargar. 
+[09:18:03] - Camion 3 termina de recargar al Cajero 183. 
+[09:18:03] * Cajero 183 recargado. 
+[09:18:04] - Camion 3 va al Cajero 227. 
+[09:19:00] - Camion 6 termina de recargar al Cajero 190. 
+[09:19:00] * Cajero 190 recargado. 
+[09:19:01] - Camion 6 va al Cajero 229. 
+[09:21:04] - Camion 0 termina de recargar al Cajero 181. 
+[09:21:04] * Cajero 181 recargado. 
+[09:21:05] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[09:21:16] - Camion 2 termina de recargar al Cajero 164. 
+[09:21:16] * Cajero 164 recargado. 
+[09:21:17] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[09:22:04] - Camion 4 llega al Cajero 221. Empieza a recargar. 
+[09:22:32] - Camion 7 llega al Cajero 210. Empieza a recargar. 
+[09:25:07] - Camion 5 termina de recargar al Cajero 167. 
+[09:25:07] * Cajero 167 recargado. 
+[09:25:08] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[09:25:13] - Camion 2 llega a la Bodega. 
+[09:26:19] - Camion 0 llega a la Bodega. 
+[09:26:29] - Camion 3 llega al Cajero 227. Empieza a recargar. 
+[09:27:14] - Camion 10 termina de recargar al Cajero 197. 
+[09:27:14] * Cajero 197 recargado. 
+[09:27:15] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[09:27:54] - Camion 9 termina de recargar al Cajero 173. 
+[09:27:54] * Cajero 173 recargado. 
+[09:27:55] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[09:28:50] - Camion 8 termina de recargar al Cajero 150. 
+[09:28:50] * Cajero 150 recargado. 
+[09:28:51] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[09:29:38] - Camion 5 llega a la Bodega. 
+[09:30:36] - Camion 6 llega al Cajero 229. Empieza a recargar. 
+[09:32:49] - Camion 1 llega al Cajero 212. Empieza a recargar. 
+[09:33:55] - Camion 9 llega a la Bodega. 
+[09:34:32] - Camion 8 llega a la Bodega. 
+[09:34:32] - Camion 7 termina de recargar al Cajero 210. 
+[09:34:32] * Cajero 210 recargado. 
+[09:34:33] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[09:35:31] - Camion 11 termina de recargar al Cajero 189. 
+[09:35:31] * Cajero 189 recargado. 
+[09:35:32] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[09:38:32] - Camion 10 llega a la Bodega. 
+[09:40:05] - Camion 4 termina de recargar al Cajero 221. 
+[09:40:05] * Cajero 221 recargado. 
+[09:40:06] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[09:40:08] - Camion 7 llega a la Bodega. 
+[09:42:36] - Camion 6 termina de recargar al Cajero 229. 
+[09:42:36] * Cajero 229 recargado. 
+[09:42:37] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[09:43:03] - Camion 4 llega a la Bodega. 
+[09:44:31] - Camion 3 termina de recargar al Cajero 227. 
+[09:44:31] * Cajero 227 recargado. 
+[09:44:32] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[09:44:43] - Camion 11 llega a la Bodega. 
+[09:48:46] - Camion 6 llega a la Bodega. 
+[09:50:51] - Camion 1 termina de recargar al Cajero 212. 
+[09:50:51] * Cajero 212 recargado. 
+[09:50:52] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[09:51:06] - Camion 3 llega a la Bodega. 
+[09:58:25] - Camion 1 llega a la Bodega. 
+[10:51:28] * Cajero 102 entra en Stock Out. 
+[11:39:30] * Cajero 169 entra en Stock Out. 
+[12:27:05] * Cajero 5 entra en Stock Out. 
+[12:35:44] * Cajero 64 entra en Stock Out. 
+[12:46:03] * Cajero 146 entra en Stock Out. 
+[12:57:45] * Cajero 217 entra en Stock Out. 
+[12:59:06] * Cajero 113 entra en Stock Out. 
+[13:44:30] * Cajero 129 entra en Stock Out. 
+[13:57:02] * Cajero 141 entra en Stock Out. 
+[14:08:40] * Cajero 81 entra en Stock Out. 
+[14:46:45] * Cajero 115 entra en Stock Out. 
+[15:01:58] * Cajero 218 entra en Stock Out. 
+[15:24:04] * Cajero 204 entra en Stock Out. 
+
+Miercoles-Noche 
+[08:00:00] - Camion 2 va al Cajero 30. 
+[08:00:00] - Camion 5 va al Cajero 64. 
+[08:00:00] - Camion 8 va al Cajero 81. 
+[08:00:00] - Camion 7 va al Cajero 115. 
+[08:00:00] - Camion 11 va al Cajero 141. 
+[08:00:00] - Camion 3 va al Cajero 13. 
+[08:00:01] - Camion 0 va al Cajero 30. 
+[08:00:01] - Camion 10 va al Cajero 35. 
+[08:00:01] - Camion 6 va al Cajero 54. 
+[08:00:02] - Camion 9 va al Cajero 64. 
+[08:00:02] - Camion 1 va al Cajero 81. 
+[08:00:03] - Camion 4 va al Cajero 84. 
+[08:02:04] - Camion 11 llega al Cajero 141. Empieza a recargar. 
+[08:03:57] - Camion 3 llega al Cajero 13. Empieza a recargar. 
+[08:04:02] - Camion 8 llega al Cajero 81. Empieza a recargar. 
+[08:04:04] - Camion 1 llega al Cajero 81. Empieza a recargar. 
+[08:04:35] - Camion 2 llega al Cajero 30. Empieza a recargar. 
+[08:04:37] - Camion 0 llega al Cajero 30. Empieza a recargar. 
+[08:05:05] - Camion 4 llega al Cajero 84. Empieza a recargar. 
+[08:06:47] - Camion 7 llega al Cajero 115. Empieza a recargar. 
+[08:07:39] - Camion 5 llega al Cajero 64. Empieza a recargar. 
+[08:07:40] - Camion 9 llega al Cajero 64. Empieza a recargar. 
+[08:08:38] - Camion 6 llega al Cajero 54. Empieza a recargar. 
+[08:13:23] - Camion 10 llega al Cajero 35. Empieza a recargar. 
+[08:17:05] - Camion 4 termina de recargar al Cajero 84. 
+[08:17:05] * Cajero 84 recargado. 
+[08:17:06] - Camion 4 va al Cajero 87. 
+[08:20:04] - Camion 11 termina de recargar al Cajero 141. 
+[08:20:04] * Cajero 141 recargado. 
+[08:20:05] - Camion 11 va al Cajero 91. 
+[08:21:58] - Camion 3 termina de recargar al Cajero 13. 
+[08:21:58] * Cajero 13 recargado. 
+[08:21:59] - Camion 3 va al Cajero 100. 
+[08:22:35] - Camion 2 termina de recargar al Cajero 30. 
+[08:22:35] * Cajero 30 recargado. 
+[08:22:36] - Camion 2 va al Cajero 114. 
+[08:22:38] - Camion 0 termina de recargar al Cajero 30. 
+[08:22:38] * Cajero 30 recargado. 
+[08:22:39] - Camion 0 va al Cajero 115. 
+[08:24:43] - Camion 3 llega al Cajero 100. Empieza a recargar. 
+[08:24:50] - Camion 0 llega al Cajero 115. Empieza a recargar. 
+[08:25:37] - Camion 4 llega al Cajero 87. Empieza a recargar. 
+[08:25:39] - Camion 5 termina de recargar al Cajero 64. 
+[08:25:39] * Cajero 64 recargado. 
+[08:25:40] - Camion 5 va al Cajero 137. 
+[08:25:41] - Camion 9 termina de recargar al Cajero 64. 
+[08:25:41] * Cajero 64 recargado. 
+[08:25:42] - Camion 9 va al Cajero 141. 
+[08:26:22] * Cajero 137 entra en Stock Out. 
+[08:26:32] - Camion 11 llega al Cajero 91. Empieza a recargar. 
+[08:28:03] - Camion 8 termina de recargar al Cajero 81. 
+[08:28:03] * Cajero 81 recargado. 
+[08:28:04] - Camion 8 va al Cajero 145. 
+[08:28:05] - Camion 1 termina de recargar al Cajero 81. 
+[08:28:05] * Cajero 81 recargado. 
+[08:28:06] - Camion 1 va al Cajero 157. 
+[08:30:50] - Camion 7 termina de recargar al Cajero 115. 
+[08:30:50] * Cajero 115 recargado. 
+[08:30:51] - Camion 7 va al Cajero 193. 
+[08:31:01] - Camion 8 llega al Cajero 145. Empieza a recargar. 
+[08:31:54] - Camion 2 llega al Cajero 114. Empieza a recargar. 
+[08:32:18] * Cajero 25 entra en Stock Out. 
+[08:32:40] - Camion 6 termina de recargar al Cajero 54. 
+[08:32:40] * Cajero 54 recargado. 
+[08:32:41] - Camion 6 va a la Bodega. No hay cajeros que recargar.. 
+[08:34:58] - Camion 9 llega al Cajero 141. Empieza a recargar. 
+[08:35:59] - Camion 1 llega al Cajero 157. Empieza a recargar. 
+[08:36:43] - Camion 3 termina de recargar al Cajero 100. 
+[08:36:43] * Cajero 100 recargado. 
+[08:36:44] - Camion 3 va a la Bodega. No hay cajeros que recargar.. 
+[08:37:05] - Camion 7 llega al Cajero 193. Empieza a recargar. 
+[08:37:24] - Camion 10 termina de recargar al Cajero 35. 
+[08:37:24] * Cajero 35 recargado. 
+[08:37:25] - Camion 10 va a la Bodega. No hay cajeros que recargar.. 
+[08:39:15] - Camion 3 llega a la Bodega. 
+[08:41:19] - Camion 6 llega a la Bodega. 
+[08:43:54] - Camion 2 termina de recargar al Cajero 114. 
+[08:43:54] * Cajero 114 recargado. 
+[08:43:55] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[08:44:20] - Camion 5 llega al Cajero 137. Empieza a recargar. 
+[08:47:59] - Camion 1 termina de recargar al Cajero 157. 
+[08:47:59] * Cajero 157 recargado. 
+[08:48:00] - Camion 1 va a la Bodega. No hay cajeros que recargar.. 
+[08:48:52] - Camion 0 termina de recargar al Cajero 115. 
+[08:48:52] * Cajero 115 recargado. 
+[08:48:53] - Camion 0 va a la Bodega. No hay cajeros que recargar.. 
+[08:49:06] - Camion 7 termina de recargar al Cajero 193. 
+[08:49:06] * Cajero 193 recargado. 
+[08:49:07] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[08:49:38] - Camion 4 termina de recargar al Cajero 87. 
+[08:49:38] * Cajero 87 recargado. 
+[08:49:39] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[08:50:33] - Camion 11 termina de recargar al Cajero 91. 
+[08:50:33] * Cajero 91 recargado. 
+[08:50:34] - Camion 11 va a la Bodega. No hay cajeros que recargar.. 
+[08:50:47] - Camion 10 llega a la Bodega. 
+[08:51:51] - Camion 7 llega a la Bodega. 
+[08:52:46] - Camion 2 llega a la Bodega. 
+[08:52:59] - Camion 9 termina de recargar al Cajero 141. 
+[08:52:59] * Cajero 141 recargado. 
+[08:53:00] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[08:53:49] - Camion 4 llega a la Bodega. 
+[08:55:02] - Camion 8 termina de recargar al Cajero 145. 
+[08:55:02] * Cajero 145 recargado. 
+[08:55:03] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[08:55:04] - Camion 9 llega a la Bodega. 
+[08:55:39] - Camion 0 llega a la Bodega. 
+[08:55:58] * Cajero 117 entra en Stock Out. 
+[08:56:23] - Camion 5 termina de recargar al Cajero 137. 
+[08:56:23] * Cajero 137 recargado. 
+[08:56:24] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[08:59:07] - Camion 11 llega a la Bodega. 
+[08:59:28] - Camion 1 llega a la Bodega. 
+[09:02:05] - Camion 8 llega a la Bodega. 
+[09:07:39] - Camion 5 llega a la Bodega. 
+[09:26:03] * Cajero 103 entra en Stock Out. 
+[10:44:53] * Cajero 135 entra en Stock Out. 
+[11:46:38] * Cajero 219 entra en Stock Out. 
+[13:37:26] * Cajero 130 entra en Stock Out. 
+[13:37:26] * Cajero 151 entra en Stock Out. 
+[14:21:02] * Cajero 128 entra en Stock Out. 
+[14:24:46] * Cajero 20 entra en Stock Out. 
+[14:27:06] * Cajero 38 entra en Stock Out. 
+[14:30:52] * Cajero 75 entra en Stock Out. 
+
+
+
+
+RESULTADOS: 
+> Total costo variable Stock Out: MM$7591.2599999943595.
+> Total costo fijo Stock Out: MM$74.46999999999996.
+> Total en traslado: MM$111.52524166662808.
+TOTAL> MM$7777.255241660988.

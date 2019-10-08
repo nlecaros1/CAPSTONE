@@ -1,0 +1,23 @@
++-------------+ 
+| Simbologia: | 
+| - Camiones  | 
+| * Cajeros   | 
++-------------+ 
+
+Simulacion de 1 con plata inicial de MM$ 50.0.
+
+Semana 1
+Lunes-Manana 
+
+Lunes-Tarde 
+
+Lunes-Noche 
+
+
+
+
+RESULTADOS: 
+> Total costo variable Stock Out: MM$0.
+> Total costo fijo Stock Out: MM$0.
+> Total en traslado: MM$0.
+TOTAL> MM$0.

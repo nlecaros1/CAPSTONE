@@ -64,7 +64,8 @@ def draw(cajeros):
     dot.segment(factors, 0, factors, lineas, line_width=0.5, line_color="gray")
 
     # Carga la ubicacion de los cajeros en el mapa
-    for llave in cajeros.keys():
+    # lista = disponibilidad(cajeros,"Lunes", "Manana")
+    for llave in cajeros:
         if llave != 'Bodega':
             if cajeros[llave]['Promedio diario de retiro'] >= 21:
                 tamano = 7
@@ -72,9 +73,9 @@ def draw(cajeros):
                 tamano = 3
             else:
                 tamano = 5
-            if distancia(cajeros[llave], cajeros['Bodega']) >= 90:
+            if distancia(cajeros[llave], cajeros['Bodega'])/100 >= 90:
                 color = 'red'
-            elif distancia(cajeros[llave], cajeros['Bodega']) <= 45:
+            elif distancia(cajeros[llave], cajeros['Bodega'])/100 <= 35:
                 color = 'green'
             else:
                 color = 'yellow'
@@ -110,15 +111,15 @@ def draw(cajeros):
 
 
 def distancia(punto_1, punto_2):
-    return abs(int(punto_1['Pos_x']) - int(punto_2['Pos_x'])) + abs(int(punto_1['Pos_y']) - int(punto_2['Pos_y']))*100 #entrega distancia en mts
+    return abs(int(punto_1['Pos_x']) - int(punto_2['Pos_x']))*100 + abs(int(punto_1['Pos_y']) - int(punto_2['Pos_y']))*100 #entrega distancia en mts
 
 
 def hora(segundos_entrantes):
     # Se calculan el numero de la semana
-    semana = (segundos_entrantes + 28800)//(3600*24*7) 
+    semana = (segundos_entrantes + 28800)//(3600*24*7)
 
     # Se dejan solo los segundos de ese dia y se le agregan las 8 horas iniciales del lunes en la manana. Se transforman en todos a tener dos digitos
-    segundos_del_dia = (segundos_entrantes + 28800)%(3600*24) 
+    segundos_del_dia = (segundos_entrantes + 28800)%(3600*24)
     hora = str(segundos_del_dia//3600)
     hora = str(0)*(2 - len(hora)) + hora
     minutos = str((segundos_del_dia%3600)//60)
