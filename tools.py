@@ -110,6 +110,37 @@ def draw(cajeros):
     return
 
 
+def draw_by_disponibility(cajeros, disponibles, nombre):
+    detalles_mostrados = [("nombre", "$name")]
+    # Se crea los elementos del grafico
+    dot = figure(title="Ubicaciones de cajeros", tooltips=detalles_mostrados, toolbar_location='above',
+                 y_range=[0, 120], x_range=[0, 120], x_axis_label='X', y_axis_label='Y')
+    factors = [str(i) for i in range(120)]
+    lineas = [120 for i in range(120)]
+    dot.segment(0, factors, lineas, factors, line_width=0.5, line_color="gray")
+    dot.segment(factors, 0, factors, lineas, line_width=0.5, line_color="gray")
+    for llave in disponibles:
+        if cajeros[llave]['Promedio diario de retiro'] >= 21:
+            tamano = 7
+        elif cajeros[llave]['Promedio diario de retiro'] <= 11:
+            tamano = 3
+        else:
+            tamano = 5
+        if distancia(cajeros[llave], cajeros['Bodega'])/100 >= 90:
+            color = 'red'
+        elif distancia(cajeros[llave], cajeros['Bodega'])/100 <= 35:
+            color = 'green'
+        else:
+            color = 'yellow'
+        dot.circle(int(cajeros[llave]['Pos_x']), int(cajeros[llave]['Pos_y']), size=tamano, fill_color=color,
+                    line_color="black", line_width=0.5, name=llave, legend="Cajeros")
+
+    dot.circle(70, 70, size=5, fill_color="black", line_color="black", line_width=0.5, name='Bodega', legend="Bodega")
+    output_file(f'Mapas/{nombre}.html', title="Ubicaciones ATM's")
+    show(dot, sizing_mode="scale_width")  # open a browser
+    return
+
+
 def distancia(punto_1, punto_2):
     return abs(int(punto_1['Pos_x']) - int(punto_2['Pos_x']))*100 + abs(int(punto_1['Pos_y']) - int(punto_2['Pos_y']))*100 #entrega distancia en mts
 
@@ -127,21 +158,15 @@ def hora(segundos_entrantes):
     segundos = str(((segundos_del_dia%3600)%60))
     segundos = str(0)*(2 - len(segundos)) + segundos
     return [f'{hora}:{minutos}:{segundos}', semana]
+    
 
-
-
-    # dias_semana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
-    # semana = ((dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)//(3600*24))//7 + 1
-    # dia = dias_semana[((dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)//(3600*24))&7]
-    # hora = (dia_inico*24*3600 + horario*8*3600 + segundos_entrantes)&(3600*24*7)
-    # print(hora)
-
-    # return f'{dia}{hora}:{minutos}:{segundos}'
-
-
-# def día(minutos_entrantes):
-#     dia =
-
+def call_draw_disponibility(cajeros):
+    semana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
+    horarios =  ['Manana', 'Tarde', 'Noche']
+    for dia in semana:
+        for turno in horarios:
+            draw_by_disponibility(cajeros, disponibilidad(cajeros,dia, turno), f'{dia} - {turno}')
+    return
 
 def disponibilidad(cajeros, dia, horario):
     cajeros_disponibles = []
