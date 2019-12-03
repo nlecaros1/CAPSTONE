@@ -9,7 +9,7 @@ def carga_cajeros():
     with open('ubicaciones.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            cajeros[row['Cajero']] = {'Pos_x': row['X'], 'Pos_y': row['Y'],
+            cajeros[row['Cajero']] = {'Llave': row['Cajero'], 'Pos_x': row['X'], 'Pos_y': row['Y'],
                                       'Promedio diario de retiro': float(row['Promedio diario de retiro']),
                                       'Costo fijo por Stock Out': float(row['Costo fijo por Stock Out']),
                                       'Costo variable por Stock Out': float(row['Costo variable por Stock Out']),
@@ -19,7 +19,8 @@ def carga_cajeros():
                                       'Domingo': row['Domingo'], 'Manana': row['Manana'], 'Tarde': row['Tarde'],
                                       'Noche': row['Noche'], 'Plata actual': 0, 'Dias sin plata': 0,
                                       "Costo fijo acumulado stock out": 0, "Costo variable acumulado stock out": 0,
-                                      'Estado': 'Normal'}
+                                      'Estado': 'Normal',
+                                      'Orden': 0}
     cajeros['Bodega'] = {'Pos_x': 70, 'Pos_y': 70}
     return cajeros
 
@@ -177,6 +178,79 @@ def disponibilidad(cajeros, dia, horario):
     return cajeros_disponibles
 
 
+def nuevamente_disponible(cajero, fecha_actual):
+
+    dias_semana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
+    horarios =  ['Manana', 'Tarde', 'Noche']
+    opciones = []
+    for dia in dias_semana:
+        for horario in horarios:
+            if cajero[dia] == "1" and cajero[horario] == "1":
+                indice_dia = dias_semana.index(dia) + 1            # Lunes: 1, Martes: 2, ..., Domingo: 7
+                indice_horario = (horarios.index(horario)) / 3     # Manana: 0, Tarde: 0.333, Noche: 0.666
+                fecha_disponible = indice_dia + indice_horario
+                opciones.append(fecha_disponible)
+    copia = []
+    for elemento in opciones:
+        copia.append(7 + elemento)
+    finales = opciones + copia
+    contador = 0
+    for elemeto in finales:
+        if elemeto < fecha_actual:
+            pass
+        elif elemeto == fecha_actual:
+            contador += 1
+            break
+        else:
+            break
+        contador += 1
+    indice_final = contador
+    # print(f'Entra el cajero {cajero["Llave"]} que se puede recargar en {finales[indice_final] - fecha_actual}, con costo variable {cajero["Costo variable por Stock Out"]} y promedio de retiro {cajero["Promedio diario de retiro"]}')
+    return (finales[indice_final] - fecha_actual)
+
+
+def ponderador(cajeros, cajeros_disponibles, dia, horario):
+    dias_semana = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo']
+    horarios =  ['Manana', 'Tarde', 'Noche']
+    indice_dia = dias_semana.index(dia) + 1            # Lunes: 1, Martes: 2, ..., Domingo: 7
+    indice_horario = (horarios.index(horario)) / 3     # Manana: 0, Tarde: 0.333, Noche: 0.666
+    lista_cajeros = []
+    fecha_actual = indice_dia + indice_horario
+    lista_ordenada_a_entregar = []
+    for llave in cajeros_disponibles:
+        if llave != 'Bodega':
+        # if llave == 'Cajero 3':
+            if cajeros[llave]['Plata actual'] - cajeros[llave]['Promedio diario de retiro'] >= 0:
+                cajeros[llave]['Orden'] = 0
+            else:
+                costo_fijo = 0
+                if cajeros[llave]['Estado'] == 'Normal':
+                    costo_fijo = cajeros[llave]['Costo fijo por Stock Out']
+                distancia_disponibilidad  = nuevamente_disponible(cajeros[llave], fecha_actual)*24*60 # distancia_disponibilidad en minutos
+                cajeros[llave]['Orden'] = (cajeros[llave]['Promedio diario de retiro'] - cajeros[llave]['Plata actual'])*distancia_disponibilidad + costo_fijo
+            lista_cajeros.append(cajeros[llave])
+    lista_ordenada_cajeros = sorted(lista_cajeros, key = lambda x: x['Orden'], reverse=True) 
+    for cajero in lista_ordenada_cajeros:
+        lista_ordenada_a_entregar.append(cajero['Llave'])
+    return lista_ordenada_a_entregar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def calculador(cajeros, monto):
     dia = 1
     con_plata = []
@@ -225,3 +299,6 @@ def calculador(cajeros, monto):
 
 
 # Para calcular la distacia, calcularlo como la [(x1-x2) + (y1 - y2)]*100 mts.
+
+
+    
