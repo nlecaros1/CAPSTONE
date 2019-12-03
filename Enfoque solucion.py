@@ -62,8 +62,7 @@ while turnos_completados < cantidad_de_turnos:
                 # cajeros_a_stock_out.append(llave_cajero) 
                 if llave_cajero in cajeros_disponibles:
                     cajeros_a_visitar.append(llave_cajero)
-            
-    cajeros_a_visitar = ponderador(cajeros, cajeros_a_visitar, dia, turno)
+    cajeros_a_visitar = ponderador(cajeros, cajeros_disponibles, dia, turno)
     
     print(f'''======= Turno {turnos_completados + 1} [{dia}, {turno}] =======''')
 
