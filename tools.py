@@ -237,6 +237,11 @@ def ponderador(cajeros, cajeros_disponibles, dia, horario):
     return lista_ordenada_a_entregar
 
 
+def n_mas_cercanos(posicion, cajeros, visitados_turno, n):
+     ordenados = sorted(cajeros, key = lambda x: distancia(posicion,x))
+     ordenados.remove(posicion)
+     ordenados = [cajero['Llave'] for cajero in ordenados if cajero['Llave'] not in visitados_turno]
+     return [cajero for cajero in ordenados[:n]]
 
 
 
