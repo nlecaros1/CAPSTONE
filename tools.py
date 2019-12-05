@@ -220,13 +220,15 @@ def ponderador(cajeros, cajeros_disponibles, dia, horario):
     for llave in cajeros_disponibles:
         if llave != 'Bodega':
         # if llave == 'Cajero 3':
-            if cajeros[llave]['Plata actual'] - cajeros[llave]['Promedio diario de retiro'] >= 0:
+            distancia_disponibilidad  = nuevamente_disponible(cajeros[llave], fecha_actual)*24*60 # distancia_disponibilidad en minutos
+            costo_fijo = 0
+            if cajeros[llave]['Estado'] == 'Normal':
+                costo_fijo = cajeros[llave]['Costo fijo por Stock Out']
+
+
+            if ((cajeros[llave]['Plata actual'] - cajeros[llave]['Promedio diario de retiro'])*distancia_disponibilidad + costo_fijo) >= 0:
                 cajeros[llave]['Orden'] = 0
             else:
-                costo_fijo = 0
-                if cajeros[llave]['Estado'] == 'Normal':
-                    costo_fijo = cajeros[llave]['Costo fijo por Stock Out']
-                distancia_disponibilidad  = nuevamente_disponible(cajeros[llave], fecha_actual)*24*60 # distancia_disponibilidad en minutos
                 cajeros[llave]['Orden'] = (cajeros[llave]['Promedio diario de retiro'] - cajeros[llave]['Plata actual'])*distancia_disponibilidad + costo_fijo
             lista_cajeros.append(cajeros[llave])
     lista_ordenada_cajeros = sorted(lista_cajeros, key = lambda x: x['Orden'], reverse=True) 
