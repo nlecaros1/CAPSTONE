@@ -1,0 +1,1371 @@
++-------------+ 
+| Simbologia: | 
+| - Camiones  | 
+| * Cajeros   | 
++-------------+ 
+
+Simulacion de 1 con plata inicial de MM$ 0.0.
+
+Semana 1
+Lunes-Manana 
+[11.0:45.0:55.63636363636033] - Camion 0 va al Cajero 10. 
+[11.0:45.0:55.63636363636033] - Camion 2 va al Cajero 157. 
+[11.0:45.0:55.63636363636033] - Camion 4 va al Cajero 67. 
+[11.0:45.0:55.63636363636033] - Camion 6 va al Cajero 113. 
+[11.0:45.0:55.63636363636033] - Camion 8 va al Cajero 203. 
+[11.0:45.0:55.63636363636033] - Camion 10 va al Cajero 46. 
+[11.0:45.0:55.63636363636033] * Cajero 1 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 2 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 3 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 4 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 5 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 6 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 7 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 8 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 9 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 10 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 11 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 12 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 13 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 14 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 15 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 16 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 17 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 18 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 19 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 20 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 21 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 22 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 23 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 24 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 25 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 26 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 27 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 28 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 29 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 30 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 31 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 32 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 33 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 34 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 35 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 36 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 37 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 38 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 39 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 40 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 41 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 42 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 43 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 44 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 45 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 46 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 47 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 48 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 49 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 50 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 51 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 52 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 53 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 54 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 55 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 56 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 57 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 58 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 59 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 60 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 61 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 62 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 63 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 64 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 65 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 66 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 67 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 68 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 69 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 70 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 71 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 72 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 73 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 74 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 75 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 76 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 77 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 78 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 79 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 80 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 81 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 82 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 83 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 84 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 85 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 86 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 87 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 88 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 89 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 90 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 91 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 92 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 93 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 94 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 95 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 96 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 97 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 98 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 99 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 100 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 101 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 102 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 103 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 104 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 105 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 106 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 107 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 108 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 109 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 110 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 111 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 112 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 113 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 114 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 115 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 116 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 117 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 118 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 119 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 120 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 121 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 122 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 123 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 124 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 125 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 126 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 127 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 128 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 129 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 130 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 131 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 132 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 133 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 134 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 135 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 136 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 137 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 138 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 139 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 140 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 141 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 142 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 143 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 144 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 145 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 146 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 147 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 148 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 149 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 150 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 151 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 152 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 153 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 154 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 155 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 156 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 157 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 158 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 159 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 160 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 161 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 162 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 163 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 164 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 165 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 166 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 167 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 168 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 169 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 170 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 171 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 172 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 173 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 174 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 175 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 176 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 177 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 178 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 179 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 180 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 181 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 182 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 183 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 184 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 185 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 186 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 187 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 188 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 189 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 190 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 191 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 192 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 193 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 194 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 195 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 196 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 197 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 198 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 199 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 200 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 201 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 202 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 203 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 204 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 205 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 206 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 207 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 208 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 209 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 210 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 211 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 212 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 213 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 214 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 215 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 216 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 217 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 218 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 219 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 220 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 221 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 222 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 223 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 224 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 225 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 226 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 227 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 228 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 229 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 230 entra en Stock Out. 
+[11.0:45.0:55.63636363636033] * Cajero 231 entra en Stock Out. 
+[11.0:45.0:56.63636363636033] - Camion 1 va al Cajero 91. 
+[11.0:45.0:56.63636363636033] - Camion 5 va al Cajero 162. 
+[11.0:45.0:56.63636363636033] - Camion 9 va al Cajero 94. 
+[11.0:45.0:57.63636363636033] - Camion 3 va al Cajero 85. 
+[11.0:45.0:57.63636363636033] - Camion 11 va al Cajero 59. 
+[11.0:45.0:58.63636363636033] - Camion 7 va al Cajero 108. 
+[12.0:0.0:28.63636363636033] - Camion 3 termina de recargar al Cajero 85. 
+[12.0:0.0:28.63636363636033] * Cajero 85 recargado. 
+[12.0:0.0:29.63636363636033] - Camion 3 va al Cajero 43. 
+[12.0:4.0:41.63636363636033] - Camion 6 termina de recargar al Cajero 113. 
+[12.0:4.0:41.63636363636033] * Cajero 113 recargado. 
+[12.0:4.0:42.63636363636033] - Camion 6 va al Cajero 14. 
+[12.0:4.0:55.63636363636033] - Camion 10 termina de recargar al Cajero 46. 
+[12.0:4.0:55.63636363636033] * Cajero 46 recargado. 
+[12.0:4.0:56.63636363636033] - Camion 10 va al Cajero 223. 
+[12.0:5.0:15.636363636360329] - Camion 0 termina de recargar al Cajero 10. 
+[12.0:5.0:15.636363636360329] * Cajero 10 recargado. 
+[12.0:5.0:16.63636363636033] - Camion 0 va al Cajero 70. 
+[12.0:7.0:40.63636363636033] - Camion 4 termina de recargar al Cajero 67. 
+[12.0:7.0:40.63636363636033] * Cajero 67 recargado. 
+[12.0:7.0:41.63636363636033] - Camion 4 va al Cajero 93. 
+[12.0:9.0:13.636363636360329] - Camion 11 termina de recargar al Cajero 59. 
+[12.0:9.0:13.636363636360329] * Cajero 59 recargado. 
+[12.0:9.0:14.636363636360329] - Camion 11 va al Cajero 106. 
+[12.0:9.0:23.63636363636033] - Camion 2 termina de recargar al Cajero 157. 
+[12.0:9.0:23.63636363636033] * Cajero 157 recargado. 
+[12.0:9.0:24.63636363636033] - Camion 2 va al Cajero 148. 
+[12.0:9.0:31.63636363636033] - Camion 8 termina de recargar al Cajero 203. 
+[12.0:9.0:31.63636363636033] * Cajero 203 recargado. 
+[12.0:9.0:32.63636363636033] - Camion 8 va al Cajero 204. 
+[12.0:10.0:49.63636363636033] - Camion 5 termina de recargar al Cajero 162. 
+[12.0:10.0:49.63636363636033] * Cajero 162 recargado. 
+[12.0:10.0:50.63636363636033] - Camion 5 va al Cajero 175. 
+[12.0:15.0:14.636363636360329] - Camion 7 termina de recargar al Cajero 108. 
+[12.0:15.0:14.636363636360329] * Cajero 108 recargado. 
+[12.0:15.0:15.636363636360329] - Camion 7 va al Cajero 141. 
+[12.0:17.0:19.63636363636033] - Camion 9 termina de recargar al Cajero 94. 
+[12.0:17.0:19.63636363636033] * Cajero 94 recargado. 
+[12.0:17.0:20.63636363636033] - Camion 9 va al Cajero 115. 
+[12.0:18.0:29.63636363636033] - Camion 1 termina de recargar al Cajero 91. 
+[12.0:18.0:29.63636363636033] * Cajero 91 recargado. 
+[12.0:18.0:30.63636363636033] - Camion 1 va al Cajero 178. 
+[12.0:23.0:50.63636363636033] - Camion 10 termina de recargar al Cajero 223. 
+[12.0:23.0:50.63636363636033] * Cajero 223 recargado. 
+[12.0:23.0:51.63636363636033] - Camion 10 va al Cajero 211. 
+[12.0:26.0:6.636363636360329] - Camion 2 termina de recargar al Cajero 148. 
+[12.0:26.0:6.636363636360329] * Cajero 148 recargado. 
+[12.0:26.0:7.636363636360329] - Camion 2 va al Cajero 79. 
+[12.0:27.0:58.63636363636033] - Camion 0 termina de recargar al Cajero 70. 
+[12.0:27.0:58.63636363636033] * Cajero 70 recargado. 
+[12.0:27.0:59.63636363636033] - Camion 0 va al Cajero 31. 
+[12.0:28.0:39.63636363636033] - Camion 3 termina de recargar al Cajero 43. 
+[12.0:28.0:39.63636363636033] * Cajero 43 recargado. 
+[12.0:28.0:40.63636363636033] - Camion 3 va al Cajero 226. 
+[12.0:30.0:4.636363636360329] - Camion 8 termina de recargar al Cajero 204. 
+[12.0:30.0:4.636363636360329] * Cajero 204 recargado. 
+[12.0:30.0:5.636363636360329] - Camion 8 va al Cajero 121. 
+[12.0:33.0:41.63636363636033] - Camion 5 termina de recargar al Cajero 175. 
+[12.0:33.0:41.63636363636033] * Cajero 175 recargado. 
+[12.0:33.0:42.63636363636033] - Camion 5 va al Cajero 28. 
+[12.0:33.0:54.63636363636033] - Camion 11 termina de recargar al Cajero 106. 
+[12.0:33.0:54.63636363636033] * Cajero 106 recargado. 
+[12.0:33.0:55.63636363636033] - Camion 11 va al Cajero 158. 
+[12.0:34.0:8.636363636360329] - Camion 4 termina de recargar al Cajero 93. 
+[12.0:34.0:8.636363636360329] * Cajero 93 recargado. 
+[12.0:34.0:9.636363636360329] - Camion 4 va al Cajero 200. 
+[12.0:36.0:43.63636363636033] - Camion 10 termina de recargar al Cajero 211. 
+[12.0:36.0:43.63636363636033] * Cajero 211 recargado. 
+[12.0:36.0:44.63636363636033] - Camion 10 va al Cajero 117. 
+[12.0:37.0:9.636363636360329] - Camion 6 termina de recargar al Cajero 14. 
+[12.0:37.0:9.636363636360329] * Cajero 14 recargado. 
+[12.0:37.0:10.636363636360329] - Camion 6 va al Cajero 139. 
+[12.0:40.0:36.63636363636033] - Camion 7 termina de recargar al Cajero 141. 
+[12.0:40.0:36.63636363636033] * Cajero 141 recargado. 
+[12.0:40.0:37.63636363636033] - Camion 7 va al Cajero 4. 
+[12.0:42.0:49.63636363636033] - Camion 2 termina de recargar al Cajero 79. 
+[12.0:42.0:49.63636363636033] * Cajero 79 recargado. 
+[12.0:42.0:50.63636363636033] - Camion 2 va al Cajero 90. 
+[12.0:46.0:14.636363636360329] - Camion 3 termina de recargar al Cajero 226. 
+[12.0:46.0:14.636363636360329] * Cajero 226 recargado. 
+[12.0:46.0:15.636363636360329] - Camion 3 va al Cajero 221. 
+[12.0:46.0:30.63636363636033] - Camion 9 termina de recargar al Cajero 115. 
+[12.0:46.0:30.63636363636033] * Cajero 115 recargado. 
+[12.0:46.0:31.63636363636033] - Camion 9 va al Cajero 81. 
+[12.0:47.0:33.63636363636033] - Camion 0 termina de recargar al Cajero 31. 
+[12.0:47.0:33.63636363636033] * Cajero 31 recargado. 
+[12.0:47.0:34.63636363636033] - Camion 0 va al Cajero 64. 
+[12.0:47.0:43.63636363636033] - Camion 5 termina de recargar al Cajero 28. 
+[12.0:47.0:43.63636363636033] * Cajero 28 recargado. 
+[12.0:47.0:44.63636363636033] - Camion 5 va al Cajero 217. 
+[12.0:48.0:58.63636363636033] - Camion 8 termina de recargar al Cajero 121. 
+[12.0:48.0:58.63636363636033] * Cajero 121 recargado. 
+[12.0:48.0:59.63636363636033] - Camion 8 va al Cajero 23. 
+[12.0:49.0:21.63636363636033] - Camion 11 termina de recargar al Cajero 158. 
+[12.0:49.0:21.63636363636033] * Cajero 158 recargado. 
+[12.0:49.0:22.63636363636033] - Camion 11 va al Cajero 154. 
+[12.0:50.0:13.636363636360329] - Camion 1 termina de recargar al Cajero 178. 
+[12.0:50.0:13.636363636360329] * Cajero 178 recargado. 
+[12.0:50.0:14.636363636360329] - Camion 1 va al Cajero 183. 
+[12.0:54.0:2.636363636360329] - Camion 7 termina de recargar al Cajero 4. 
+[12.0:54.0:2.636363636360329] * Cajero 4 recargado. 
+[12.0:54.0:3.636363636360329] - Camion 7 va al Cajero 146. 
+[12.0:58.0:12.636363636360329] - Camion 4 termina de recargar al Cajero 200. 
+[12.0:58.0:12.636363636360329] * Cajero 200 recargado. 
+[12.0:58.0:13.636363636360329] - Camion 4 va al Cajero 212. 
+[12.0:59.0:33.63636363636033] - Camion 10 termina de recargar al Cajero 117. 
+[12.0:59.0:33.63636363636033] * Cajero 117 recargado. 
+[12.0:59.0:34.63636363636033] - Camion 10 va al Cajero 5. 
+[13.0:5.0:11.636363636360329] - Camion 1 termina de recargar al Cajero 183. 
+[13.0:5.0:11.636363636360329] * Cajero 183 recargado. 
+[13.0:5.0:12.636363636360329] - Camion 1 va al Cajero 122. 
+[13.0:5.0:53.63636363636033] - Camion 5 termina de recargar al Cajero 217. 
+[13.0:5.0:53.63636363636033] * Cajero 217 recargado. 
+[13.0:5.0:54.63636363636033] - Camion 5 va al Cajero 165. 
+[13.0:7.0:12.636363636360329] - Camion 6 termina de recargar al Cajero 139. 
+[13.0:7.0:12.636363636360329] * Cajero 139 recargado. 
+[13.0:7.0:13.636363636360329] - Camion 6 va al Cajero 179. 
+[13.0:8.0:37.63636363636033] - Camion 3 termina de recargar al Cajero 221. 
+[13.0:8.0:37.63636363636033] * Cajero 221 recargado. 
+[13.0:8.0:38.63636363636033] - Camion 3 va al Cajero 27. 
+[13.0:10.0:5.636363636360329] - Camion 0 termina de recargar al Cajero 64. 
+[13.0:10.0:5.636363636360329] * Cajero 64 recargado. 
+[13.0:10.0:6.636363636360329] - Camion 0 va al Cajero 82. 
+[13.0:11.0:16.63636363636033] - Camion 2 termina de recargar al Cajero 90. 
+[13.0:11.0:16.63636363636033] * Cajero 90 recargado. 
+[13.0:11.0:17.63636363636033] - Camion 2 va al Cajero 89. 
+[13.0:12.0:3.636363636360329] - Camion 8 termina de recargar al Cajero 23. 
+[13.0:12.0:3.636363636360329] * Cajero 23 recargado. 
+[13.0:12.0:4.636363636360329] - Camion 8 va al Cajero 119. 
+[13.0:13.0:24.63636363636033] - Camion 11 termina de recargar al Cajero 154. 
+[13.0:13.0:24.63636363636033] * Cajero 154 recargado. 
+[13.0:13.0:25.63636363636033] - Camion 11 va al Cajero 55. 
+[13.0:14.0:9.636363636360329] - Camion 9 termina de recargar al Cajero 81. 
+[13.0:14.0:9.636363636360329] * Cajero 81 recargado. 
+[13.0:14.0:10.636363636360329] - Camion 9 va al Cajero 132. 
+[13.0:17.0:20.63636363636033] - Camion 7 termina de recargar al Cajero 146. 
+[13.0:17.0:20.63636363636033] * Cajero 146 recargado. 
+[13.0:17.0:21.63636363636033] - Camion 7 va al Cajero 100. 
+[13.0:21.0:18.63636363636033] - Camion 10 termina de recargar al Cajero 5. 
+[13.0:21.0:18.63636363636033] * Cajero 5 recargado. 
+[13.0:21.0:19.63636363636033] - Camion 10 va al Cajero 216. 
+[13.0:26.0:28.63636363636033] - Camion 8 termina de recargar al Cajero 119. 
+[13.0:26.0:28.63636363636033] * Cajero 119 recargado. 
+[13.0:26.0:29.63636363636033] - Camion 8 va al Cajero 205. 
+[13.0:26.0:37.63636363636033] - Camion 4 termina de recargar al Cajero 212. 
+[13.0:26.0:37.63636363636033] * Cajero 212 recargado. 
+[13.0:26.0:38.63636363636033] - Camion 4 va al Cajero 71. 
+[13.0:29.0:23.63636363636033] - Camion 11 termina de recargar al Cajero 55. 
+[13.0:29.0:23.63636363636033] * Cajero 55 recargado. 
+[13.0:29.0:24.63636363636033] - Camion 11 va al Cajero 142. 
+[13.0:30.0:41.63636363636033] - Camion 5 termina de recargar al Cajero 165. 
+[13.0:30.0:41.63636363636033] * Cajero 165 recargado. 
+[13.0:30.0:42.63636363636033] - Camion 5 va al Cajero 112. 
+[13.0:32.0:31.63636363636033] - Camion 7 termina de recargar al Cajero 100. 
+[13.0:32.0:31.63636363636033] * Cajero 100 recargado. 
+[13.0:32.0:32.63636363636033] - Camion 7 va al Cajero 21. 
+[13.0:33.0:41.63636363636033] - Camion 2 termina de recargar al Cajero 89. 
+[13.0:33.0:41.63636363636033] * Cajero 89 recargado. 
+[13.0:33.0:42.63636363636033] - Camion 2 va al Cajero 45. 
+[13.0:36.0:2.636363636360329] - Camion 9 termina de recargar al Cajero 132. 
+[13.0:36.0:2.636363636360329] * Cajero 132 recargado. 
+[13.0:36.0:3.636363636360329] - Camion 9 va al Cajero 69. 
+[13.0:36.0:38.63636363636033] - Camion 0 termina de recargar al Cajero 82. 
+[13.0:36.0:38.63636363636033] * Cajero 82 recargado. 
+[13.0:36.0:39.63636363636033] - Camion 0 va al Cajero 87. 
+[13.0:36.0:46.63636363636033] - Camion 1 termina de recargar al Cajero 122. 
+[13.0:36.0:46.63636363636033] * Cajero 122 recargado. 
+[13.0:36.0:47.63636363636033] - Camion 1 va al Cajero 97. 
+[13.0:37.0:49.63636363636033] - Camion 6 termina de recargar al Cajero 179. 
+[13.0:37.0:49.63636363636033] * Cajero 179 recargado. 
+[13.0:37.0:50.63636363636033] - Camion 6 va al Cajero 92. 
+[13.0:39.0:36.63636363636033] - Camion 8 termina de recargar al Cajero 205. 
+[13.0:39.0:36.63636363636033] * Cajero 205 recargado. 
+[13.0:39.0:37.63636363636033] - Camion 8 va al Cajero 199. 
+[13.0:42.0:24.63636363636033] - Camion 3 termina de recargar al Cajero 27. 
+[13.0:42.0:24.63636363636033] * Cajero 27 recargado. 
+[13.0:42.0:25.63636363636033] - Camion 3 va al Cajero 224. 
+[13.0:46.0:26.63636363636033] - Camion 11 termina de recargar al Cajero 142. 
+[13.0:46.0:26.63636363636033] * Cajero 142 recargado. 
+[13.0:46.0:27.63636363636033] - Camion 11 va al Cajero 125. 
+[13.0:49.0:5.636363636360329] - Camion 10 termina de recargar al Cajero 216. 
+[13.0:49.0:5.636363636360329] * Cajero 216 recargado. 
+[13.0:49.0:6.636363636360329] - Camion 10 va al Cajero 123. 
+[13.0:55.0:55.63636363636033] - Camion 4 termina de recargar al Cajero 71. 
+[13.0:55.0:55.63636363636033] * Cajero 71 recargado. 
+[13.0:55.0:56.63636363636033] - Camion 4 va al Cajero 161. 
+[13.0:56.0:5.636363636360329] - Camion 2 termina de recargar al Cajero 45. 
+[13.0:56.0:5.636363636360329] * Cajero 45 recargado. 
+[13.0:56.0:6.636363636360329] - Camion 2 va al Cajero 51. 
+[13.0:57.0:46.63636363636033] - Camion 5 termina de recargar al Cajero 112. 
+[13.0:57.0:46.63636363636033] * Cajero 112 recargado. 
+[13.0:57.0:47.63636363636033] - Camion 5 va al Cajero 210. 
+[13.0:58.0:25.63636363636033] - Camion 7 termina de recargar al Cajero 21. 
+[13.0:58.0:25.63636363636033] * Cajero 21 recargado. 
+[13.0:58.0:26.63636363636033] - Camion 7 va al Cajero 181. 
+[14.0:0.0:16.63636363636033] - Camion 9 termina de recargar al Cajero 69. 
+[14.0:0.0:16.63636363636033] * Cajero 69 recargado. 
+[14.0:0.0:17.63636363636033] - Camion 9 va al Cajero 173. 
+[14.0:3.0:18.63636363636033] - Camion 0 termina de recargar al Cajero 87. 
+[14.0:3.0:18.63636363636033] * Cajero 87 recargado. 
+[14.0:3.0:19.63636363636033] - Camion 0 va al Cajero 197. 
+[14.0:5.0:7.636363636360329] - Camion 3 termina de recargar al Cajero 224. 
+[14.0:5.0:7.636363636360329] * Cajero 224 recargado. 
+[14.0:5.0:8.636363636360329] - Camion 3 va al Cajero 129. 
+[14.0:5.0:8.636363636360329] - Camion 6 termina de recargar al Cajero 92. 
+[14.0:5.0:8.636363636360329] * Cajero 92 recargado. 
+[14.0:5.0:9.636363636360329] - Camion 6 va al Cajero 7. 
+[14.0:7.0:37.63636363636033] - Camion 1 termina de recargar al Cajero 97. 
+[14.0:7.0:37.63636363636033] * Cajero 97 recargado. 
+[14.0:7.0:38.63636363636033] - Camion 1 va al Cajero 114. 
+[14.0:10.0:46.63636363636033] - Camion 8 termina de recargar al Cajero 199. 
+[14.0:10.0:46.63636363636033] * Cajero 199 recargado. 
+[14.0:10.0:47.63636363636033] - Camion 8 va al Cajero 38. 
+[14.0:13.0:47.63636363636033] - Camion 10 termina de recargar al Cajero 123. 
+[14.0:13.0:47.63636363636033] * Cajero 123 recargado. 
+[14.0:13.0:48.63636363636033] - Camion 10 va al Cajero 202. 
+[14.0:16.0:37.63636363636033] - Camion 11 termina de recargar al Cajero 125. 
+[14.0:16.0:37.63636363636033] * Cajero 125 recargado. 
+[14.0:16.0:38.63636363636033] - Camion 11 va al Cajero 22. 
+[14.0:16.0:44.63636363636033] - Camion 2 termina de recargar al Cajero 51. 
+[14.0:16.0:44.63636363636033] * Cajero 51 recargado. 
+[14.0:16.0:45.63636363636033] - Camion 2 va al Cajero 53. 
+[14.0:23.0:38.63636363636033] - Camion 7 termina de recargar al Cajero 181. 
+[14.0:23.0:38.63636363636033] * Cajero 181 recargado. 
+[14.0:23.0:39.63636363636033] - Camion 7 va al Cajero 20. 
+[14.0:24.0:12.636363636360329] - Camion 4 termina de recargar al Cajero 161. 
+[14.0:24.0:12.636363636360329] * Cajero 161 recargado. 
+[14.0:24.0:13.636363636360329] - Camion 4 va al Cajero 72. 
+[14.0:24.0:19.63636363636033] - Camion 9 termina de recargar al Cajero 173. 
+[14.0:24.0:19.63636363636033] * Cajero 173 recargado. 
+[14.0:24.0:20.63636363636033] - Camion 9 va al Cajero 52. 
+[14.0:24.0:52.63636363636033] - Camion 5 termina de recargar al Cajero 210. 
+[14.0:24.0:52.63636363636033] * Cajero 210 recargado. 
+[14.0:24.0:53.63636363636033] - Camion 5 va al Cajero 110. 
+[14.0:25.0:33.63636363636033] - Camion 1 termina de recargar al Cajero 114. 
+[14.0:25.0:33.63636363636033] * Cajero 114 recargado. 
+[14.0:25.0:34.63636363636033] - Camion 1 va al Cajero 182. 
+[14.0:26.0:33.63636363636033] - Camion 6 termina de recargar al Cajero 7. 
+[14.0:26.0:33.63636363636033] * Cajero 7 recargado. 
+[14.0:26.0:34.63636363636033] - Camion 6 va al Cajero 188. 
+[14.0:28.0:26.63636363636033] - Camion 0 termina de recargar al Cajero 197. 
+[14.0:28.0:26.63636363636033] * Cajero 197 recargado. 
+[14.0:28.0:27.63636363636033] - Camion 0 va al Cajero 50. 
+[14.0:35.0:58.63636363636033] - Camion 10 termina de recargar al Cajero 202. 
+[14.0:35.0:58.63636363636033] * Cajero 202 recargado. 
+[14.0:35.0:59.63636363636033] - Camion 10 va al Cajero 185. 
+[14.0:37.0:17.63636363636033] - Camion 3 termina de recargar al Cajero 129. 
+[14.0:37.0:17.63636363636033] * Cajero 129 recargado. 
+[14.0:37.0:18.63636363636033] - Camion 3 va al Cajero 6. 
+[14.0:39.0:41.63636363636033] - Camion 11 termina de recargar al Cajero 22. 
+[14.0:39.0:41.63636363636033] * Cajero 22 recargado. 
+[14.0:39.0:42.63636363636033] - Camion 11 va al Cajero 126. 
+[14.0:44.0:13.636363636360329] - Camion 8 termina de recargar al Cajero 38. 
+[14.0:44.0:13.636363636360329] * Cajero 38 recargado. 
+[14.0:44.0:14.636363636360329] - Camion 8 va al Cajero 151. 
+[14.0:46.0:55.63636363636033] - Camion 4 termina de recargar al Cajero 72. 
+[14.0:46.0:55.63636363636033] * Cajero 72 recargado. 
+[14.0:46.0:56.63636363636033] - Camion 4 va al Cajero 152. 
+[14.0:47.0:40.63636363636033] - Camion 2 termina de recargar al Cajero 53. 
+[14.0:47.0:40.63636363636033] * Cajero 53 recargado. 
+[14.0:47.0:41.63636363636033] - Camion 2 va al Cajero 101. 
+[14.0:48.0:11.636363636360329] - Camion 6 termina de recargar al Cajero 188. 
+[14.0:48.0:11.636363636360329] * Cajero 188 recargado. 
+[14.0:48.0:12.636363636360329] - Camion 6 va al Cajero 225. 
+[14.0:50.0:29.63636363636033] - Camion 7 termina de recargar al Cajero 20. 
+[14.0:50.0:29.63636363636033] * Cajero 20 recargado. 
+[14.0:50.0:30.63636363636033] - Camion 7 va al Cajero 206. 
+[14.0:50.0:58.63636363636033] - Camion 0 termina de recargar al Cajero 50. 
+[14.0:50.0:58.63636363636033] * Cajero 50 recargado. 
+[14.0:50.0:59.63636363636033] - Camion 0 va al Cajero 9. 
+[14.0:51.0:33.63636363636033] - Camion 1 termina de recargar al Cajero 182. 
+[14.0:51.0:33.63636363636033] * Cajero 182 recargado. 
+[14.0:51.0:34.63636363636033] - Camion 1 va al Cajero 153. 
+[14.0:52.0:36.63636363636033] - Camion 9 termina de recargar al Cajero 52. 
+[14.0:52.0:36.63636363636033] * Cajero 52 recargado. 
+[14.0:52.0:37.63636363636033] - Camion 9 va al Cajero 57. 
+[14.0:54.0:1.636363636360329] - Camion 3 termina de recargar al Cajero 6. 
+[14.0:54.0:1.636363636360329] * Cajero 6 recargado. 
+[14.0:54.0:2.636363636360329] - Camion 3 va al Cajero 207. 
+[14.0:55.0:58.63636363636033] - Camion 10 termina de recargar al Cajero 185. 
+[14.0:55.0:58.63636363636033] * Cajero 185 recargado. 
+[14.0:55.0:59.63636363636033] - Camion 10 va a la Bodega. No alcanza a ir. 
+[14.0:56.0:8.636363636360329] - Camion 5 termina de recargar al Cajero 110. 
+[14.0:56.0:8.636363636360329] * Cajero 110 recargado. 
+[14.0:56.0:9.636363636360329] - Camion 5 va al Cajero 65. 
+[15.0:1.0:19.63636363636033] - Camion 2 termina de recargar al Cajero 101. 
+[15.0:1.0:19.63636363636033] * Cajero 101 recargado. 
+[15.0:1.0:20.63636363636033] - Camion 2 va al Cajero 134. 
+[15.0:3.0:58.63636363636033] - Camion 10 llega a la Bodega. 
+[15.0:4.0:22.63636363636033] - Camion 7 termina de recargar al Cajero 206. 
+[15.0:4.0:22.63636363636033] * Cajero 206 recargado. 
+[15.0:4.0:23.63636363636033] - Camion 7 va al Cajero 83. 
+[15.0:4.0:32.63636363636033] - Camion 11 termina de recargar al Cajero 126. 
+[15.0:4.0:32.63636363636033] * Cajero 126 recargado. 
+[15.0:4.0:33.63636363636033] - Camion 11 va al Cajero 56. 
+[15.0:7.0:38.63636363636033] - Camion 6 termina de recargar al Cajero 225. 
+[15.0:7.0:38.63636363636033] * Cajero 225 recargado. 
+[15.0:7.0:39.63636363636033] - Camion 6 va al Cajero 222. 
+[15.0:8.0:13.636363636360329] - Camion 4 termina de recargar al Cajero 152. 
+[15.0:8.0:13.636363636360329] * Cajero 152 recargado. 
+[15.0:8.0:14.636363636360329] - Camion 4 va al Cajero 231. 
+[15.0:11.0:59.63636363636033] - Camion 1 termina de recargar al Cajero 153. 
+[15.0:11.0:59.63636363636033] * Cajero 153 recargado. 
+[15.0:12.0:0.6363636363603291] - Camion 1 va al Cajero 3. 
+[15.0:13.0:23.63636363636033] - Camion 5 termina de recargar al Cajero 65. 
+[15.0:13.0:23.63636363636033] * Cajero 65 recargado. 
+[15.0:13.0:24.63636363636033] - Camion 5 va al Cajero 213. 
+[15.0:13.0:44.63636363636033] - Camion 8 termina de recargar al Cajero 151. 
+[15.0:13.0:44.63636363636033] * Cajero 151 recargado. 
+[15.0:13.0:45.63636363636033] - Camion 8 va al Cajero 195. 
+[15.0:17.0:39.63636363636033] - Camion 0 termina de recargar al Cajero 9. 
+[15.0:17.0:39.63636363636033] * Cajero 9 recargado. 
+[15.0:17.0:40.63636363636033] - Camion 0 va al Cajero 214. 
+[15.0:18.0:49.63636363636033] - Camion 3 termina de recargar al Cajero 207. 
+[15.0:18.0:49.63636363636033] * Cajero 207 recargado. 
+[15.0:18.0:50.63636363636033] - Camion 3 va al Cajero 198. 
+[15.0:22.0:56.63636363636033] - Camion 9 termina de recargar al Cajero 57. 
+[15.0:22.0:56.63636363636033] * Cajero 57 recargado. 
+[15.0:22.0:57.63636363636033] - Camion 9 va al Cajero 143. 
+[15.0:27.0:24.63636363636033] - Camion 11 termina de recargar al Cajero 56. 
+[15.0:27.0:24.63636363636033] * Cajero 56 recargado. 
+[15.0:27.0:25.63636363636033] - Camion 11 va a la Bodega. No alcanza a ir. 
+[15.0:33.0:17.63636363636033] - Camion 1 termina de recargar al Cajero 3. 
+[15.0:33.0:17.63636363636033] * Cajero 3 recargado. 
+[15.0:33.0:18.63636363636033] - Camion 1 va a la Bodega. No alcanza a ir. 
+[15.0:33.0:18.63636363636033] - Camion 11 llega a la Bodega. 
+[15.0:33.0:54.63636363636033] - Camion 2 termina de recargar al Cajero 134. 
+[15.0:33.0:54.63636363636033] * Cajero 134 recargado. 
+[15.0:33.0:55.63636363636033] - Camion 2 va al Cajero 120. 
+[15.0:34.0:38.63636363636033] - Camion 7 termina de recargar al Cajero 83. 
+[15.0:34.0:38.63636363636033] * Cajero 83 recargado. 
+[15.0:34.0:39.63636363636033] - Camion 7 va al Cajero 39. 
+[15.0:36.0:30.63636363636033] - Camion 4 termina de recargar al Cajero 231. 
+[15.0:36.0:30.63636363636033] * Cajero 231 recargado. 
+[15.0:36.0:31.63636363636033] - Camion 4 va al Cajero 29. 
+[15.0:42.0:24.63636363636033] - Camion 1 llega a la Bodega. 
+[15.0:42.0:31.63636363636033] - Camion 6 termina de recargar al Cajero 222. 
+[15.0:42.0:31.63636363636033] * Cajero 222 recargado. 
+[15.0:42.0:32.63636363636033] - Camion 6 va al Cajero 159. 
+[15.0:43.0:20.63636363636033] - Camion 8 termina de recargar al Cajero 195. 
+[15.0:43.0:20.63636363636033] * Cajero 195 recargado. 
+[15.0:43.0:21.63636363636033] - Camion 8 va al Cajero 166. 
+[15.0:44.0:39.63636363636033] - Camion 0 termina de recargar al Cajero 214. 
+[15.0:44.0:39.63636363636033] * Cajero 214 recargado. 
+[15.0:44.0:40.63636363636033] - Camion 0 va a la Bodega. No alcanza a ir. 
+[15.0:45.0:5.636363636360329] - Camion 5 termina de recargar al Cajero 213. 
+[15.0:45.0:5.636363636360329] * Cajero 213 recargado. 
+[15.0:45.0:6.636363636360329] - Camion 5 va al Cajero 140. 
+[15.0:50.0:14.636363636360329] - Camion 0 llega a la Bodega. 
+[15.0:52.0:25.63636363636033] - Camion 9 termina de recargar al Cajero 143. 
+[15.0:52.0:25.63636363636033] * Cajero 143 recargado. 
+[15.0:52.0:26.63636363636033] - Camion 9 va al Cajero 228. 
+[15.0:55.0:57.63636363636033] - Camion 3 termina de recargar al Cajero 198. 
+[15.0:55.0:57.63636363636033] * Cajero 198 recargado. 
+[15.0:55.0:58.63636363636033] - Camion 3 va a la Bodega. No alcanza a ir. 
+[15.0:58.0:47.63636363636033] - Camion 6 termina de recargar al Cajero 159. 
+[15.0:58.0:47.63636363636033] * Cajero 159 recargado. 
+[15.0:58.0:48.63636363636033] - Camion 6 va a la Bodega. No alcanza a ir. 
+
+Lunes-Tarde 
+[11.0:22.0:21.818181818183803] - Camion 10 va al Cajero 109. 
+[11.0:22.0:21.818181818183803] - Camion 1 va al Cajero 25. 
+[11.0:22.0:22.818181818183803] - Camion 11 va al Cajero 189. 
+[11.0:22.0:23.818181818183803] - Camion 0 va al Cajero 17. 
+[11.0:23.0:33.8181818181838] - Camion 2 termina de recargar al Cajero 120. 
+[11.0:23.0:33.8181818181838] * Cajero 120 recargado. 
+[11.0:23.0:34.8181818181838] - Camion 2 va al Cajero 26. 
+[11.0:25.0:31.818181818183803] - Camion 7 termina de recargar al Cajero 39. 
+[11.0:25.0:31.818181818183803] * Cajero 39 recargado. 
+[11.0:25.0:32.8181818181838] - Camion 7 va al Cajero 88. 
+[11.0:26.0:34.8181818181838] - Camion 5 termina de recargar al Cajero 140. 
+[11.0:26.0:34.8181818181838] * Cajero 140 recargado. 
+[11.0:26.0:35.8181818181838] - Camion 5 va al Cajero 102. 
+[11.0:27.0:42.8181818181838] - Camion 4 termina de recargar al Cajero 29. 
+[11.0:27.0:42.8181818181838] * Cajero 29 recargado. 
+[11.0:27.0:43.8181818181838] - Camion 4 va al Cajero 18. 
+[11.0:28.0:14.818181818183803] - Camion 6 llega a la Bodega. 
+[11.0:28.0:15.818181818183803] - Camion 6 va al Cajero 190. 
+[11.0:28.0:44.8181818181838] - Camion 8 termina de recargar al Cajero 166. 
+[11.0:28.0:44.8181818181838] * Cajero 166 recargado. 
+[11.0:28.0:45.8181818181838] - Camion 8 va al Cajero 128. 
+[11.0:29.0:33.8181818181838] - Camion 3 llega a la Bodega. 
+[11.0:29.0:34.8181818181838] - Camion 3 va al Cajero 145. 
+[11.0:34.0:21.818181818183803] - Camion 9 termina de recargar al Cajero 228. 
+[11.0:34.0:21.818181818183803] * Cajero 228 recargado. 
+[11.0:34.0:22.818181818183803] - Camion 9 va al Cajero 31. 
+[11.0:38.0:6.8181818181838025] - Camion 1 termina de recargar al Cajero 25. 
+[11.0:38.0:6.8181818181838025] * Cajero 25 recargado. 
+[11.0:38.0:7.8181818181838025] - Camion 1 va al Cajero 147. 
+[11.0:42.0:15.818181818183803] - Camion 10 termina de recargar al Cajero 109. 
+[11.0:42.0:15.818181818183803] * Cajero 109 recargado. 
+[11.0:42.0:16.818181818183803] - Camion 10 va al Cajero 68. 
+[11.0:42.0:47.8181818181838] - Camion 4 termina de recargar al Cajero 18. 
+[11.0:42.0:47.8181818181838] * Cajero 18 recargado. 
+[11.0:42.0:48.8181818181838] - Camion 4 va al Cajero 150. 
+[11.0:44.0:39.8181818181838] - Camion 2 termina de recargar al Cajero 26. 
+[11.0:44.0:39.8181818181838] * Cajero 26 recargado. 
+[11.0:44.0:40.8181818181838] - Camion 2 va al Cajero 229. 
+[11.0:45.0:44.8181818181838] - Camion 6 termina de recargar al Cajero 190. 
+[11.0:45.0:44.8181818181838] * Cajero 190 recargado. 
+[11.0:45.0:45.8181818181838] - Camion 6 va al Cajero 140. 
+[11.0:49.0:34.8181818181838] - Camion 11 termina de recargar al Cajero 189. 
+[11.0:49.0:34.8181818181838] * Cajero 189 recargado. 
+[11.0:49.0:35.8181818181838] - Camion 11 va al Cajero 95. 
+[11.0:50.0:51.8181818181838] - Camion 9 termina de recargar al Cajero 31. 
+[11.0:50.0:51.8181818181838] * Cajero 31 recargado. 
+[11.0:50.0:52.8181818181838] - Camion 9 va al Cajero 100. 
+[11.0:55.0:21.818181818183803] - Camion 0 termina de recargar al Cajero 17. 
+[11.0:55.0:21.818181818183803] * Cajero 17 recargado. 
+[11.0:55.0:22.818181818183803] - Camion 0 va al Cajero 79. 
+[11.0:56.0:12.818181818183803] - Camion 7 termina de recargar al Cajero 88. 
+[11.0:56.0:12.818181818183803] * Cajero 88 recargado. 
+[11.0:56.0:13.818181818183803] - Camion 7 va a la Bodega. No alcanza a ir. 
+[11.0:56.0:23.818181818183803] - Camion 8 termina de recargar al Cajero 128. 
+[11.0:56.0:23.818181818183803] * Cajero 128 recargado. 
+[11.0:56.0:24.818181818183803] - Camion 8 va a la Bodega. No alcanza a ir. 
+[11.0:58.0:16.818181818183803] - Camion 5 termina de recargar al Cajero 102. 
+[11.0:58.0:16.818181818183803] * Cajero 102 recargado. 
+[11.0:58.0:17.818181818183803] - Camion 5 va al Cajero 193. 
+[11.0:59.0:30.818181818183803] - Camion 2 termina de recargar al Cajero 229. 
+[11.0:59.0:30.818181818183803] * Cajero 229 recargado. 
+[11.0:59.0:31.818181818183803] - Camion 2 va al Cajero 12. 
+[12.0:0.0:37.8181818181838] - Camion 3 termina de recargar al Cajero 145. 
+[12.0:0.0:37.8181818181838] * Cajero 145 recargado. 
+[12.0:0.0:38.8181818181838] - Camion 3 va al Cajero 39. 
+[12.0:1.0:9.818181818183803] - Camion 7 llega a la Bodega. 
+[12.0:1.0:10.818181818183803] - Camion 7 va al Cajero 61. 
+[12.0:2.0:25.818181818183803] - Camion 8 llega a la Bodega. 
+[12.0:2.0:26.818181818183803] - Camion 8 va al Cajero 15. 
+[12.0:2.0:28.818181818183803] - Camion 6 termina de recargar al Cajero 140. 
+[12.0:2.0:28.818181818183803] * Cajero 140 recargado. 
+[12.0:2.0:29.818181818183803] - Camion 6 va al Cajero 47. 
+[12.0:3.0:49.8181818181838] - Camion 1 termina de recargar al Cajero 147. 
+[12.0:3.0:49.8181818181838] * Cajero 147 recargado. 
+[12.0:3.0:50.8181818181838] - Camion 1 va al Cajero 120. 
+[12.0:5.0:30.818181818183803] - Camion 9 termina de recargar al Cajero 100. 
+[12.0:5.0:30.818181818183803] * Cajero 100 recargado. 
+[12.0:5.0:31.818181818183803] - Camion 9 va a la Bodega. No alcanza a ir. 
+[12.0:8.0:2.8181818181838025] - Camion 9 llega a la Bodega. 
+[12.0:8.0:3.8181818181838025] - Camion 9 va al Cajero 86. 
+[12.0:10.0:13.818181818183803] - Camion 10 termina de recargar al Cajero 68. 
+[12.0:10.0:13.818181818183803] * Cajero 68 recargado. 
+[12.0:10.0:14.818181818183803] - Camion 10 va al Cajero 186. 
+[12.0:11.0:0.8181818181838025] - Camion 0 termina de recargar al Cajero 79. 
+[12.0:11.0:0.8181818181838025] * Cajero 79 recargado. 
+[12.0:11.0:1.8181818181838025] - Camion 0 va al Cajero 105. 
+[12.0:11.0:30.818181818183803] - Camion 5 termina de recargar al Cajero 193. 
+[12.0:11.0:30.818181818183803] * Cajero 193 recargado. 
+[12.0:11.0:31.818181818183803] - Camion 5 va al Cajero 166. 
+[12.0:13.0:17.818181818183803] - Camion 11 termina de recargar al Cajero 95. 
+[12.0:13.0:17.818181818183803] * Cajero 95 recargado. 
+[12.0:13.0:18.818181818183803] - Camion 11 va al Cajero 228. 
+[12.0:13.0:36.8181818181838] - Camion 4 termina de recargar al Cajero 150. 
+[12.0:13.0:36.8181818181838] * Cajero 150 recargado. 
+[12.0:13.0:37.8181818181838] - Camion 4 va al Cajero 58. 
+[12.0:18.0:57.8181818181838] - Camion 6 termina de recargar al Cajero 47. 
+[12.0:18.0:57.8181818181838] * Cajero 47 recargado. 
+[12.0:18.0:58.8181818181838] - Camion 6 va al Cajero 211. 
+[12.0:23.0:2.8181818181838025] - Camion 2 termina de recargar al Cajero 12. 
+[12.0:23.0:2.8181818181838025] * Cajero 12 recargado. 
+[12.0:23.0:3.8181818181838025] - Camion 2 va al Cajero 131. 
+[12.0:27.0:47.8181818181838] - Camion 5 termina de recargar al Cajero 166. 
+[12.0:27.0:47.8181818181838] * Cajero 166 recargado. 
+[12.0:27.0:48.8181818181838] - Camion 5 va al Cajero 178. 
+[12.0:29.0:46.8181818181838] - Camion 10 termina de recargar al Cajero 186. 
+[12.0:29.0:46.8181818181838] * Cajero 186 recargado. 
+[12.0:29.0:47.8181818181838] - Camion 10 va al Cajero 5. 
+[12.0:30.0:46.8181818181838] - Camion 9 termina de recargar al Cajero 86. 
+[12.0:30.0:46.8181818181838] * Cajero 86 recargado. 
+[12.0:30.0:47.8181818181838] - Camion 9 va al Cajero 96. 
+[12.0:30.0:51.8181818181838] - Camion 7 termina de recargar al Cajero 61. 
+[12.0:30.0:51.8181818181838] * Cajero 61 recargado. 
+[12.0:30.0:52.8181818181838] - Camion 7 va al Cajero 29. 
+[12.0:31.0:46.8181818181838] - Camion 3 termina de recargar al Cajero 39. 
+[12.0:31.0:46.8181818181838] * Cajero 39 recargado. 
+[12.0:31.0:47.8181818181838] - Camion 3 va al Cajero 3. 
+[12.0:32.0:16.818181818183803] - Camion 8 termina de recargar al Cajero 15. 
+[12.0:32.0:16.818181818183803] * Cajero 15 recargado. 
+[12.0:32.0:17.818181818183803] - Camion 8 va al Cajero 121. 
+[12.0:33.0:1.8181818181838025] - Camion 1 termina de recargar al Cajero 120. 
+[12.0:33.0:1.8181818181838025] * Cajero 120 recargado. 
+[12.0:33.0:2.8181818181838025] - Camion 1 va al Cajero 4. 
+[12.0:34.0:42.8181818181838] - Camion 6 termina de recargar al Cajero 211. 
+[12.0:34.0:42.8181818181838] * Cajero 211 recargado. 
+[12.0:34.0:43.8181818181838] - Camion 6 va al Cajero 27. 
+[12.0:35.0:42.8181818181838] - Camion 11 termina de recargar al Cajero 228. 
+[12.0:35.0:42.8181818181838] * Cajero 228 recargado. 
+[12.0:35.0:43.8181818181838] - Camion 11 va al Cajero 20. 
+[12.0:36.0:50.8181818181838] - Camion 0 termina de recargar al Cajero 105. 
+[12.0:36.0:50.8181818181838] * Cajero 105 recargado. 
+[12.0:36.0:51.8181818181838] - Camion 0 va al Cajero 56. 
+[12.0:46.0:17.818181818183803] - Camion 4 termina de recargar al Cajero 58. 
+[12.0:46.0:17.818181818183803] * Cajero 58 recargado. 
+[12.0:46.0:18.818181818183803] - Camion 4 va a la Bodega. No alcanza a ir. 
+[12.0:49.0:40.8181818181838] - Camion 10 termina de recargar al Cajero 5. 
+[12.0:49.0:40.8181818181838] * Cajero 5 recargado. 
+[12.0:49.0:41.8181818181838] - Camion 10 va al Cajero 83. 
+[12.0:49.0:41.8181818181838] - Camion 2 termina de recargar al Cajero 131. 
+[12.0:49.0:41.8181818181838] * Cajero 131 recargado. 
+[12.0:49.0:42.8181818181838] - Camion 2 va a la Bodega. No alcanza a ir. 
+[12.0:50.0:37.8181818181838] - Camion 1 termina de recargar al Cajero 4. 
+[12.0:50.0:37.8181818181838] * Cajero 4 recargado. 
+[12.0:50.0:38.8181818181838] - Camion 1 va al Cajero 38. 
+[12.0:52.0:57.8181818181838] - Camion 4 llega a la Bodega. 
+[12.0:52.0:58.8181818181838] - Camion 4 va al Cajero 21. 
+[12.0:53.0:4.8181818181838025] - Camion 3 termina de recargar al Cajero 3. 
+[12.0:53.0:4.8181818181838025] * Cajero 3 recargado. 
+[12.0:53.0:5.8181818181838025] - Camion 3 va al Cajero 52. 
+[12.0:56.0:31.818181818183803] - Camion 8 termina de recargar al Cajero 121. 
+[12.0:56.0:31.818181818183803] * Cajero 121 recargado. 
+[12.0:56.0:32.8181818181838] - Camion 8 va al Cajero 23. 
+[12.0:57.0:21.818181818183803] - Camion 11 termina de recargar al Cajero 20. 
+[12.0:57.0:21.818181818183803] * Cajero 20 recargado. 
+[12.0:57.0:22.818181818183803] - Camion 11 va al Cajero 72. 
+[12.0:57.0:34.8181818181838] - Camion 9 termina de recargar al Cajero 96. 
+[12.0:57.0:34.8181818181838] * Cajero 96 recargado. 
+[12.0:57.0:35.8181818181838] - Camion 9 va al Cajero 177. 
+[12.0:57.0:40.8181818181838] - Camion 2 llega a la Bodega. 
+[12.0:57.0:41.8181818181838] - Camion 2 va al Cajero 53. 
+[12.0:58.0:36.8181818181838] - Camion 7 termina de recargar al Cajero 29. 
+[12.0:58.0:36.8181818181838] * Cajero 29 recargado. 
+[12.0:58.0:37.8181818181838] - Camion 7 va al Cajero 51. 
+[12.0:58.0:42.8181818181838] - Camion 0 termina de recargar al Cajero 56. 
+[12.0:58.0:42.8181818181838] * Cajero 56 recargado. 
+[12.0:58.0:43.8181818181838] - Camion 0 va al Cajero 90. 
+[12.0:59.0:55.8181818181838] - Camion 5 termina de recargar al Cajero 178. 
+[12.0:59.0:55.8181818181838] * Cajero 178 recargado. 
+[12.0:59.0:56.8181818181838] - Camion 5 va a la Bodega. No alcanza a ir. 
+[13.0:5.0:20.818181818183803] - Camion 6 termina de recargar al Cajero 27. 
+[13.0:5.0:20.818181818183803] * Cajero 27 recargado. 
+[13.0:5.0:21.818181818183803] - Camion 6 va al Cajero 97. 
+[13.0:5.0:38.8181818181838] - Camion 5 llega a la Bodega. 
+[13.0:5.0:39.8181818181838] - Camion 5 va al Cajero 6. 
+[13.0:13.0:47.8181818181838] - Camion 7 termina de recargar al Cajero 51. 
+[13.0:13.0:47.8181818181838] * Cajero 51 recargado. 
+[13.0:13.0:48.8181818181838] - Camion 7 va al Cajero 57. 
+[13.0:14.0:5.8181818181838025] - Camion 11 termina de recargar al Cajero 72. 
+[13.0:14.0:5.8181818181838025] * Cajero 72 recargado. 
+[13.0:14.0:6.8181818181838025] - Camion 11 va al Cajero 112. 
+[13.0:16.0:32.8181818181838] - Camion 10 termina de recargar al Cajero 83. 
+[13.0:16.0:32.8181818181838] * Cajero 83 recargado. 
+[13.0:16.0:33.8181818181838] - Camion 10 va al Cajero 123. 
+[13.0:19.0:7.8181818181838025] - Camion 1 termina de recargar al Cajero 38. 
+[13.0:19.0:7.8181818181838025] * Cajero 38 recargado. 
+[13.0:19.0:8.818181818183803] - Camion 1 va al Cajero 87. 
+[13.0:19.0:34.8181818181838] - Camion 8 termina de recargar al Cajero 23. 
+[13.0:19.0:34.8181818181838] * Cajero 23 recargado. 
+[13.0:19.0:35.8181818181838] - Camion 8 va al Cajero 71. 
+[13.0:20.0:44.8181818181838] - Camion 4 termina de recargar al Cajero 21. 
+[13.0:20.0:44.8181818181838] * Cajero 21 recargado. 
+[13.0:20.0:45.8181818181838] - Camion 4 va al Cajero 82. 
+[13.0:22.0:0.8181818181838025] - Camion 0 termina de recargar al Cajero 90. 
+[13.0:22.0:0.8181818181838025] * Cajero 90 recargado. 
+[13.0:22.0:1.8181818181838025] - Camion 0 va al Cajero 129. 
+[13.0:24.0:13.818181818183803] - Camion 5 termina de recargar al Cajero 6. 
+[13.0:24.0:13.818181818183803] * Cajero 6 recargado. 
+[13.0:24.0:14.818181818183803] - Camion 5 va al Cajero 65. 
+[13.0:24.0:26.818181818183803] - Camion 3 termina de recargar al Cajero 52. 
+[13.0:24.0:26.818181818183803] * Cajero 52 recargado. 
+[13.0:24.0:27.818181818183803] - Camion 3 va al Cajero 101. 
+[13.0:26.0:45.8181818181838] - Camion 2 termina de recargar al Cajero 53. 
+[13.0:26.0:45.8181818181838] * Cajero 53 recargado. 
+[13.0:26.0:46.8181818181838] - Camion 2 va al Cajero 92. 
+[13.0:27.0:37.8181818181838] - Camion 6 termina de recargar al Cajero 97. 
+[13.0:27.0:37.8181818181838] * Cajero 97 recargado. 
+[13.0:27.0:38.8181818181838] - Camion 6 va al Cajero 143. 
+[13.0:29.0:4.8181818181838025] - Camion 9 termina de recargar al Cajero 177. 
+[13.0:29.0:4.8181818181838025] * Cajero 177 recargado. 
+[13.0:29.0:5.8181818181838025] - Camion 9 va al Cajero 69. 
+[13.0:39.0:37.8181818181838] - Camion 5 termina de recargar al Cajero 65. 
+[13.0:39.0:37.8181818181838] * Cajero 65 recargado. 
+[13.0:39.0:38.8181818181838] - Camion 5 va al Cajero 89. 
+[13.0:39.0:49.8181818181838] - Camion 7 termina de recargar al Cajero 57. 
+[13.0:39.0:49.8181818181838] * Cajero 57 recargado. 
+[13.0:39.0:50.8181818181838] - Camion 7 va al Cajero 119. 
+[13.0:40.0:52.8181818181838] - Camion 11 termina de recargar al Cajero 112. 
+[13.0:40.0:52.8181818181838] * Cajero 112 recargado. 
+[13.0:40.0:53.8181818181838] - Camion 11 va al Cajero 159. 
+[13.0:42.0:7.8181818181838025] - Camion 10 termina de recargar al Cajero 123. 
+[13.0:42.0:7.8181818181838025] * Cajero 123 recargado. 
+[13.0:42.0:8.818181818183803] - Camion 10 va al Cajero 173. 
+[13.0:44.0:8.818181818183803] - Camion 1 termina de recargar al Cajero 87. 
+[13.0:44.0:8.818181818183803] * Cajero 87 recargado. 
+[13.0:44.0:9.818181818183803] - Camion 1 va al Cajero 134. 
+[13.0:45.0:6.8181818181838025] - Camion 3 termina de recargar al Cajero 101. 
+[13.0:45.0:6.8181818181838025] * Cajero 101 recargado. 
+[13.0:45.0:7.8181818181838025] - Camion 3 va al Cajero 122. 
+[13.0:46.0:22.818181818183803] - Camion 0 termina de recargar al Cajero 129. 
+[13.0:46.0:22.818181818183803] * Cajero 129 recargado. 
+[13.0:46.0:23.818181818183803] - Camion 0 va al Cajero 188. 
+[13.0:49.0:21.818181818183803] - Camion 4 termina de recargar al Cajero 82. 
+[13.0:49.0:21.818181818183803] * Cajero 82 recargado. 
+[13.0:49.0:22.818181818183803] - Camion 4 va al Cajero 110. 
+[13.0:51.0:49.8181818181838] - Camion 8 termina de recargar al Cajero 71. 
+[13.0:51.0:49.8181818181838] * Cajero 71 recargado. 
+[13.0:51.0:50.8181818181838] - Camion 8 va al Cajero 114. 
+[13.0:53.0:0.8181818181838025] - Camion 6 termina de recargar al Cajero 143. 
+[13.0:53.0:0.8181818181838025] * Cajero 143 recargado. 
+[13.0:53.0:1.8181818181838025] - Camion 6 va al Cajero 182. 
+[13.0:54.0:39.8181818181838] - Camion 9 termina de recargar al Cajero 69. 
+[13.0:54.0:39.8181818181838] * Cajero 69 recargado. 
+[13.0:54.0:40.8181818181838] - Camion 9 va al Cajero 117. 
+[13.0:56.0:22.818181818183803] - Camion 2 termina de recargar al Cajero 92. 
+[13.0:56.0:22.818181818183803] * Cajero 92 recargado. 
+[13.0:56.0:23.818181818183803] - Camion 2 va al Cajero 142. 
+[13.0:56.0:28.818181818183803] - Camion 5 termina de recargar al Cajero 89. 
+[13.0:56.0:28.818181818183803] * Cajero 89 recargado. 
+[13.0:56.0:29.818181818183803] - Camion 5 va al Cajero 132. 
+[13.0:57.0:26.818181818183803] - Camion 7 termina de recargar al Cajero 119. 
+[13.0:57.0:26.818181818183803] * Cajero 119 recargado. 
+[13.0:57.0:27.818181818183803] - Camion 7 va al Cajero 125. 
+[13.0:57.0:56.8181818181838] - Camion 11 termina de recargar al Cajero 159. 
+[13.0:57.0:56.8181818181838] * Cajero 159 recargado. 
+[13.0:57.0:57.8181818181838] - Camion 11 va al Cajero 199. 
+[14.0:5.0:18.818181818183803] - Camion 10 termina de recargar al Cajero 173. 
+[14.0:5.0:18.818181818183803] * Cajero 173 recargado. 
+[14.0:5.0:19.818181818183803] - Camion 10 va al Cajero 210. 
+[14.0:8.0:52.8181818181838] - Camion 8 termina de recargar al Cajero 114. 
+[14.0:8.0:52.8181818181838] * Cajero 114 recargado. 
+[14.0:8.0:53.8181818181838] - Camion 8 va al Cajero 151. 
+[14.0:10.0:57.8181818181838] - Camion 0 termina de recargar al Cajero 188. 
+[14.0:10.0:57.8181818181838] * Cajero 188 recargado. 
+[14.0:10.0:58.8181818181838] - Camion 0 va al Cajero 221. 
+[14.0:11.0:7.8181818181838025] - Camion 5 termina de recargar al Cajero 132. 
+[14.0:11.0:7.8181818181838025] * Cajero 132 recargado. 
+[14.0:11.0:8.818181818183803] - Camion 5 va al Cajero 152. 
+[14.0:13.0:58.8181818181838] - Camion 1 termina de recargar al Cajero 134. 
+[14.0:13.0:58.8181818181838] * Cajero 134 recargado. 
+[14.0:13.0:59.8181818181838] - Camion 1 va al Cajero 183. 
+[14.0:16.0:1.8181818181838025] - Camion 3 termina de recargar al Cajero 122. 
+[14.0:16.0:1.8181818181838025] * Cajero 122 recargado. 
+[14.0:16.0:2.8181818181838025] - Camion 3 va al Cajero 179. 
+[14.0:17.0:14.818181818183803] - Camion 4 termina de recargar al Cajero 110. 
+[14.0:17.0:14.818181818183803] * Cajero 110 recargado. 
+[14.0:17.0:15.818181818183803] - Camion 4 va al Cajero 154. 
+[14.0:17.0:43.8181818181838] - Camion 9 termina de recargar al Cajero 117. 
+[14.0:17.0:43.8181818181838] * Cajero 117 recargado. 
+[14.0:17.0:44.8181818181838] - Camion 9 va al Cajero 158. 
+[14.0:18.0:21.818181818183803] - Camion 2 termina de recargar al Cajero 142. 
+[14.0:18.0:21.818181818183803] * Cajero 142 recargado. 
+[14.0:18.0:22.818181818183803] - Camion 2 va al Cajero 165. 
+[14.0:20.0:25.818181818183803] - Camion 6 termina de recargar al Cajero 182. 
+[14.0:20.0:25.818181818183803] * Cajero 182 recargado. 
+[14.0:20.0:26.818181818183803] - Camion 6 va al Cajero 222. 
+[14.0:24.0:49.8181818181838] - Camion 11 termina de recargar al Cajero 199. 
+[14.0:24.0:49.8181818181838] * Cajero 199 recargado. 
+[14.0:24.0:50.8181818181838] - Camion 11 va al Cajero 217. 
+[14.0:27.0:48.8181818181838] - Camion 10 termina de recargar al Cajero 210. 
+[14.0:27.0:48.8181818181838] * Cajero 210 recargado. 
+[14.0:27.0:49.8181818181838] - Camion 10 va al Cajero 225. 
+[14.0:27.0:49.8181818181838] - Camion 7 termina de recargar al Cajero 125. 
+[14.0:27.0:49.8181818181838] * Cajero 125 recargado. 
+[14.0:27.0:50.8181818181838] - Camion 7 va al Cajero 185. 
+[14.0:27.0:54.8181818181838] - Camion 8 termina de recargar al Cajero 151. 
+[14.0:27.0:54.8181818181838] * Cajero 151 recargado. 
+[14.0:27.0:55.8181818181838] - Camion 8 va al Cajero 200. 
+[14.0:29.0:56.8181818181838] - Camion 5 termina de recargar al Cajero 152. 
+[14.0:29.0:56.8181818181838] * Cajero 152 recargado. 
+[14.0:29.0:57.8181818181838] - Camion 5 va al Cajero 198. 
+[14.0:30.0:23.818181818183803] - Camion 1 termina de recargar al Cajero 183. 
+[14.0:30.0:23.818181818183803] * Cajero 183 recargado. 
+[14.0:30.0:24.818181818183803] - Camion 1 va al Cajero 206. 
+[14.0:36.0:37.8181818181838] - Camion 0 termina de recargar al Cajero 221. 
+[14.0:36.0:37.8181818181838] * Cajero 221 recargado. 
+[14.0:36.0:38.8181818181838] - Camion 0 va a la Bodega. No alcanza a ir. 
+[14.0:39.0:15.818181818183803] - Camion 11 termina de recargar al Cajero 217. 
+[14.0:39.0:15.818181818183803] * Cajero 217 recargado. 
+[14.0:39.0:16.818181818183803] - Camion 11 va a la Bodega. No alcanza a ir. 
+[14.0:39.0:36.8181818181838] - Camion 0 llega a la Bodega. 
+[14.0:39.0:48.8181818181838] - Camion 9 termina de recargar al Cajero 158. 
+[14.0:39.0:48.8181818181838] * Cajero 158 recargado. 
+[14.0:39.0:49.8181818181838] - Camion 9 va al Cajero 181. 
+[14.0:40.0:25.818181818183803] - Camion 4 termina de recargar al Cajero 154. 
+[14.0:40.0:25.818181818183803] * Cajero 154 recargado. 
+[14.0:40.0:26.818181818183803] - Camion 4 va al Cajero 197. 
+[14.0:42.0:35.8181818181838] - Camion 3 termina de recargar al Cajero 179. 
+[14.0:42.0:35.8181818181838] * Cajero 179 recargado. 
+[14.0:42.0:36.8181818181838] - Camion 3 va a la Bodega. No alcanza a ir. 
+[14.0:43.0:6.8181818181838025] - Camion 10 termina de recargar al Cajero 225. 
+[14.0:43.0:6.8181818181838025] * Cajero 225 recargado. 
+[14.0:43.0:7.8181818181838025] - Camion 10 va a la Bodega. No alcanza a ir. 
+[14.0:43.0:15.818181818183803] - Camion 7 termina de recargar al Cajero 185. 
+[14.0:43.0:15.818181818183803] * Cajero 185 recargado. 
+[14.0:43.0:16.818181818183803] - Camion 7 va al Cajero 207. 
+[14.0:43.0:28.818181818183803] - Camion 2 termina de recargar al Cajero 165. 
+[14.0:43.0:28.818181818183803] * Cajero 165 recargado. 
+[14.0:43.0:29.818181818183803] - Camion 2 va al Cajero 202. 
+[14.0:45.0:40.8181818181838] - Camion 6 termina de recargar al Cajero 222. 
+[14.0:45.0:40.8181818181838] * Cajero 222 recargado. 
+[14.0:45.0:41.8181818181838] - Camion 6 va a la Bodega. No alcanza a ir. 
+[14.0:45.0:51.8181818181838] - Camion 10 llega a la Bodega. 
+[14.0:45.0:56.8181818181838] - Camion 11 llega a la Bodega. 
+[14.0:49.0:45.8181818181838] - Camion 1 termina de recargar al Cajero 206. 
+[14.0:49.0:45.8181818181838] * Cajero 206 recargado. 
+[14.0:49.0:46.8181818181838] - Camion 1 va al Cajero 224. 
+[14.0:50.0:37.8181818181838] - Camion 5 termina de recargar al Cajero 198. 
+[14.0:50.0:37.8181818181838] * Cajero 198 recargado. 
+[14.0:50.0:38.8181818181838] - Camion 5 va al Cajero 212. 
+[14.0:52.0:17.818181818183803] - Camion 8 termina de recargar al Cajero 200. 
+[14.0:52.0:17.818181818183803] * Cajero 200 recargado. 
+[14.0:52.0:18.818181818183803] - Camion 8 va al Cajero 213. 
+[14.0:52.0:19.818181818183803] - Camion 3 llega a la Bodega. 
+[14.0:55.0:20.818181818183803] - Camion 6 llega a la Bodega. 
+[14.0:56.0:19.818181818183803] - Camion 9 termina de recargar al Cajero 181. 
+[14.0:56.0:19.818181818183803] * Cajero 181 recargado. 
+[14.0:56.0:20.818181818183803] - Camion 9 va al Cajero 205. 
+[15.0:8.0:10.818181818183803] - Camion 7 termina de recargar al Cajero 207. 
+[15.0:8.0:10.818181818183803] * Cajero 207 recargado. 
+[15.0:8.0:11.818181818183803] - Camion 7 va a la Bodega. No alcanza a ir. 
+[15.0:9.0:51.8181818181838] - Camion 1 termina de recargar al Cajero 224. 
+[15.0:9.0:51.8181818181838] * Cajero 224 recargado. 
+[15.0:9.0:52.8181818181838] - Camion 1 va a la Bodega. No alcanza a ir. 
+[15.0:9.0:55.8181818181838] - Camion 2 termina de recargar al Cajero 202. 
+[15.0:9.0:55.8181818181838] * Cajero 202 recargado. 
+[15.0:9.0:56.8181818181838] - Camion 2 va al Cajero 231. 
+[15.0:12.0:17.818181818183803] - Camion 9 termina de recargar al Cajero 205. 
+[15.0:12.0:17.818181818183803] * Cajero 205 recargado. 
+[15.0:12.0:18.818181818183803] - Camion 9 va al Cajero 214. 
+[15.0:12.0:36.8181818181838] - Camion 5 termina de recargar al Cajero 212. 
+[15.0:12.0:36.8181818181838] * Cajero 212 recargado. 
+[15.0:12.0:37.8181818181838] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[15.0:13.0:13.818181818183803] - Camion 4 termina de recargar al Cajero 197. 
+[15.0:13.0:13.818181818183803] * Cajero 197 recargado. 
+[15.0:13.0:14.818181818183803] - Camion 4 va a la Bodega. No hay cajeros que recargar.. 
+[15.0:15.0:22.818181818183803] - Camion 8 termina de recargar al Cajero 213. 
+[15.0:15.0:22.818181818183803] * Cajero 213 recargado. 
+[15.0:15.0:23.818181818183803] - Camion 8 va a la Bodega. No hay cajeros que recargar.. 
+[15.0:15.0:39.8181818181838] - Camion 1 llega a la Bodega. 
+[15.0:16.0:2.8181818181838025] - Camion 7 llega a la Bodega. 
+[15.0:20.0:10.818181818183803] - Camion 5 llega a la Bodega. 
+[15.0:24.0:29.818181818183803] - Camion 4 llega a la Bodega. 
+[15.0:25.0:26.818181818183803] - Camion 8 llega a la Bodega. 
+[15.0:36.0:34.8181818181838] - Camion 2 termina de recargar al Cajero 231. 
+[15.0:36.0:34.8181818181838] * Cajero 231 recargado. 
+[15.0:36.0:35.8181818181838] - Camion 2 va a la Bodega. No hay cajeros que recargar.. 
+[15.0:40.0:57.8181818181838] - Camion 2 llega a la Bodega. 
+[15.0:41.0:30.818181818183803] - Camion 9 termina de recargar al Cajero 214. 
+[15.0:41.0:30.818181818183803] * Cajero 214 recargado. 
+[15.0:41.0:31.818181818183803] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[15.0:47.0:5.8181818181838025] - Camion 9 llega a la Bodega. 
+
+Lunes-Noche 
+[11.0:36.0:19.63636363636033] - Camion 0 va al Cajero 67. 
+[11.0:36.0:19.63636363636033] - Camion 11 va al Cajero 103. 
+[11.0:36.0:19.63636363636033] - Camion 6 va al Cajero 172. 
+[11.0:36.0:19.63636363636033] - Camion 7 va al Cajero 1. 
+[11.0:36.0:19.63636363636033] - Camion 4 va al Cajero 98. 
+[11.0:36.0:19.63636363636033] - Camion 2 va al Cajero 144. 
+[11.0:36.0:20.63636363636033] - Camion 10 va al Cajero 54. 
+[11.0:36.0:20.63636363636033] - Camion 1 va al Cajero 162. 
+[11.0:36.0:20.63636363636033] - Camion 8 va al Cajero 30. 
+[11.0:36.0:21.63636363636033] - Camion 3 va al Cajero 160. 
+[11.0:36.0:21.63636363636033] - Camion 9 va al Cajero 219. 
+[11.0:36.0:22.63636363636033] - Camion 5 va al Cajero 85. 
+[11.0:50.0:53.63636363636033] - Camion 5 termina de recargar al Cajero 85. 
+[11.0:50.0:53.63636363636033] * Cajero 85 recargado. 
+[11.0:50.0:54.63636363636033] - Camion 5 va al Cajero 18. 
+[11.0:53.0:7.636363636360329] - Camion 4 termina de recargar al Cajero 98. 
+[11.0:53.0:7.636363636360329] * Cajero 98 recargado. 
+[11.0:53.0:8.636363636360329] - Camion 4 va al Cajero 121. 
+[11.0:54.0:14.636363636360329] - Camion 7 termina de recargar al Cajero 1. 
+[11.0:54.0:14.636363636360329] * Cajero 1 recargado. 
+[11.0:54.0:15.636363636360329] - Camion 7 va al Cajero 61. 
+[11.0:55.0:22.63636363636033] - Camion 3 termina de recargar al Cajero 160. 
+[11.0:55.0:22.63636363636033] * Cajero 160 recargado. 
+[11.0:55.0:23.63636363636033] - Camion 3 va al Cajero 190. 
+[11.0:56.0:40.63636363636033] - Camion 9 termina de recargar al Cajero 219. 
+[11.0:56.0:40.63636363636033] * Cajero 219 recargado. 
+[11.0:56.0:41.63636363636033] - Camion 9 va al Cajero 178. 
+[11.0:58.0:2.636363636360329] - Camion 0 termina de recargar al Cajero 67. 
+[11.0:58.0:2.636363636360329] * Cajero 67 recargado. 
+[11.0:58.0:3.636363636360329] - Camion 0 va al Cajero 102. 
+[11.0:58.0:3.636363636360329] - Camion 11 termina de recargar al Cajero 103. 
+[11.0:58.0:3.636363636360329] * Cajero 103 recargado. 
+[11.0:58.0:4.636363636360329] - Camion 11 va al Cajero 10. 
+[11.0:58.0:56.63636363636033] - Camion 8 termina de recargar al Cajero 30. 
+[11.0:58.0:56.63636363636033] * Cajero 30 recargado. 
+[11.0:58.0:57.63636363636033] - Camion 8 va al Cajero 91. 
+[11.0:59.0:18.63636363636033] - Camion 2 termina de recargar al Cajero 144. 
+[11.0:59.0:18.63636363636033] * Cajero 144 recargado. 
+[11.0:59.0:19.63636363636033] - Camion 2 va al Cajero 157. 
+[12.0:1.0:14.636363636360329] - Camion 1 termina de recargar al Cajero 162. 
+[12.0:1.0:14.636363636360329] * Cajero 162 recargado. 
+[12.0:1.0:15.636363636360329] - Camion 1 va al Cajero 211. 
+[12.0:3.0:30.63636363636033] - Camion 6 termina de recargar al Cajero 172. 
+[12.0:3.0:30.63636363636033] * Cajero 172 recargado. 
+[12.0:3.0:31.63636363636033] - Camion 6 va al Cajero 31. 
+[12.0:7.0:23.63636363636033] - Camion 5 termina de recargar al Cajero 18. 
+[12.0:7.0:23.63636363636033] * Cajero 18 recargado. 
+[12.0:7.0:24.63636363636033] - Camion 5 va al Cajero 4. 
+[12.0:8.0:56.63636363636033] - Camion 3 termina de recargar al Cajero 190. 
+[12.0:8.0:56.63636363636033] * Cajero 190 recargado. 
+[12.0:8.0:57.63636363636033] - Camion 3 va al Cajero 5. 
+[12.0:9.0:0.6363636363603291] - Camion 10 termina de recargar al Cajero 54. 
+[12.0:9.0:0.6363636363603291] * Cajero 54 recargado. 
+[12.0:9.0:1.636363636360329] - Camion 10 va al Cajero 3. 
+[12.0:12.0:29.63636363636033] - Camion 11 termina de recargar al Cajero 10. 
+[12.0:12.0:29.63636363636033] * Cajero 10 recargado. 
+[12.0:12.0:30.63636363636033] - Camion 11 va al Cajero 9. 
+[12.0:12.0:45.63636363636033] - Camion 2 termina de recargar al Cajero 157. 
+[12.0:12.0:45.63636363636033] * Cajero 157 recargado. 
+[12.0:12.0:46.63636363636033] - Camion 2 va al Cajero 17. 
+[12.0:16.0:49.63636363636033] - Camion 4 termina de recargar al Cajero 121. 
+[12.0:16.0:49.63636363636033] * Cajero 121 recargado. 
+[12.0:16.0:50.63636363636033] - Camion 4 va al Cajero 6. 
+[12.0:18.0:28.63636363636033] - Camion 0 termina de recargar al Cajero 102. 
+[12.0:18.0:28.63636363636033] * Cajero 102 recargado. 
+[12.0:18.0:29.63636363636033] - Camion 0 va al Cajero 14. 
+[12.0:21.0:38.63636363636033] - Camion 6 termina de recargar al Cajero 31. 
+[12.0:21.0:38.63636363636033] * Cajero 31 recargado. 
+[12.0:21.0:39.63636363636033] - Camion 6 va al Cajero 7. 
+[12.0:22.0:6.636363636360329] - Camion 1 termina de recargar al Cajero 211. 
+[12.0:22.0:6.636363636360329] * Cajero 211 recargado. 
+[12.0:22.0:7.636363636360329] - Camion 1 va al Cajero 15. 
+[12.0:22.0:17.63636363636033] - Camion 5 termina de recargar al Cajero 4. 
+[12.0:22.0:17.63636363636033] * Cajero 4 recargado. 
+[12.0:22.0:18.63636363636033] - Camion 5 va al Cajero 12. 
+[12.0:22.0:26.63636363636033] - Camion 7 termina de recargar al Cajero 61. 
+[12.0:22.0:26.63636363636033] * Cajero 61 recargado. 
+[12.0:22.0:27.63636363636033] - Camion 7 va al Cajero 22. 
+[12.0:27.0:27.63636363636033] - Camion 10 termina de recargar al Cajero 3. 
+[12.0:27.0:27.63636363636033] * Cajero 3 recargado. 
+[12.0:27.0:28.63636363636033] - Camion 10 va al Cajero 25. 
+[12.0:31.0:55.63636363636033] - Camion 9 termina de recargar al Cajero 178. 
+[12.0:31.0:55.63636363636033] * Cajero 178 recargado. 
+[12.0:31.0:56.63636363636033] - Camion 9 va al Cajero 20. 
+[12.0:33.0:12.636363636360329] - Camion 3 termina de recargar al Cajero 5. 
+[12.0:33.0:12.636363636360329] * Cajero 5 recargado. 
+[12.0:33.0:13.636363636360329] - Camion 3 va al Cajero 27. 
+[12.0:36.0:7.636363636360329] - Camion 8 termina de recargar al Cajero 91. 
+[12.0:36.0:7.636363636360329] * Cajero 91 recargado. 
+[12.0:36.0:8.636363636360329] - Camion 8 va al Cajero 21. 
+[12.0:38.0:14.636363636360329] - Camion 4 termina de recargar al Cajero 6. 
+[12.0:38.0:14.636363636360329] * Cajero 6 recargado. 
+[12.0:38.0:15.636363636360329] - Camion 4 va al Cajero 23. 
+[12.0:39.0:19.63636363636033] - Camion 2 termina de recargar al Cajero 17. 
+[12.0:39.0:19.63636363636033] * Cajero 17 recargado. 
+[12.0:39.0:20.63636363636033] - Camion 2 va al Cajero 68. 
+[12.0:43.0:11.636363636360329] - Camion 11 termina de recargar al Cajero 9. 
+[12.0:43.0:11.636363636360329] * Cajero 9 recargado. 
+[12.0:43.0:12.636363636360329] - Camion 11 va al Cajero 43. 
+[12.0:44.0:35.63636363636033] - Camion 6 termina de recargar al Cajero 7. 
+[12.0:44.0:35.63636363636033] * Cajero 7 recargado. 
+[12.0:44.0:36.63636363636033] - Camion 6 va al Cajero 26. 
+[12.0:48.0:25.63636363636033] - Camion 5 termina de recargar al Cajero 12. 
+[12.0:48.0:25.63636363636033] * Cajero 12 recargado. 
+[12.0:48.0:26.63636363636033] - Camion 5 va al Cajero 28. 
+[12.0:49.0:5.636363636360329] - Camion 1 termina de recargar al Cajero 15. 
+[12.0:49.0:5.636363636360329] * Cajero 15 recargado. 
+[12.0:49.0:6.636363636360329] - Camion 1 va al Cajero 39. 
+[12.0:49.0:25.63636363636033] - Camion 10 termina de recargar al Cajero 25. 
+[12.0:49.0:25.63636363636033] * Cajero 25 recargado. 
+[12.0:49.0:26.63636363636033] - Camion 10 va al Cajero 29. 
+[12.0:51.0:3.636363636360329] - Camion 0 termina de recargar al Cajero 14. 
+[12.0:51.0:3.636363636360329] * Cajero 14 recargado. 
+[12.0:51.0:4.636363636360329] - Camion 0 va al Cajero 56. 
+[12.0:54.0:0.6363636363603291] - Camion 7 termina de recargar al Cajero 22. 
+[12.0:54.0:0.6363636363603291] * Cajero 22 recargado. 
+[12.0:54.0:1.636363636360329] - Camion 7 va al Cajero 47. 
+[12.0:56.0:22.63636363636033] - Camion 2 termina de recargar al Cajero 68. 
+[12.0:56.0:22.63636363636033] * Cajero 68 recargado. 
+[12.0:56.0:23.63636363636033] - Camion 2 va al Cajero 93. 
+[12.0:58.0:10.636363636360329] - Camion 9 termina de recargar al Cajero 20. 
+[12.0:58.0:10.636363636360329] * Cajero 20 recargado. 
+[12.0:58.0:11.636363636360329] - Camion 9 va al Cajero 52. 
+[12.0:58.0:27.63636363636033] - Camion 3 termina de recargar al Cajero 27. 
+[12.0:58.0:27.63636363636033] * Cajero 27 recargado. 
+[12.0:58.0:28.63636363636033] - Camion 3 va al Cajero 72. 
+[12.0:59.0:6.636363636360329] - Camion 8 termina de recargar al Cajero 21. 
+[12.0:59.0:6.636363636360329] * Cajero 21 recargado. 
+[12.0:59.0:7.636363636360329] - Camion 8 va al Cajero 64. 
+[12.0:59.0:53.63636363636033] - Camion 6 termina de recargar al Cajero 26. 
+[12.0:59.0:53.63636363636033] * Cajero 26 recargado. 
+[12.0:59.0:54.63636363636033] - Camion 6 va al Cajero 65. 
+[13.0:1.0:18.63636363636033] - Camion 4 termina de recargar al Cajero 23. 
+[13.0:1.0:18.63636363636033] * Cajero 23 recargado. 
+[13.0:1.0:19.63636363636033] - Camion 4 va al Cajero 57. 
+[13.0:9.0:56.63636363636033] - Camion 5 termina de recargar al Cajero 28. 
+[13.0:9.0:56.63636363636033] * Cajero 28 recargado. 
+[13.0:9.0:57.63636363636033] - Camion 5 va al Cajero 70. 
+[13.0:11.0:34.63636363636033] - Camion 3 termina de recargar al Cajero 72. 
+[13.0:11.0:34.63636363636033] * Cajero 72 recargado. 
+[13.0:11.0:35.63636363636033] - Camion 3 va al Cajero 105. 
+[13.0:12.0:21.63636363636033] - Camion 11 termina de recargar al Cajero 43. 
+[13.0:12.0:21.63636363636033] * Cajero 43 recargado. 
+[13.0:12.0:22.63636363636033] - Camion 11 va al Cajero 87. 
+[13.0:12.0:35.63636363636033] - Camion 0 termina de recargar al Cajero 56. 
+[13.0:12.0:35.63636363636033] * Cajero 56 recargado. 
+[13.0:12.0:36.63636363636033] - Camion 0 va al Cajero 89. 
+[13.0:12.0:51.63636363636033] - Camion 7 termina de recargar al Cajero 47. 
+[13.0:12.0:51.63636363636033] * Cajero 47 recargado. 
+[13.0:12.0:52.63636363636033] - Camion 7 va al Cajero 71. 
+[13.0:13.0:20.63636363636033] - Camion 6 termina de recargar al Cajero 65. 
+[13.0:13.0:20.63636363636033] * Cajero 65 recargado. 
+[13.0:13.0:21.63636363636033] - Camion 6 va al Cajero 82. 
+[13.0:14.0:33.63636363636033] - Camion 10 termina de recargar al Cajero 29. 
+[13.0:14.0:33.63636363636033] * Cajero 29 recargado. 
+[13.0:14.0:34.63636363636033] - Camion 10 va al Cajero 83. 
+[13.0:16.0:50.63636363636033] - Camion 1 termina de recargar al Cajero 39. 
+[13.0:16.0:50.63636363636033] * Cajero 39 recargado. 
+[13.0:16.0:51.63636363636033] - Camion 1 va al Cajero 92. 
+[13.0:19.0:27.63636363636033] - Camion 8 termina de recargar al Cajero 64. 
+[13.0:19.0:27.63636363636033] * Cajero 64 recargado. 
+[13.0:19.0:28.63636363636033] - Camion 8 va al Cajero 90. 
+[13.0:23.0:41.63636363636033] - Camion 2 termina de recargar al Cajero 93. 
+[13.0:23.0:41.63636363636033] * Cajero 93 recargado. 
+[13.0:23.0:42.63636363636033] - Camion 2 va al Cajero 117. 
+[13.0:31.0:56.63636363636033] - Camion 9 termina de recargar al Cajero 52. 
+[13.0:31.0:56.63636363636033] * Cajero 52 recargado. 
+[13.0:31.0:57.63636363636033] - Camion 9 va al Cajero 81. 
+[13.0:32.0:15.636363636360329] - Camion 4 termina de recargar al Cajero 57. 
+[13.0:32.0:15.636363636360329] * Cajero 57 recargado. 
+[13.0:32.0:16.63636363636033] - Camion 4 va al Cajero 88. 
+[13.0:34.0:6.636363636360329] - Camion 6 termina de recargar al Cajero 82. 
+[13.0:34.0:6.636363636360329] * Cajero 82 recargado. 
+[13.0:34.0:7.636363636360329] - Camion 6 va al Cajero 106. 
+[13.0:37.0:37.63636363636033] - Camion 0 termina de recargar al Cajero 89. 
+[13.0:37.0:37.63636363636033] * Cajero 89 recargado. 
+[13.0:37.0:38.63636363636033] - Camion 0 va al Cajero 100. 
+[13.0:38.0:15.636363636360329] - Camion 10 termina de recargar al Cajero 83. 
+[13.0:38.0:15.636363636360329] * Cajero 83 recargado. 
+[13.0:38.0:16.63636363636033] - Camion 10 va al Cajero 114. 
+[13.0:39.0:24.63636363636033] - Camion 7 termina de recargar al Cajero 71. 
+[13.0:39.0:24.63636363636033] * Cajero 71 recargado. 
+[13.0:39.0:25.63636363636033] - Camion 7 va al Cajero 110. 
+[13.0:40.0:4.636363636360329] - Camion 3 termina de recargar al Cajero 105. 
+[13.0:40.0:4.636363636360329] * Cajero 105 recargado. 
+[13.0:40.0:5.636363636360329] - Camion 3 va al Cajero 142. 
+[13.0:40.0:34.63636363636033] - Camion 11 termina de recargar al Cajero 87. 
+[13.0:40.0:34.63636363636033] * Cajero 87 recargado. 
+[13.0:40.0:35.63636363636033] - Camion 11 va al Cajero 119. 
+[13.0:41.0:24.63636363636033] - Camion 5 termina de recargar al Cajero 70. 
+[13.0:41.0:24.63636363636033] * Cajero 70 recargado. 
+[13.0:41.0:25.63636363636033] - Camion 5 va al Cajero 96. 
+[13.0:42.0:3.636363636360329] - Camion 2 termina de recargar al Cajero 117. 
+[13.0:42.0:3.636363636360329] * Cajero 117 recargado. 
+[13.0:42.0:4.636363636360329] - Camion 2 va al Cajero 143. 
+[13.0:44.0:3.636363636360329] - Camion 8 termina de recargar al Cajero 90. 
+[13.0:44.0:3.636363636360329] * Cajero 90 recargado. 
+[13.0:44.0:4.636363636360329] - Camion 8 va al Cajero 122. 
+[13.0:51.0:49.63636363636033] - Camion 4 termina de recargar al Cajero 88. 
+[13.0:51.0:49.63636363636033] * Cajero 88 recargado. 
+[13.0:51.0:50.63636363636033] - Camion 4 va al Cajero 115. 
+[13.0:54.0:53.63636363636033] - Camion 1 termina de recargar al Cajero 92. 
+[13.0:54.0:53.63636363636033] * Cajero 92 recargado. 
+[13.0:54.0:54.63636363636033] - Camion 1 va al Cajero 126. 
+[13.0:55.0:50.63636363636033] - Camion 10 termina de recargar al Cajero 114. 
+[13.0:55.0:50.63636363636033] * Cajero 114 recargado. 
+[13.0:55.0:51.63636363636033] - Camion 10 va al Cajero 141. 
+[13.0:57.0:36.63636363636033] - Camion 11 termina de recargar al Cajero 119. 
+[13.0:57.0:36.63636363636033] * Cajero 119 recargado. 
+[13.0:57.0:37.63636363636033] - Camion 11 va al Cajero 129. 
+[13.0:57.0:49.63636363636033] - Camion 9 termina de recargar al Cajero 81. 
+[13.0:57.0:49.63636363636033] * Cajero 81 recargado. 
+[13.0:57.0:50.63636363636033] - Camion 9 va al Cajero 112. 
+[13.0:58.0:36.63636363636033] - Camion 0 termina de recargar al Cajero 100. 
+[13.0:58.0:36.63636363636033] * Cajero 100 recargado. 
+[13.0:58.0:37.63636363636033] - Camion 0 va al Cajero 120. 
+[14.0:0.0:17.63636363636033] - Camion 3 termina de recargar al Cajero 142. 
+[14.0:0.0:17.63636363636033] * Cajero 142 recargado. 
+[14.0:0.0:18.63636363636033] - Camion 3 va al Cajero 145. 
+[14.0:3.0:23.63636363636033] - Camion 6 termina de recargar al Cajero 106. 
+[14.0:3.0:23.63636363636033] * Cajero 106 recargado. 
+[14.0:3.0:24.63636363636033] - Camion 6 va al Cajero 139. 
+[14.0:3.0:41.63636363636033] - Camion 2 termina de recargar al Cajero 143. 
+[14.0:3.0:41.63636363636033] * Cajero 143 recargado. 
+[14.0:3.0:42.63636363636033] - Camion 2 va al Cajero 165. 
+[14.0:8.0:58.63636363636033] - Camion 8 termina de recargar al Cajero 122. 
+[14.0:8.0:58.63636363636033] * Cajero 122 recargado. 
+[14.0:8.0:59.63636363636033] - Camion 8 va al Cajero 175. 
+[14.0:9.0:37.63636363636033] - Camion 5 termina de recargar al Cajero 96. 
+[14.0:9.0:37.63636363636033] * Cajero 96 recargado. 
+[14.0:9.0:38.63636363636033] - Camion 5 va al Cajero 125. 
+[14.0:11.0:47.63636363636033] - Camion 7 termina de recargar al Cajero 110. 
+[14.0:11.0:47.63636363636033] * Cajero 110 recargado. 
+[14.0:11.0:48.63636363636033] - Camion 7 va al Cajero 131. 
+[14.0:17.0:50.63636363636033] - Camion 1 termina de recargar al Cajero 126. 
+[14.0:17.0:50.63636363636033] * Cajero 126 recargado. 
+[14.0:17.0:51.63636363636033] - Camion 1 va al Cajero 148. 
+[14.0:22.0:5.636363636360329] - Camion 4 termina de recargar al Cajero 115. 
+[14.0:22.0:5.636363636360329] * Cajero 115 recargado. 
+[14.0:22.0:6.636363636360329] - Camion 4 va al Cajero 132. 
+[14.0:22.0:54.63636363636033] - Camion 2 termina de recargar al Cajero 165. 
+[14.0:22.0:54.63636363636033] * Cajero 165 recargado. 
+[14.0:22.0:55.63636363636033] - Camion 2 va al Cajero 206. 
+[14.0:24.0:20.63636363636033] - Camion 10 termina de recargar al Cajero 141. 
+[14.0:24.0:20.63636363636033] * Cajero 141 recargado. 
+[14.0:24.0:21.63636363636033] - Camion 10 va al Cajero 150. 
+[14.0:27.0:49.63636363636033] - Camion 3 termina de recargar al Cajero 145. 
+[14.0:27.0:49.63636363636033] * Cajero 145 recargado. 
+[14.0:27.0:50.63636363636033] - Camion 3 va al Cajero 199. 
+[14.0:28.0:50.63636363636033] - Camion 9 termina de recargar al Cajero 112. 
+[14.0:28.0:50.63636363636033] * Cajero 112 recargado. 
+[14.0:28.0:51.63636363636033] - Camion 9 va al Cajero 146. 
+[14.0:28.0:58.63636363636033] - Camion 11 termina de recargar al Cajero 129. 
+[14.0:28.0:58.63636363636033] * Cajero 129 recargado. 
+[14.0:28.0:59.63636363636033] - Camion 11 va al Cajero 179. 
+[14.0:30.0:5.636363636360329] - Camion 0 termina de recargar al Cajero 120. 
+[14.0:30.0:5.636363636360329] * Cajero 120 recargado. 
+[14.0:30.0:6.636363636360329] - Camion 0 va al Cajero 134. 
+[14.0:35.0:14.636363636360329] - Camion 6 termina de recargar al Cajero 139. 
+[14.0:35.0:14.636363636360329] * Cajero 139 recargado. 
+[14.0:35.0:15.636363636360329] - Camion 6 va al Cajero 183. 
+[14.0:35.0:33.63636363636033] - Camion 1 termina de recargar al Cajero 148. 
+[14.0:35.0:33.63636363636033] * Cajero 148 recargado. 
+[14.0:35.0:34.63636363636033] - Camion 1 va al Cajero 177. 
+[14.0:36.0:9.636363636360329] - Camion 7 termina de recargar al Cajero 131. 
+[14.0:36.0:9.636363636360329] * Cajero 131 recargado. 
+[14.0:36.0:10.636363636360329] - Camion 7 va al Cajero 154. 
+[14.0:39.0:21.63636363636033] - Camion 8 termina de recargar al Cajero 175. 
+[14.0:39.0:21.63636363636033] * Cajero 175 recargado. 
+[14.0:39.0:22.63636363636033] - Camion 8 va al Cajero 188. 
+[14.0:39.0:52.63636363636033] - Camion 2 termina de recargar al Cajero 206. 
+[14.0:39.0:52.63636363636033] * Cajero 206 recargado. 
+[14.0:39.0:53.63636363636033] - Camion 2 va al Cajero 214. 
+[14.0:40.0:21.63636363636033] - Camion 4 termina de recargar al Cajero 132. 
+[14.0:40.0:21.63636363636033] * Cajero 132 recargado. 
+[14.0:40.0:22.63636363636033] - Camion 4 va al Cajero 161. 
+[14.0:40.0:31.63636363636033] - Camion 5 termina de recargar al Cajero 125. 
+[14.0:40.0:31.63636363636033] * Cajero 125 recargado. 
+[14.0:40.0:32.63636363636033] - Camion 5 va al Cajero 153. 
+[14.0:47.0:42.63636363636033] - Camion 6 termina de recargar al Cajero 183. 
+[14.0:47.0:42.63636363636033] * Cajero 183 recargado. 
+[14.0:47.0:43.63636363636033] - Camion 6 va al Cajero 202. 
+[14.0:52.0:27.63636363636033] - Camion 10 termina de recargar al Cajero 150. 
+[14.0:52.0:27.63636363636033] * Cajero 150 recargado. 
+[14.0:52.0:28.63636363636033] - Camion 10 va al Cajero 205. 
+[14.0:53.0:31.63636363636033] - Camion 9 termina de recargar al Cajero 146. 
+[14.0:53.0:31.63636363636033] * Cajero 146 recargado. 
+[14.0:53.0:32.63636363636033] - Camion 9 va al Cajero 182. 
+[14.0:54.0:58.63636363636033] - Camion 11 termina de recargar al Cajero 179. 
+[14.0:54.0:58.63636363636033] * Cajero 179 recargado. 
+[14.0:54.0:59.63636363636033] - Camion 11 va al Cajero 229. 
+[14.0:55.0:28.63636363636033] - Camion 3 termina de recargar al Cajero 199. 
+[14.0:55.0:28.63636363636033] * Cajero 199 recargado. 
+[14.0:55.0:29.63636363636033] - Camion 3 va al Cajero 224. 
+[14.0:57.0:24.63636363636033] - Camion 0 termina de recargar al Cajero 134. 
+[14.0:57.0:24.63636363636033] * Cajero 134 recargado. 
+[14.0:57.0:25.63636363636033] - Camion 0 va al Cajero 193. 
+[15.0:0.0:23.63636363636033] - Camion 5 termina de recargar al Cajero 153. 
+[15.0:0.0:23.63636363636033] * Cajero 153 recargado. 
+[15.0:0.0:24.63636363636033] - Camion 5 va al Cajero 186. 
+[15.0:4.0:8.636363636360329] - Camion 8 termina de recargar al Cajero 188. 
+[15.0:4.0:8.636363636360329] * Cajero 188 recargado. 
+[15.0:4.0:9.636363636360329] - Camion 8 va al Cajero 213. 
+[15.0:4.0:21.63636363636033] - Camion 7 termina de recargar al Cajero 154. 
+[15.0:4.0:21.63636363636033] * Cajero 154 recargado. 
+[15.0:4.0:22.63636363636033] - Camion 7 va al Cajero 198. 
+[15.0:6.0:17.63636363636033] - Camion 1 termina de recargar al Cajero 177. 
+[15.0:6.0:17.63636363636033] * Cajero 177 recargado. 
+[15.0:6.0:18.63636363636033] - Camion 1 va al Cajero 212. 
+[15.0:6.0:52.63636363636033] - Camion 2 termina de recargar al Cajero 214. 
+[15.0:6.0:52.63636363636033] * Cajero 214 recargado. 
+[15.0:6.0:53.63636363636033] - Camion 2 va a la Bodega. No alcanza a ir. 
+[15.0:10.0:36.63636363636033] - Camion 10 termina de recargar al Cajero 205. 
+[15.0:10.0:36.63636363636033] * Cajero 205 recargado. 
+[15.0:10.0:37.63636363636033] - Camion 10 va a la Bodega. No alcanza a ir. 
+[15.0:12.0:27.63636363636033] - Camion 2 llega a la Bodega. 
+[15.0:12.0:34.63636363636033] - Camion 11 termina de recargar al Cajero 229. 
+[15.0:12.0:34.63636363636033] * Cajero 229 recargado. 
+[15.0:12.0:35.63636363636033] - Camion 11 va a la Bodega. No alcanza a ir. 
+[15.0:13.0:22.63636363636033] - Camion 0 termina de recargar al Cajero 193. 
+[15.0:13.0:22.63636363636033] * Cajero 193 recargado. 
+[15.0:13.0:23.63636363636033] - Camion 0 va al Cajero 207. 
+[15.0:13.0:28.63636363636033] - Camion 10 llega a la Bodega. 
+[15.0:13.0:30.63636363636033] - Camion 4 termina de recargar al Cajero 161. 
+[15.0:13.0:30.63636363636033] * Cajero 161 recargado. 
+[15.0:13.0:31.63636363636033] - Camion 4 va al Cajero 210. 
+[15.0:15.0:28.63636363636033] - Camion 6 termina de recargar al Cajero 202. 
+[15.0:15.0:28.63636363636033] * Cajero 202 recargado. 
+[15.0:15.0:29.63636363636033] - Camion 6 va al Cajero 216. 
+[15.0:18.0:45.63636363636033] - Camion 11 llega a la Bodega. 
+[15.0:20.0:56.63636363636033] - Camion 3 termina de recargar al Cajero 224. 
+[15.0:20.0:56.63636363636033] * Cajero 224 recargado. 
+[15.0:20.0:57.63636363636033] - Camion 3 va a la Bodega. No alcanza a ir. 
+[15.0:21.0:24.63636363636033] - Camion 5 termina de recargar al Cajero 186. 
+[15.0:21.0:24.63636363636033] * Cajero 186 recargado. 
+[15.0:21.0:25.63636363636033] - Camion 5 va al Cajero 222. 
+[15.0:24.0:27.63636363636033] - Camion 9 termina de recargar al Cajero 182. 
+[15.0:24.0:27.63636363636033] * Cajero 182 recargado. 
+[15.0:24.0:28.63636363636033] - Camion 9 va al Cajero 217. 
+[15.0:26.0:45.63636363636033] - Camion 3 llega a la Bodega. 
+[15.0:30.0:9.636363636360329] - Camion 7 termina de recargar al Cajero 198. 
+[15.0:30.0:9.636363636360329] * Cajero 198 recargado. 
+[15.0:30.0:10.636363636360329] - Camion 7 va al Cajero 223. 
+[15.0:30.0:52.63636363636033] - Camion 4 termina de recargar al Cajero 210. 
+[15.0:30.0:52.63636363636033] * Cajero 210 recargado. 
+[15.0:30.0:53.63636363636033] - Camion 4 va al Cajero 231. 
+[15.0:33.0:17.63636363636033] - Camion 1 termina de recargar al Cajero 212. 
+[15.0:33.0:17.63636363636033] * Cajero 212 recargado. 
+[15.0:33.0:18.63636363636033] - Camion 1 va a la Bodega. No alcanza a ir. 
+[15.0:36.0:14.636363636360329] - Camion 8 termina de recargar al Cajero 213. 
+[15.0:36.0:14.636363636360329] * Cajero 213 recargado. 
+[15.0:36.0:15.636363636360329] - Camion 8 va a la Bodega. No alcanza a ir. 
+[15.0:37.0:15.636363636360329] - Camion 6 termina de recargar al Cajero 216. 
+[15.0:37.0:15.636363636360329] * Cajero 216 recargado. 
+[15.0:37.0:16.63636363636033] - Camion 6 va a la Bodega. No alcanza a ir. 
+[15.0:40.0:41.63636363636033] - Camion 0 termina de recargar al Cajero 207. 
+[15.0:40.0:41.63636363636033] * Cajero 207 recargado. 
+[15.0:40.0:42.63636363636033] - Camion 0 va al Cajero 228. 
+[15.0:40.0:51.63636363636033] - Camion 1 llega a la Bodega. 
+[15.0:42.0:37.63636363636033] - Camion 9 termina de recargar al Cajero 217. 
+[15.0:42.0:37.63636363636033] * Cajero 217 recargado. 
+[15.0:42.0:38.63636363636033] - Camion 9 va a la Bodega. No hay cajeros que recargar.. 
+[15.0:46.0:18.63636363636033] - Camion 8 llega a la Bodega. 
+[15.0:47.0:45.63636363636033] - Camion 6 llega a la Bodega. 
+[15.0:49.0:19.63636363636033] - Camion 9 llega a la Bodega. 
+[15.0:49.0:22.63636363636033] - Camion 5 termina de recargar al Cajero 222. 
+[15.0:49.0:22.63636363636033] * Cajero 222 recargado. 
+[15.0:49.0:23.63636363636033] - Camion 5 va a la Bodega. No hay cajeros que recargar.. 
+[15.0:51.0:49.63636363636033] - Camion 7 termina de recargar al Cajero 223. 
+[15.0:51.0:49.63636363636033] * Cajero 223 recargado. 
+[15.0:51.0:50.63636363636033] - Camion 7 va a la Bodega. No hay cajeros que recargar.. 
+[15.0:58.0:59.63636363636033] - Camion 5 llega a la Bodega. 
+[15.0:59.0:42.63636363636033] - Camion 7 llega a la Bodega. 
+
+
+
+
+RESULTADOS: 
+> Total costo variable Stock Out: MM$2962.7830000000185.
+> Total costo fijo Stock Out: MM$68.75.
+> Total en traslado: MM$36.161125000004006.
+TOTAL> MM$3067.6941250000227.

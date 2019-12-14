@@ -1,7 +1,10 @@
 from bokeh.layouts import row
 from bokeh.plotting import figure, show, output_file
 from bokeh.models import HoverTool
+import bokeh.palettes  as bp
 import csv, random
+from parameters import cajeros_hora
+from bokeh.palettes import Spectral4
 
 
 def carga_cajeros():
@@ -9,7 +12,7 @@ def carga_cajeros():
     with open('ubicaciones.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            cajeros[row['Cajero']] = {'Llave': row['Cajero'], 'Pos_x': row['X'], 'Pos_y': row['Y'],
+            cajeros[row['Cajero']] = {'Llave': row['Cajero'], 'Pos_x': int(row['X']), 'Pos_y': int(row['Y']),
                                       'Promedio diario de retiro': float(row['Promedio diario de retiro']),
                                       'Costo fijo por Stock Out': float(row['Costo fijo por Stock Out']),
                                       'Costo variable por Stock Out': float(row['Costo variable por Stock Out']),
@@ -20,7 +23,7 @@ def carga_cajeros():
                                       'Noche': row['Noche'], 'Plata actual': 0, 'Dias sin plata': 0,
                                       "Costo fijo acumulado stock out": 0, "Costo variable acumulado stock out": 0,
                                       'Estado': 'Normal',
-                                      'Orden': 0}
+                                      'Orden': 0, 'Motivo a ordenar': 'Normal', 'Tiempo en simulacion': 0, 'Camion simulacion': "ninguno", 'Opcion': 0 , 'Tiempo_a_agregar': 0}
     cajeros['Bodega'] = {'Pos_x': 70, 'Pos_y': 70}
     return cajeros
 
@@ -38,7 +41,8 @@ def carga_camiones():
                                                        'Tiempo en movimiento': 0, 'Plata en camion': 0,
                                                        'Objetivo': 'Bodega', 'Tiempo en llegar a objetivo': -1,
                                                        'Estado': 'parado',
-                                                       'Costo traslado acumulado': 0}  # En segundo el tiempo
+                                                       'Costo traslado acumulado': 0, 'Cajero simulacion': "Bodega", 'Tiempo en simulacion': 0,
+                                                       'Historial': [], "Tiempo simulacion": 0, 'Pre historial': []}  # En segundo el tiempo
                 contador += 1
     return camiones
 
@@ -103,8 +107,6 @@ def draw(cajeros):
     #     h = random.choice(lista)
     #     l = random.choice(lista)
     #     dot.step(h, l, line_width=2, color=colors[i], legend=str(i))
-    # dot.legend.location = "right"
-    # dot.legend.click_policy="hide"
 
     output_file("ubicaciones.html", title="Ubicaciones ATM's")
     show(dot, sizing_mode="scale_width")  # open a browser
@@ -112,7 +114,7 @@ def draw(cajeros):
 
 
 def draw_by_disponibility(cajeros, disponibles, nombre):
-    detalles_mostrados = [("nombre", "$name")]
+    # detalles_mostrados = [("nombre", "$name")]
     # Se crea los elementos del grafico
     dot = figure(title="Ubicaciones de cajeros", tooltips=detalles_mostrados, toolbar_location='above',
                  y_range=[0, 120], x_range=[0, 120], x_axis_label='X', y_axis_label='Y')
@@ -141,10 +143,134 @@ def draw_by_disponibility(cajeros, disponibles, nombre):
     show(dot, sizing_mode="scale_width")  # open a browser
     return
 
+def draw_by_turn_initial(cajeros, cajeros_a_visitar, semana, dia, horario):
+    detalles_mostrados = [("nombre", "$name")]
+    # Se crea los elementos del grafico
+    dot = figure(title="Ubicaciones de cajeros", tooltips=detalles_mostrados, toolbar_location='above',
+                 y_range=[0, 120], x_range=[0, 120], x_axis_label='X', y_axis_label='Y')
+    factors = [str(i) for i in range(120)]
+    lineas = [120 for i in range(120)]
+    dot.segment(0, factors, lineas, factors, line_width=0.5, line_color="gray")
+    dot.segment(factors, 0, factors, lineas, line_width=0.5, line_color="gray")
+    maximo = cajeros[cajeros_a_visitar[0]]['Orden']
+    tamano_periodo = maximo/11
+    lista_colores = sorted(bp.all_palettes['RdYlGn'][11], reverse=True)
+    # print(lista_colores)
+    for llave in cajeros_a_visitar:
+        tamano = 5
+        for numero in range(11):
+            if numero*tamano_periodo <= cajeros[llave]['Orden'] and  (numero + 1)*tamano_periodo >= cajeros[llave]['Orden']:
+                color = lista_colores[numero]
+        dot.circle(int(cajeros[llave]['Pos_x']), int(cajeros[llave]['Pos_y']), size=tamano, fill_color=color,
+                    line_color="black", line_width=0.5, name=llave, legend="Cajeros")
+
+    dot.circle(70, 70, size=5, fill_color="black", line_color="black", line_width=0.5, name='Bodega', legend="Bodega")
+    output_file(f'Mapas/Inicio Semana {semana} {dia} - {horario}.html', title="Ubicaciones ATM's")
+    show(dot, sizing_mode="scale_width")  # open a browser
+    return
+
+def draw_by_turno(cajeros, camiones, semana, dia, horario):
+    detalles_mostrados = [("nombre", "$name")]
+    # Se crea los elementos del grafico
+    dot = figure(title="Ubicaciones de cajeros", tooltips=detalles_mostrados, toolbar_location='above',
+                 y_range=[0, 120], x_range=[0, 120], x_axis_label='X', y_axis_label='Y')
+    factors = [str(i) for i in range(120)]
+    lineas = [120 for i in range(120)]
+    dot.segment(0, factors, lineas, factors, line_width=0.5, line_color="gray")
+    dot.segment(factors, 0, factors, lineas, line_width=0.5, line_color="gray")
+    lista_colores = sorted(bp.all_palettes['Category20'][12], reverse=True)
+    contador = 0
+    for llave_camiones in camiones:
+        color = lista_colores[contador]
+        contador_interno = 0
+        previo = 'Bodega'
+        for elemento in camiones[llave_camiones]['Historial']:
+            if elemento[0] != 'Bodega':
+                llave = elemento[0]
+                # max_x = max((cajeros[previo]['Pos_x'], cajeros[llave]['Pos_x']))
+                # min_x = min((cajeros[previo]['Pos_x'], cajeros[llave]['Pos_x']))
+                # max_y = max((cajeros[previo]['Pos_y'], cajeros[llave]['Pos_y']))
+                # min_y = min((cajeros[previo]['Pos_y'], cajeros[llave]['Pos_y']))
+                # x = []
+                # y = []
+                # for numero in range(min_x, max_x):
+                #     x.append(numero + 1)
+                # for numero in range(min_y, max_y):
+                #     y.append(numero + 1)
+                # # print(len(x), "/", len(y))
+                # if len(y) > 0 and len(x) > 0:
+                #     if len(y) > len(x):
+                #         diferencia = len(y) - len(x)
+                #         for i in range(diferencia):
+                #             x.append(x[-1])
+                #     elif len(y) < len(x):
+                #         diferencia = len(x) - len(y)
+                #         for i in range(diferencia):
+                #             y.append(y[-1])
+                # elif len(x) == 0 and len(y) > 0:
+                #     for i in range(len(y)):
+                #         x.append(cajeros[llave]['Pos_x'])
+                # elif len(y) == 0 and len(x) > 0:
+                #     for i in range(len(x)):
+                #         y.append(cajeros[llave]['Pos_y'])
+                x, y = listas_posiciones(cajeros[previo], cajeros[llave])
+                tamano = contador_interno
+                dot.circle(int(cajeros[llave]['Pos_x']), int(cajeros[llave]['Pos_y']), size=tamano, fill_color=color,
+                    line_color="black", line_width=0.5, name=llave, legend=llave_camiones, alpha=0.8, muted_color='#E8E8E8')
+                # dot.step(y, x, line_width=2, color=color, legend=llave_camiones)
+
+                contador_interno += 2
+            previo = elemento[0]
+        contador += 1
+
+    dot.circle(70, 70, size=5, fill_color="black", line_color="black", line_width=0.5, name='Bodega', legend="Bodega")
+    # dot.legend.location = "right"
+    dot.legend.click_policy="mute"
+    output_file(f'Mapas/Final Semana {semana} {dia} - {horario}.html', title="Ubicaciones ATM's")
+    show(dot, sizing_mode="scale_width")  # open a browser
+    return
+
 
 def distancia(punto_1, punto_2):
     return abs(int(punto_1['Pos_x']) - int(punto_2['Pos_x']))*100 + abs(int(punto_1['Pos_y']) - int(punto_2['Pos_y']))*100 #entrega distancia en mts
 
+def listas_posiciones(punto_1, punto_2):
+    x = []
+    y = []
+    mayor_x = max(punto_1['Pos_x'], punto_2['Pos_x'])
+    menor_x = min(punto_1['Pos_x'], punto_2['Pos_x'])
+    mayor_y = max(punto_1['Pos_y'], punto_2['Pos_y'])
+    menor_y = min(punto_1['Pos_y'], punto_2['Pos_y'])  
+    while mayor_x > menor_x:
+        menor_x += 1
+        x.append(menor_x)
+    while mayor_y > menor_y:
+        menor_y += 1
+        y.append(menor_y)
+    if len(x) == 0:
+        if len(y) == 0:
+            pass
+        else:
+            for i in range(len(y)):
+                x.append(mayor_x)
+    elif len(y) == 0:
+        if len(x) == 0:
+            pass
+        else:
+            for i in range(len(x)):
+                y.append(mayor_y)
+    else:
+        if len(x) > len(y):
+            diferencia = len(x) - len(y)
+            for i in range(diferencia):
+                y.append(mayor_y)    
+        elif len(y) > len(x):
+            diferencia = len(y) - len(x)
+            for i in range(diferencia):
+                x.append(mayor_x)
+        
+    # print(len(x), len(y))
+    return x, y
 
 def hora(segundos_entrantes):
     # Se calculan el numero de la semana
@@ -224,7 +350,7 @@ def ponderador(cajeros, cajeros_disponibles, dia, horario):
             costo_fijo = 0
             if cajeros[llave]['Estado'] == 'Normal':
                 costo_fijo = cajeros[llave]['Costo fijo por Stock Out']
-
+                cajeros[llave]
 
             if ((cajeros[llave]['Plata actual'] - cajeros[llave]['Promedio diario de retiro'])*distancia_disponibilidad + costo_fijo) >= 0:
                 cajeros[llave]['Orden'] = 0
@@ -234,6 +360,7 @@ def ponderador(cajeros, cajeros_disponibles, dia, horario):
     lista_ordenada_cajeros = sorted(lista_cajeros, key = lambda x: x['Orden'], reverse=True) 
     for cajero in lista_ordenada_cajeros:
         lista_ordenada_a_entregar.append(cajero['Llave'])
+    
     return lista_ordenada_a_entregar
 
 
@@ -243,17 +370,59 @@ def n_mas_cercanos(posicion, cajeros, visitados_turno, n):
      ordenados = [cajero['Llave'] for cajero in ordenados if cajero['Llave'] not in visitados_turno]
      return [cajero for cajero in ordenados[:n]]
 
+def importancia(cajeros, cajeros_disponibles, dia, horario):
+    lista_normales = []
+    lista_a_stock_out = []
+    lista_en_stock_out = []
+    for llave in cajeros_disponibles:
+        if cajeros[llave]['Motivo a ordenar'] == 'Normal':
+            lista_normales.append(llave)
+        elif cajeros[llave]['Motivo a ordenar'] == 'Futuro stock out':
+            lista_a_stock_out.append(llave)
+        else:
+            lista_en_stock_out.append(llave)
+        # print(f"{llave}: {cajeros[llave]['Motivo a ordenar']}")
+    
+    lista_normales = ponderador(cajeros, lista_normales, dia, horario)
+    lista_a_stock_out = ponderador(cajeros, lista_a_stock_out, dia, horario)
+    lista_en_stock_out = ponderador(cajeros, lista_en_stock_out, dia, horario)
+    contador_a_stock_out = 0
+    contador_en_stock_out = 0
+    for llave in lista_normales:
+        if len(lista_a_stock_out) > 0:
+            if cajeros[lista_a_stock_out[0]]['Orden'] < cajeros[llave]['Orden']:
+                contador_a_stock_out += 1
+        if len(lista_en_stock_out) > 0:
+            if cajeros[lista_en_stock_out[0]]['Orden'] < cajeros[llave]['Orden']:
+                contador_en_stock_out += 1
+    if contador_a_stock_out + contador_en_stock_out <= cajeros_hora:
+        lista_ordenada = []
+        lista_ordenada_stock_out = ponderador(cajeros, lista_a_stock_out + lista_en_stock_out, dia, horario)
+        if len(lista_normales) > 0:
+            verificador = -1
+            for indice in range(len(lista_ordenada_stock_out)):
+                if cajeros[lista_ordenada_stock_out[indice]]['Orden'] >= cajeros[lista_normales[0]]['Orden']:
+                    lista_ordenada.append(llave)
+                    
+                else:
+                    verificador = indice
+                    break
+            if verificador != -1:
+                lista_ordenada = lista_ordenada + ponderador(cajeros, lista_ordenada_stock_out[verificador:] + lista_normales, dia, horario) 
+            else:
+                lista_ordenada = lista_ordenada + lista_normales
+            return lista_ordenada
+        else:
+            return lista_ordenada_stock_out
 
-
-
-
-
-
-
-
-
-
-
+    else:
+        return ponderador(cajeros, cajeros_disponibles, dia, horario)
+    # if len(lista_normales) > 0 :
+    #     print(f"Normal mayor {llave}: {cajeros[lista_normales[0]]['Orden']}. Largo: {len(lista_normales)}")
+    # if len(lista_a_stock_out) > 0:
+    #     print(f"A stock out mayor {llave}: {cajeros[lista_a_stock_out[0]]['Orden']}. Largo: {len(lista_a_stock_out)} y tiene {contador_a_stock_out} mayores en normal")
+    # if len(lista_en_stock_out) > 0:
+    #     print(f"En stock out mayor {llave}: {cajeros[lista_en_stock_out[0]]['Orden']}. Largo: {len(lista_en_stock_out)} y tiene {contador_en_stock_out} mayores en normal")
 
 
 

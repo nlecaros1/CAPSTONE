@@ -117,6 +117,7 @@ while turnos_completados < cantidad_de_turnos:
                 else:
                     caso = 'No alcanza a ir'
             if volver_bodega == 'Si':
+                camiones[llave_camion]['Historial'].append(('Bodega', tiempo_actual))
                 camiones_en_decision.remove(llave_camion)
                 camiones_en_camino.append(llave_camion)
                 camiones[llave_camion]['Tiempo en llegar a objetivo'] = round(distancia(cajeros[camiones[llave_camion]['Objetivo']], cajeros['Bodega'])*3.6/velocidad_camion, 0)
@@ -134,6 +135,7 @@ while turnos_completados < cantidad_de_turnos:
 
                 # Entra a recargar
                 else:
+                    camiones[llave_camion]['Historial'].append((camiones[llave_camion]['Objetivo'], tiempo_actual))
                     camiones[llave_camion]['Tiempo en llegar a objetivo'] = round(cajeros[camiones[llave_camion]['Objetivo']]['Duracion de la recarga']*3600, 0)
                     camiones_recargando.append(llave_camion)
                     cajeros[camiones[llave_camion]['Objetivo']]['Estado'] = 'Recarga'
@@ -191,6 +193,10 @@ while turnos_completados < cantidad_de_turnos:
     # Se traspasa el historial del turno al general
     historial_por_turno.append('\n')
     historial_general.append(historial_por_turno)
+    draw_by_turno(cajeros, camiones, semana, dia, turno)
+    for llave_camion in camiones:
+        # print(f'{llave_camion}: {camiones[llave_camion]["Historial"]}')
+        camiones[llave_camion]['Historial'] = []
 
 # Se obtienen los resultados
 resultados = ['\n', '\n', '\n', 'RESULTADOS: \n']
